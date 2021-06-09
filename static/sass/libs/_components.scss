@@ -1,0 +1,21 @@
+/*
+ * Reusable Components Style
+ */
+
+.button{
+	border: none;
+	color: white;
+	background: $accent-color;
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+	transition: .3s ease;
+
+	&:hover,&:focus{
+		background: lighten($accent-color,10%);
+	}
+}
+
+.map{
+	min-height: 450px;
+}

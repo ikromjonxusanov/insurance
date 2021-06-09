@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container bg-light">
+    
+    <div class="jumbotron text-center">
+        <h3>
+            {{ item }}
+        </h3>
+        <p>You really want to delete the location</p>
+        <form method="POST">
+            {% csrf_token %}
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="{% url 'locations' %}" class="w-100 btn btn-outline-success">Cancel</a>
+                </div>
+                <div class="col-sm-6">
+                    <button class="w-100 btn btn-danger">Delete</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

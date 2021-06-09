@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block news %}
+  active
+{% endblock %}
+{% block content %}
+<div class="container bg-light">
+    <h2 class="section-title text-left">Yangi Xizmat turi qo'shish</h2>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-sm-6">
+                {{ form.title | as_crispy_field }}
+            </div>
+            <div class="col-sm-6">
+                {{ form.image  | as_crispy_field }} 
+            </div>
+        </div>
+        
+        
+        
+        {{ form.description  | as_crispy_field  }} 
+        
+
+        <p class="text-right">
+            <button class="btn btn-success">Send message</button>
+        </p>
+        
+    </form>
+<br>
+
+</div>
+<div class="clearfix"></div>
+
+{% endblock %}

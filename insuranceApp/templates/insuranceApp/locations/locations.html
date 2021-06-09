@@ -1,0 +1,138 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+{% load my_extras %}
+{% block locations %}
+    active
+{% endblock %}
+    
+{% block content %}    
+<link rel="stylesheet" href="{% static 'css/card.css' %}">
+
+    <style>
+        .mybtn {            
+            background-color: #28ae28;
+            color: #fff;
+            border-color: #28ae28;
+            width: 100% !important;
+            margin-top: 20px;
+        }
+        .mybtn:hover, .mybtn:focus{
+            background-color: #fff;
+            color: #28ae28;
+        }
+        .row .box {
+            background-color: #fff;
+            padding: 1rem;
+        }
+        .box {
+            height: 100%;
+          }
+          
+          .box {
+            margin: 0 0 1rem;
+          }
+    </style>
+
+    <div class="py-5 container">
+        <div class="row">
+            <div class="col-sm-6">
+                <form method="GET" class="slide">
+                    <h4>{% trans 'Manzil:' %}</h4>
+                    
+                    <select name="region" id="id_region">
+                    <option value="" selected="">---------</option>
+                    <option value="1">{% trans "Toshkent shahri" %}</option>
+                    <option value="2">{% trans "Toshkent viloyati" %}</option>
+                    <option value="3">{% trans "Sirdaryo viloyati" %}</option>
+                    <option value="4">{% trans "Jizzax viloyati" %}</option>
+                    <option value="5">{% trans "Samarqand viloyati" %}</option>
+                    <option value="6">{% trans "Qashqadaryo viloyati" %}</option>
+                    <option value="7">{% trans "Surxondaryo viloyati" %}</option>
+                    <option value="8">{% trans "Buxoro viloyati" %}</option>
+                    <option value="9">{% trans "Navoiy viloyati" %}</option>
+                    <option value="10">{% trans "Xorazm viloyati" %}</option>
+                    <option value="11">{% trans "Andijon viloyati" %}</option>
+                    <option value="12">{% trans "Farg'ona viloyati" %}</option>
+                    <option value="13">{% trans "Namangan viloyati" %}</option>
+                    <option value="14">{% trans "Qoraqalpog'iston Respublikasi" %}</option>
+
+                    </select>
+                    <button class="mt-2 btn btn-outline-success">
+                        {% trans "Qidirish" %}
+                    </button>
+                </form> 
+            </div>
+        </div>
+        {% if locations|lang:LANGUAGE %}
+          <div class="row filials-result">
+            {% for object in locations|lang:LANGUAGE %}            
+            <div class="col-md-6 col-sm-12 mt-3">
+                <div class="card box mt-3 border boder-success">
+                    <p class="info-title"><b>{{ object.name }}</b></p>
+                    <p class="info-content"><label>{% trans "Adres" %}: {{ object.address }}</label></p>
+                    <p class="info-content"><label>{% trans "Telefon nomer" %} :</label>&nbsp; {{ object.phone }} </p>
+                    <p class="info-content"><label>{% trans "Ish kuni" %} :</label>&nbsp; {{ object.workDate }} </p>
+                    <p class="info-content"><label>{% trans "Ish soati" %} :</label>&nbsp; {{ object.workClock }} </p>
+                    
+                    <div class="collapse multi-collapse filials-info" id="filial0"></div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn mybtn" data-toggle="modal" data-target="#modal{{object.id}}">Показать на карте</button>
+                            <div id="modal{{object.id}}" class="fade modal" role="dialog" tabindex="-1" aria-hidden="true"
+                                aria-labelledby="modal0-label">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 id="modal0-label" class="modal-title">Нурафшанский филиал</h5>
+                                            <button type="button" class="close" data-dismiss="modal"><span
+                                                    aria-hidden="true">×</span></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            {% autoescape off %}
+                                            <iframe src="{{object.mapLocation}}"
+                                             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                                
+                                            {% endautoescape %}                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {% if user.is_staff %}
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="{% url 'locationsUpdate' object.id %}" class="w-100 mt-4 btn btn-outline-primary">{% trans "tahrirlash" %}</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="{% url 'locationsDelete' object.id %}" class="w-100 mt-4 btn btn-outline-danger">{% trans "o'chirish" %}</a>
+                        </div>
+                    </div>
+
+                    {% endif %}
+                    
+                </div>
+            </div> 
+                
+             
+            {% endfor %}
+            
+        </div>
+        {% else %}
+        <div class="text-center mt-5 alert alert-danger">{% trans "Hozircha siz belgilagan tumanda filialimiz yo'q" %}</div>
+        {% endif %}
+        <div class="mt-5">
+            {% if user.is_staff %}
+            <div><a href="{% url 'locationsCreate' %}" class="w-100 btn btn-success">Создать Филиал</a></div>
+            {% endif %}
+            
+        </div>
+          
+        
+    
+    </div>
+
+    {% endblock %}

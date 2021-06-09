@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="container py-5">
+    <div class="bg-white my-5 rounded p-5">
+    <h1 class="ml-3 ">Please Login</h1>
+    <form class="slide" method="POST">
+        {% csrf_token %}
+        <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+                <label for="username" class=" requiredField">
+                    {% trans "Username" %}
+                </label>
+                <div class="">
+                    <input type="text" name="username" maxlength="150" class="textinput textInput form-control" required="" id="username">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+                <label for="Password" class=" requiredField">
+                    {% trans "Password" %}
+                </label>
+                <div class="">
+                    <input type="password" name="password" maxlength="150" class="textinput textInput form-control" required="" id="password">
+                </div>
+            </div>
+        </div>
+        {% if loginning %}
+        {% else %}
+        <br>
+        <b class="text-danger">{% trans "Username or password error!!!" %}</b>
+        <br>
+        {% endif %}
+            
+        <button class="ml-3 btn btn-primary">
+            {% trans "Submit" %}
+        </button>
+    </form>
+</div>
+</div>
+
+
+{% endblock %}

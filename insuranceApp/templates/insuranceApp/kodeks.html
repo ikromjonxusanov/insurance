@@ -1,0 +1,740 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block codex %}
+  active
+{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/card.css' %}">
+
+<div class="container">
+    <h2 class="text-success text-center">
+        {% trans "OʼZBEKISTON RESPUBLIKАSINING" %} 
+        <br>
+        {% trans "FUQАROLIK KODEKSI" %}
+    </h2>
+
+    <h3>
+        {% trans "52-BOB. SUGʼURTА" %}
+    </h3>
+
+    <p>
+        {% trans "Shuningdek qarang:" %} <b>{% trans "“NORMA”" %}</b> {% trans "АQT qonunchilik Klassifikatorining" %}
+        <b>{% trans "“Meʼyoriy-huquqiy hujjatlar namunalari”" %}</b> {% trans "bosh papkasi" %} 
+        <b>{% trans "“OʼzR Tadbirkorlik faoliyati toʼgʼrisida”" %}</b> {% trans "katta papkasi" %} <b>{% trans "“Sugʼurtalash”" %}</b> {% trans "papkasi" %} 
+    </p>
+    <div>
+        <div>
+                    <b class="text-success">914-{% trans "modda" %}</b>. {% trans "Ixtiyoriy va majburiy sugʼurta" %}
+            <br><br><b class="text-success">915-{% trans "modda" %}</b>. {% trans "Mulkiy sugʼurta shartnomasi" %}
+            <br><br><b class="text-success">916-{% trans "modda" %}</b>. {% trans "Sugʼurtalashga yoʼl qoʼyilmaydigan manfaatlar" %}
+            <br><br><b class="text-success">917-{% trans "modda" %}</b>. {% trans "Mol-mulkni sugʼurta qilish" %}
+            <br><br><b class="text-success">918-{% trans "modda" %}</b>. {% trans "Zarar yetkazganlik uchun javobgarlikni sugʼurta qilish" %}
+            <br><br><b class="text-success">919-{% trans "modda" %}</b>. {% trans "Shartnoma boʼyicha javobgarlikni sugʼurta qilish" %}
+            <br><br><b class="text-success">920-{% trans "modda" %}</b>. {% trans "Tadbirkorlik xavfini sugʼurta qilish" %}
+            <br><br><b class="text-success">921-{% trans "modda" %}</b>. {% trans "Shaxsiy sugʼurta shartnomasi" %}
+            <br><br><b class="text-success">922-{% trans "modda" %}</b>. {% trans "Majburiy sugʼurta" %}
+            <br><br><b class="text-success">923-{% trans "modda" %}</b>. {% trans "Majburiy sugʼurtani amalga oshirish" %}
+            <br><br><b class="text-success">924-{% trans "modda" %}</b>. {% trans "Majburiy sugʼurta toʼgʼrisidagi qoidalarni buzish oqibatlari" %}
+            <br><br><b class="text-success">925-{% trans "modda" %}</b>. {% trans "Sugʼurtalovchi" %}
+            <br><br><b class="text-success">926-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasidan kelib chiqadigan majburiyatlarning sugʼurta qildiruvchi va naf oluvchi tomonidan bajarilishi" %}
+            <br><br><b class="text-success">927-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasining shakli" %}
+            <br><br><b class="text-success">928-{% trans "modda" %}</b>. {% trans "Bosh polis boʼyicha sugʼurtalash" %}
+            <br><br><b class="text-success">929-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasining muhim shartlari" %}
+            <br><br><b class="text-success">930-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasi shartlarini sugʼurta qoidalarida belgilab qoʼyish" %}
+            <br><br><b class="text-success">931-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasi tuzilayotganda sugʼurta qidiruvchi taqdim etadigan maʼlumotlar" %}
+            <br><br><b class="text-success">932-{% trans "modda" %}</b>. {% trans "Sugʼurtalovchining sugʼurta xavfini baholash huquqi" %}
+            <br><br><b class="text-success">933-{% trans "modda" %}</b>. {% trans "Sugʼurta siri" %}
+            <br><br><b class="text-success">934-{% trans "modda" %}</b>. {% trans "Sugʼurta puli" %}
+            <br><br><b class="text-success">935-{% trans "modda" %}</b>. {% trans "Mol-mulkning sugʼurta qiymati" %}
+            <br><br><b class="text-success">936-{% trans "modda" %}</b>. {% trans "Toʼliq boʼlmagan mulkiy sugʼurta" %}
+            <br><br><b class="text-success">937-{% trans "modda" %}</b>. {% trans "Qoʼshimcha mulkiy sugʼurta" %}
+            <br><br><b class="text-success">938-{% trans "modda" %}</b>. {% trans "Sugʼurta qiymatidan ortiq miqdorda sugʼurta qilish oqibatlari" %}
+            <br><br><b class="text-success">939-{% trans "modda" %}</b>. {% trans "Qoʼshaloq sugʼurta" %}
+            <br><br><b class="text-success">940-{% trans "modda" %}</b>. {% trans "Turli xildagi sugʼurta xavflaridan mulkiy sugʼurta" %}
+            <br><br><b class="text-success">941-{% trans "modda" %}</b>. {% trans "Birgalikda sugʼurta qilish" %}
+            <br><br><b class="text-success">942-{% trans "modda" %}</b>. {% trans "Sugʼurta mukofoti va sugʼurta badallari" %}
+            <br><br><b class="text-success">943-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasining haqiqiy emasligi" %}
+            <br><br><b class="text-success">944-{% trans "modda" %}</b>. {% trans "Sugʼurtalangan shaxsni almashtirish" %}
+            <br><br><b class="text-success">945-{% trans "modda" %}</b>. {% trans "Naf oluvchini almashtirish" %}
+            <br><br><b class="text-success">946-{% trans "modda" %}</b>. {% trans "Sugʼurta qildiruvchini almashtirish" %}
+            <br><br><b class="text-success">947-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasi amal qilishining boshlanishi" %}
+            <br><br><b class="text-success">948-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasining muddatidan ilgari bekor boʼlishi" %}
+            <br><br><b class="text-success">949-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasining amal qilish davrida sugʼurta xavfining ortishi oqibatlari" %}
+            <br><br><b class="text-success">950-{% trans "modda" %}</b>. {% trans "Sugʼurtalangan mol-mulkka boʼlgan huquqlarning boshqa shaxsga oʼtishi" %}
+            <br><br><b class="text-success">951-{% trans "modda" %}</b>. {% trans "Sugʼurta hodisasi yuz bergani toʼgʼrisida sugʼurtalovchini xabardor qilish" %}
+            <br><br><b class="text-success">952-{% trans "modda" %}</b>. {% trans "Sugʼurta hodisasidan koʼriladigan zararni kamaytirish" %}
+            <br><br><b class="text-success">953-{% trans "modda" %}</b>. {% trans "Sugʼurta qildiruvchi, naf oluvchi yoki sugʼurtalangan shaxsning aybi bilan sugʼurta hodisasi yuz berishining oqibatlari" %}
+            <br><br><b class="text-success">954-{% trans "modda" %}</b>. {% trans "Sugʼurtalovchini sugʼurta tovonini va sugʼurta pulini toʼlashdan ozod qilish asoslari" %}
+            <br><br><b class="text-success">955-{% trans "modda" %}</b>. {% trans "Sugʼurta tovoni yoki sugʼurta pulini toʼlashni rad etish" %}
+            <br><br><b class="text-success">956-{% trans "modda" %}</b>. {% trans "Shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta pulini toʼlash" %}
+            <br><br><b class="text-success">957-{% trans "modda" %}</b>. {% trans "Sugʼurta qildiruvchining zarar qoplanishiga boʼlgan huquqlarining sugʼurtalovchiga oʼtishi (subrogatsiya)" %}
+            <br><br><b class="text-success">958-{% trans "modda" %}</b>. {% trans "Sugʼurtalangan mol-mulkka boʼlgan huquqlarning sugʼurtalovchiga oʼtkazilishi" %}
+            <br><br><b class="text-success">959-{% trans "modda" %}</b>. {% trans "Qayta sugʼurta qilish" %}
+            <br><br><b class="text-success">960-{% trans "modda" %}</b>. {% trans "Ikki tomonlama sugʼurta" %}
+            <br><br><b class="text-success">961-{% trans "modda" %}</b>. {% trans "Majburiy davlat sugʼurtasi" %}
+            <br><br>
+        </div>
+       <div class="my-5">
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">914-{% trans 'modda' %}</b>. {% trans 'Ixtiyoriy va majburiy sugʼurta' %}</h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta fuqaro yoki yuridik shaxs (sugʼurta qildiruvchi)" %}
+                    <br><br> {% trans "sugʼurta tashkiloti (sugʼurtalovchi)" %}
+                    <br><br> {% trans "bilan tuzadigan mulkiy yoki shaxsiy sugʼurta shartnomalari asosida amalga oshiriladi." %}    
+                </p>
+                <p><i class="text-secondary">{% trans 'Qarang: FKning 915, 921-moddalari' %}</i></p>
+                {% trans 'Shaxsiy sugʼurta shartnomasi ommaviy shartnoma hisoblanadi.' %}
+                <p><i class="text-secondary">{% trans "Qarang: FKning 358-moddasi" %}</i></p>
+                {% trans "Qonunda koʼrsatilgan shaxslarga sugʼurta qiluvchilar sifatida boshqa shaxslarning hayoti, sogʼligʼi yoki mol-mulkini yoxud oʼzining boshqa shaxslar oldidagi fuqarolik javobgarligini oʼz hisobidan yoxud manfaatdor shaxslar hisobidan sugʼurta qilish (majburiy sugʼurta) majburiyati qonun bilan yuklangan hollarda sugʼurta ushbu bobning qoidalariga muvofiq shartnomalar tuzish yoʼli bilan amalga oshiriladi." %}
+                <p><i class="text-secondary">{% trans "Qarang: FKning 922-moddasi" %}</i></p>
+                {% trans "Majburiy sugʼurtada sugʼurta qildiruvchi sugʼurtalovchi bilan sugʼurtaning ushbu turini tartibga soladigan qonun hujjatlarida nazarda tutilgan shartlarda shartnoma tuzishi shart." %}
+                <p><i class="text-secondary">{% trans "Qarang: FKning 923-moddasi" %}</i></p>
+                {% trans "Qonunda fuqarolarning hayoti, sogʼligʼi va mol-mulkini davlat byudjeti mablagʼlari hisobidan majburiy sugʼurta qilish hollari (davlat majburiy sugʼurtasi) nazarda tutilishi mumkin." %}
+                <p><i class="text-secondary">{% trans "Qarang: FKning 961-moddasi" %}</i></p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">915-{% trans "modda" %}</b>. {% trans "Mulkiy sugʼurta shartnomasi" %}</h4>
+                <p>
+                    <br><br> 
+                    {% trans 'Mulkiy sugʼurta shartnomasiga muvofiq bir taraf (sugʼurtalovchi) shartnomada shartlashilgan haq (sugʼurta mukofoti) evaziga shartnomada nazarda tutilgan voqea (sugʼurta hodisasi) sodir boʼlganda boshqa tarafga (sugʼurta qildiruvchiga) yoki shartnoma qaysi shaxsning foydasiga tuzilgan boʼlsa, oʼsha shaxsga (naf oluvchiga) bu hodisa oqibatida sugʼurtalangan mulkka yetkazilgan zararni yoxud sugʼurtalanuvchining boshqa mulkiy manfaatlari bilan bogʼliq zararni shartnomada belgilangan summa (sugʼurta puli) doirasida toʼlash (sugʼurta tovoni toʼlash) majburiyatini oladi.' %}
+                </p>
+                <p>
+                    {% trans "Shuningdek qarang: “NORMA” АQT qonunchilik Klassifikatorining “Huquqiy hujjatlar namunalari” papkasi “I. Xoʼjalik-shartnomaviy munosabatlar” papkasi \"3. Shartnomalar namunalari\" papkasi “Sugʼurta” kichik papkasi Mulkiy sugʼurta shartnomasi namunasi (hujjat rus tilida keltirilgan)" %}
+                </p>
+                <p>
+                    {% trans "Mulkiy sugʼurta shartnomasi boʼyicha quyidagilar sugʼurtalanishi mumkin:" %}
+                    <br><br> {% trans "muayyan mol-mulkning yoʼqotilishi (nobud boʼlishi), kam chiqishi yoki shikastlanishi xavfi;" %}
+                </p>
+                <p><i class="text-secondary">{% trans 'Qarang: FKning 917-moddasi' %}</i></p>
+                {% trans 'Fuqarolik javobgarligi xavfi - boshqa shaxslarning hayoti, sogʼligʼi yoki mol-mulkiga zarar yetkazilishi oqibatida yuzaga keladigan majburiyatlar boʼyicha javobgarlik, qonunda nazarda tutilgan hollarda esa, shuningdek shartnomalar boʼyicha javobgarlik xavfi;' %}
+                <p><i class="text-secondary">{% trans "Qarang: FKning 918, 919-moddalari" %}</i></p>
+                {% trans "Tadbirkorlik xavfi - tadbirkorning kontragentlari oʼz majburiyatlarini buzishi yoki tadbirkorga bogʼliq boʼlmagan vaziyatlarga koʼra bu faoliyat shart-sharoitlarining oʼzgarishi tufayli tadbirkorlik faoliyatidan kutilgan daromadlarni ololmaslik xavfi." %}
+                <p><i class="text-secondary">{% trans "Qarang: FKning 920-moddasi" %}</i></p>
+                
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">916-{% trans "modda" %}</b>. {% trans "Sugʼurtalashga yoʼl qoʼyilmaydigan manfaatlar" %}</h4>
+                <p>
+                    <br><br> {% trans "Gʼayriqonuniy manfaatlarni sugʼurtalashga yoʼl qoʼyilmaydi." %} 
+                    <br><br> {% trans "Qimor, lotereyalar va garov oʼyinlarida ishtirok etishda koʼriladigan zararni sugʼurtalashga yoʼl qoʼyilmaydi." %} 
+                    <br><br> {% trans "Garovga olinganlarni ozod qilish maqsadida shaxs majburan qilishi mumkin boʼlgan xarajatlarni sugʼurtalashga yoʼl qoʼyilmaydi." %} 
+                    <br><br> {% trans "Sugʼurta shartnomalarining ushbu modda birinchi, ikkinchi va uchinchi qismlariga zid boʼlgan shartlari oʼz-oʼzidan haqiqiy emas." %}
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 113-moddasi" %}</i></p>    
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">917-{% trans "modda" %}</b>. {% trans "Mol-mulkni sugʼurta qilish" %}</h4>
+                <p>
+                    <br><br> {% trans "Mol-mulk uning asralishidan qonun hujjatlariga yoki shartnomaga asoslangan manfaatga ega boʼlgan shaxs (sugʼurta qildiruvchi yoki naf oluvchi) foydasiga, uning mulkdori, mol-mulkka nisbatan boshqa ashyoviy huquqqa ega boʼlgan shaxs, ijarachi, pudratchi, saqlovchi, vositachi va boshqa shu kabilar foydasiga sugʼurta shartnomasi boʼyicha sugʼurtalanishi mumkin." %}
+                    <br><br> {% trans "Sugʼurtalangan mol-mulkning asralishidan sugʼurta qildiruvchida va naf oluvchida manfaat boʼlmagan paytda tuzilgan mol-mulkni sugʼurta qilish shartnomasi haqiqiy emas." %}
+                    <br><br> {% trans "Naf oluvchi foydasiga mol-mulkni sugʼurta qilish shartnomasi naf oluvchining ismi yoki nomi koʼrsatilmasdan tuzilishi mumkin. Bunday shartnoma tuzilganda sugʼurta qildiruvchiga egasining nomi koʼrsatilmagan polis beriladi. Bunday shartnoma boʼyicha huquqlarni amalga oshirishda bu polisni sugʼurtalovchiga taqdim etish zarur." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">918-{% trans "modda" %}</b>. {% trans "Zarar yetkazganlik uchun javobgarlikni sugʼurta qilish" %}</h4>
+                <p>
+                    <br><br> {% trans "Boshqa shaxslarning hayoti, sogʼligʼi yoki mol-mulkiga zarar yetkazilishi oqibatida yuzaga keladigan majburiyatlar yuzasidan javobgarlik xavfini sugʼurta qilish shartnomasi boʼyicha sugʼurta qildiruvchining oʼzining yoki bunday javobgarlik yuklanishi mumkin boʼlgan boshqa shaxsning javobgarlik xavfi sugʼurtalanishi mumkin." %}
+                    <br><br> {% trans "Zarar yetkazganlik uchun javobgarlik xavfi sugʼurtalangan shaxs sugʼurta shartnomasida koʼrsatilishi lozim. Аgar bu shaxs shartnomada koʼrsatilmagan boʼlsa, sugʼurta qildiruvchining oʼzining javobgarlik xavfi sugʼurtalangan hisoblanadi." %}
+                    <br><br> {% trans "Zarar yetkazganlik uchun javobgarlik xavfini sugʼurta qilish shartnomasi, hatto shartnoma zarar yetkazilganligi uchun javobgar boʼlgan sugʼurta qildiruvchi yoki boshqa shaxs foydasiga tuzilgan yoxud shartnomada u kimning foydasiga tuzilgani koʼrsatilmagan taqdirda ham, zarar yetkazilishi mumkin boʼlgan shaxslar (naf oluvchilar) foydasiga tuzilgan deb hisoblanadi." %}
+                    <br><br> {% trans "Zarar yetkazganlik uchun javobgarlik uni sugʼurta qilish majburiy boʼlgani sababli sugʼurtalangan taqdirda, shuningdek qonunda yoki bunday javobgarlikni sugʼurta qilish shartnomasida nazarda tutilgan boshqa hollarda sugʼurta shartnomasi oʼz foydasiga tuzilgan deb hisoblanuvchi shaxs zararni sugʼurta puli doirasida toʼlash toʼgʼrisida bevosita sugʼurtalovchiga talab qoʼyishga haqli." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">919-{% trans "modda" %}</b>. {% trans "Shartnoma boʼyicha javobgarlikni sugʼurta qilish" %}</h4>
+                <p>
+                    <br><br> {% trans "Shartnomani buzganlik uchun javobgarlik xavfini sugʼurta qilishga qonunda nazarda tutilgan hollarda yoʼl qoʼyiladi." %}
+                    <br><br> {% trans "Shartnomani buzganlik uchun javobgarlik xavfini sugʼurta qilish shartnomasi boʼyicha faqat sugʼurta qildiruvchining oʼzining javobgarlik xavfi sugʼurtalanishi mumkin. Ushbu talabga muvofiq boʼlmagan sugʼurta shartnomasi oʼz-oʼzidan haqiqiy emas." %}
+
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 113-moddasi" %}</i></p>
+                {% trans "Shartnomani buzganlik uchun javobgarlik xavfi, bu shartnoma shartlariga koʼra sugʼurta qildiruvchi qaysi taraf oldida tegishli javobgarlikni zimmasiga olishi lozim boʼlsa, oʼsha taraf - naf oluvchi foydasiga, hatto sugʼurta shartnomasi boshqa shaxs foydasiga tuzilgan yoxud unda kimning foydasiga tuzilgani aytilmagan taqdirda ham, sugʼurtalangan hisoblanadi." %}
+
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">920-{% trans "modda" %}</b>. {% trans "Tadbirkorlik xavfini sugʼurta qilish" %}</h4>
+                <p>
+                    <br><br> {% trans "Tadbirkorlik xavfini sugʼurta qilish shartnomasi boʼyicha faqat sugʼurta qildiruvchining oʼz tadbirkorlik xavfi va faqat uning foydasiga sugʼurtalanishi mumkin." %}
+                    <br><br> {% trans "Sugʼurta qildiruvchi boʼlmagan shaxsning tadbirkorlik xavfini sugʼurta qilish shartnomasi oʼz-oʼzidan haqiqiy emas." %}
+                    
+                </p>
+                <p><i class="text-secondary">Qarang: {% trans "FKning 113-moddasi" %}</i></p>
+                <p>
+                    {% trans "Sugʼurta qildiruvchi boʼlmagan shaxsning foydasiga tadbirkorlik xavfini sugʼurta qilish shartnomasi sugʼurta qildiruvchi foydasiga tuzilgan hisoblanadi." %}
+                </p>    
+                <p><i class="text-secondary">
+                    {% trans "Qarang: VM 1998 yil 21 apreldagi 167-son Qarori bilan tasdiqlangan “Sarmoya, tovarlar va xizmatlarni eksport qiluvchilarga sugʼurta qoplamasi berish Tartibi”; АV tomonidan 2009 yil 28 yanvarda 1891-son bilan roʼyxatga olingan, MV Buyrugʼi bilan tasdiqlangan “Biznes sohasi uchun sugʼurta xizmatlari koʼrsatishning yagona talablari va standartlari toʼgʼrisida”gi Nizom" %}
+                </i></p>
+            
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">921- {% trans "modda" %}</b>. {% trans "Shaxsiy sugʼurta shartnomasi" %}</h4>
+                <p>
+                    <br><br> {% trans "Shaxsiy sugʼurta shartnomasi boʼyicha bir taraf (sugʼurtalovchi) boshqa taraf (sugʼurta qildiruvchi) toʼlaydigan, shartnomada shartlashilgan haq (sugʼurta mukofoti) evaziga sugʼurta qildiruvchining oʼzining yoxud shartnomada koʼrsatilgan boshqa fuqaro (sugʼurtalangan shaxs)ning hayoti yoki sogʼligʼiga zarar yetkazilgan, u muayyan yoshga toʼlgan yoki uning hayotida shartnomada nazarda tutilgan boshqa voqea (sugʼurta hodisasi) yuz bergan hollarda shartnomada shartlashilgan pulni (sugʼurta pulini) bir yoʼla yoki vaqti-vaqti bilan toʼlab turish majburiyatini oladi." %}
+                    <br><br> {% trans "Shaxsiy sugʼurta shartnomasi kimning foydasini koʼzlab tuzilgan boʼlsa, oʼsha shaxs sugʼurta pulini olish huquqiga ega boʼladi." %}
+                    <br><br> {% trans "Аgar shartnomada naf oluvchi sifatida boshqa shaxs koʼrsatilmagan boʼlsa, shaxsiy sugʼurta shartnomasi sugʼurtalangan shaxs foydasiga tuzilgan hisoblanadi. Boshqa naf oluvchi koʼrsatilmagan shartnoma boʼyicha sugʼurtalangan shaxs vafot etgan taqdirda, sugʼurtalangan shaxsning merosxoʼrlari naf oluvchilar deb tan olinadi." %}
+
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 1118-moddasi" %}</i></p>
+                <p>
+                    {% trans "Sugʼurtalangan deb hisoblanmaydigan shaxs foydasiga, shu jumladan sugʼurtalangan shaxs hisoblanmaydigan sugʼurta qildiruvchi foydasiga shaxsiy sugʼurta shartnomasi faqat sugʼurtalangan shaxsning yozma roziligi bilangina tuzilishi mumkin. Bunday rozilik boʼlmagan taqdirda, shartnoma sugʼurtalangan shaxsning daʼvosi boʼyicha, bu shaxs vafot etgan taqdirda esa, uning merosxoʼrlari daʼvosi boʼyicha haqiqiy emas deb topilishi mumkin." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">922-{% trans "modda" %}</b>. {% trans "Majburiy sugʼurta" %}</h4>
+                <p>
+                    <br><br> {% trans "Qonunda quyidagilarni sugʼurta qilish majburiyati belgilab qoʼyilishi mumkin:" %}
+                    <br><br> {% trans "qonunda koʼrsatilgan boshqa shaxslarning hayoti, sogʼligʼi yoki mol-mulki ularning hayoti, sogʼligʼi yoki mol-mulkiga zarar yetkazilishi ehtimolini nazarda tutib;" %}
+                    <br><br> {% trans "Shuningdek qarang: “NORMA” АQT qonunchilik Klassifikatorining “Meʼyoriy-huquqiy hujjatlar namunalari” bosh papkasi “OʼzR Tadbirkorlik faoliyati toʼgʼrisida” katta papkasi “Sugʼurtalash” papkasi “Majburiy shaxsiy sugʼurtalash” papkasi “Yoʼlovchilarni sugʼurtalash” papkasi" %}
+                    <br><br> {% trans "boshqa shaxslarning hayoti, sogʼligʼi yoki mol-mulkiga zarar yetkazilishi yoxud boshqa shaxslar bilan tuzilgan shartnomalarning buzilishi oqibatida yuzaga kelishi mumkin boʼlgan oʼzining fuqaroviy javobgarligi xavfi." %}
+
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: VM 1999 yil 20 dekabrdagi \"Obʼektlarni davlat mablagʼlari va Hukumat kafolati ostidagi kreditlar hisobiga barpo etishda qurilish tavakkalchiliklarini majburiy sugʼurta qilish toʼgʼrisida\"gi 532-son Qarori" %}</i></p>
+                <p><i class="text-secondary">
+                    {% trans "Shuningdek qarang: “NORMA” АQT qonunchilik Klassifikatorining “Meʼyoriy-huquqiy hujjatlar namunalari” bosh papkasi “OʼzR Tadbirkorlik faoliyati toʼgʼrisida” katta papkasi “Sugʼurtalash” papkasi “Fuqarolik javobgarligini majburiy sugʼurtalash” papkasi" %}
+                </i></p>
+                <p>
+                    <br><br> {% trans "Sugʼurta qildiruvchi boʼlish majburiyati qonun bilan unda koʼrsatilgan shaxslar zimmasiga yuklanadi." %}
+                    <br><br> {% trans "Qonunda majburiy sugʼurtaning boshqa turlari ham belgilanishi mumkin." %}
+                    <br><br> {% trans "Fuqaroga oʼz hayoti yoki sogʼligʼini sugʼurtalash majburiyati qonun bilan yuklatilishi mumkin emas." %}
+                    <br><br> {% trans "Qonunda nazarda tutilgan hollarda yoki unda belgilangan tartibda xoʼjalik yuritishida yoki operativ boshqaruvida davlatga qarashli mol-mulkka ega boʼlgan yuridik shaxslarga bu mulkni sugʼurtalash majburiyati yuklanishi mumkin." %}
+                    <br><br> {% trans "Mol-mulkni sugʼurta qilish majburiyati qonundan kelib chiqmaydigan, balki mol-mulkning egasi bilan tuzilgan shartnomaga yoki mol-mulkning mulkdori hisoblanuvchi yuridik shaxsning taʼsis hujjatlariga asoslangan hollarda, bunday sugʼurta ushbu moddaning maʼnosi jihatidan majburiy hisoblanmaydi va ushbu Kodeksning 924-moddasida nazarda tutilgan oqibatlarni keltirib chiqarmaydi." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">923-{% trans "modda" %}</b>. {% trans "Majburiy sugʼurtani amalga oshirish" %}</h4>
+                <p>
+                    <br><br> {% trans "Majburiy sugʼurta bunday sugʼurta qilish majburiyati yuklangan shaxs (sugʼurta qildiruvchi) sugʼurtalovchi bilan sugʼurta shartnomasi tuzishi vositasida amalga oshiriladi." %}
+                    <br><br> {% trans "Majburiy sugʼurta sugʼurta qildiruvchi hisobidan amalga oshiriladi, yoʼlovchilarni majburiy sugʼurtalash bundan mustasno boʼlib, bu sugʼurta qonunda nazarda tutilgan hollarda ularning oʼz hisobidan amalga oshirilishi mumkin." %}
+
+                </p>
+                <p>
+                    <i class="text-secondary">
+                        {% trans "Qarang: “Umumiy foydalanishdagi havo, temir yoʼl, ichki suv va avtomobilь transporti yoʼlovchilarining majburiy shaxsiy sugʼurtasi toʼgʼrisida”gi Qonun" %}
+                    </i>
+                </p>
+                <p>
+                    <br><br>{% trans "Majburiy sugʼurtalanishi lozim boʼlgan obʼektlar, ular sugʼurtalanishga sabab boʼladigan xavflar va sugʼurta pulining eng kam miqdorlari qonun hujjatlari bilan belgilanadi." %}
+                </p>
+                <p>
+                    <i class="text-secondary">
+                        {% trans 'Qarang: "Transport vositalari egalarining fuqarolik javobgarligini majburiy sugʼurta qilish toʼgʼrisida"gi Qonunining 5, 11, 22-moddalari; "Ish beruvchining fuqarolik javobgarligini majburiy sugʼurta qilish toʼgʼrisida"gi Qonunining 5, 10-moddalari; “Umumiy foydalanishdagi havo, temir yoʼl, ichki suv va avtomobilь transporti yoʼlovchilarining majburiy shaxsiy sugʼurtasi toʼgʼrisida”gi Qonun 3-moddasining birinchi qismi; VM 1993 yil 30 iyuldagi "Umumiy foydalaniladigan havo, temir yoʼl, ichki suv va avtomobilь transporti yoʼlovchilarini majburiy sugʼurta qilish boʼyicha sugʼurta summalari va sugʼurta tariflari miqdorlari toʼgʼrisida" 379-son Qarori; VM 1999 yil 20 dekabrdagi 532-son Qarori bilan tasdiqlangan “Obʼektlarni davlat mablagʼlari va Hukumat kafolati ostidagi kreditlar hisobiga barpo etishda qurilish tavakkalchiliklarini majburiy sugʼurta qilish toʼgʼrisida”gi Nizomning 4, 5-bandlari; VM 2008 yil 24 iyundagi 141-son Qarori bilan tasdiqlangan "Transport vositalari egalarining fuqarolik javobgarligini majburiy sugʼurta qilish Qoidalari"ning 6-bandi, III boʼlimi; VM 2008 yil 10 dekabrdagi 271-son Qarori bilan tasdiqlangan “Xavfli ishlab chiqarish obʼektida avariya yuz bergan taqdirda boshqa shaxslarning hayoti, sogʼligʼi va (yoki) mol-mulkiga hamda atrof-muhitga zarar yetkazganlik uchun fuqarolik javobgarligini majburiy sugʼurta qilish tartibi toʼgʼrisida”gi Nizomning II, III boʼlimlari; VM 2009 yil 24 iyundagi 177-son Karori bilan tasdiqlangan “Ish beruvchining fuqarolik javobgarligini majburiy sugʼurta qilish qoidalari”ning 4-bandi, III boʼlimi' %}
+                    </i>
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">924-{% trans "modda" %}</b>. {% trans "Majburiy sugʼurta toʼgʼrisidagi qoidalarni buzish oqibatlari" %}</h4>
+                <p>
+                    <br><br> {% trans "Qonun boʼyicha foydasiga majburiy sugʼurta amalga oshirilishi lozim boʼlgan shaxs, agar sugʼurta amalga oshirilmagani unga maʼlum boʼlsa, sugʼurta qildiruvchi sifatida zimmasiga sugʼurtalash majburiyati yuklangan shaxs uni amalga oshirishini sud tartibida talab qilishga haqli." %}
+                    <br><br> {% trans "Аgar sugʼurta qildiruvchi sifatida sugʼurtalash majburiyati zimmasiga yuklangan shaxs uni amalga oshirmagan boʼlsa yoki sugʼurta shartnomasini naf oluvchining ahvolini qonunda belgilangan shartlarga nisbatan yomonlashtiradigan shartlarda tuzgan boʼlsa, u sugʼurta hodisasi yuz berganida basharti tegishlicha sugʼurtalangan taqdirda sugʼurta tovoni toʼlashga asos boʼlishi kerak boʼlgan shartlarda javobgar boʼladi." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">926-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta shartnomasidan kelib chiqadigan majburiyatlarning sugʼurta qildiruvchi va naf oluvchi tomonidan bajarilishi" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Naf oluvchi foydasiga sugʼurta shartnomasi tuzish, shu jumladan u sugʼurtalangan shaxs boʼlganda ham, sugʼurta qildiruvchini, agar shartnomada boshqacha tartib nazarda tutilmagan yoxud sugʼurta qildiruvchining zimmasidagi majburiyatlar foydasiga shartnoma tuzilgan shaxs tomonidan bajarilmagan boʼlsa, ushbu shartnomadan kelib chiqadigan majburiyatlarni bajarishdan ozod qilmaydi." %}
+                    <br><br> {% trans "Naf oluvchi mulkiy sugʼurta shartnomasi boʼyicha sugʼurta tovonini yoxud shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta pulini toʼlashni talab qilganida sugʼurtalovchi undan, shu jumladan sugʼurtalangan shaxs naf oluvchi boʼlgan taqdirda ham, sugʼurta shartnomasi boʼyicha majburiyatlarni, shu bilan birga sugʼurta qildiruvchining zimmasida boʼlgan, lekin u bajarmagan majburiyatlarni bajarishni talab qilishga haqli. Ilgari bajarilishi lozim boʼlgan majburiyatlarni bajarmaslik yoki oʼz vaqtida bajarmaslik oqibatlari xavfi naf oluvchining zimmasida boʼladi." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">927-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasining shakli" %}</h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta shartnomasi yozma shaklda tuzilishi lozim." %}
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 114-moddasi" %}</i></p>
+                <p>
+                    <br><br>{% trans "Sugʼurta shartnomasi bitta hujjatni tuzish yoxud sugʼurtalovchi tomonidan sugʼurta qildiruvchiga uning yozma yoki ogʼzaki arizasiga binoan sugʼurtalovchi imzolagan, sugʼurta shartnomasining shartlarini oʼz ichiga olgan sugʼurta polisi (shahodatnomasi, sertifikati, kvitantsiyasi)ni topshirish yoʼli bilan tuzilishi mumkin. Bu holda sugʼurta qildiruvchining sugʼurtalovchi taklif etgan shartlarda shartnoma tuzishga rozi ekanligi sugʼurtalovchidan koʼrsatilgan hujjatlarni qabul qilib olish va sugʼurta mukofoti toʼlash yoxud - sugʼurta mukofoti boʼlib-boʼlib toʼlanganda - birinchi badalni toʼlash orqali tasdiqlanadi." %}
+                    <br><br>{% trans "Sugʼurtalovchi shartnoma tuzish chogʼida sugʼurtaning alohida turlari boʼyicha sugʼurta shartnomasi (sugʼurta polisi)ning oʼzi ishlab chiqqan standart shakllarini qoʼllanishga haqli." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">928-{% trans "modda" %}</b>.
+                    {% trans "Bosh polis boʼyicha sugʼurtalash" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Bir turdagi mol-mulk (tovarlar, yuklar va hokazoning) turli turkumlarini muayyan muddat davomida bir xildagi shartlarda muntazam sugʼurtalash sugʼurta qildiruvchining sugʼurtalovchi bilan kelishuviga binoan bitta sugʼurta shartnomasi - bosh polis asosida amalga oshirilishi mumkin. " %}
+                    <br><br> {% trans "Sugʼurta qildiruvchi bosh polisning taʼsir doirasida boʼladigan mol-mulkning har bir turkumi toʼgʼrisida sugʼurtalovchiga bunday polisda shartlashilgan maʼlumotlarni unda nazarda tutilgan muddatda, agar muddat nazarda tutilmagan boʼlsa - ular olinganidan keyin darhol xabar qilishi shart. Аgar hatto bunday maʼlumotlarni olish paytigacha sugʼurtalovchi toʼlashi lozim boʼlgan zarar koʼrish ehtimoli oʼtib ketgan boʼlsa ham, sugʼurta qildiruvchi bu majburiyatdan ozod boʼlmaydi." %}
+                    <br><br> {% trans "Sugʼurta qildiruvchining talabiga binoan sugʼurtalovchi bosh polisning taʼsir doirasida boʼladigan mol-mulkning alohida turkumlari boʼyicha sugʼurta polislarini berishi shart." %}
+                    <br><br> {% trans "Sugʼurta polisining mazmuni bosh polisga nomuvofiq boʼlgan taqdirda, sugʼurta polisi afzal koʼriladi." %}
+    
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4><b class="text-success">929-{% trans "modda" %}</b>. {% trans "Sugʼurta shartnomasining muhim shartlari" %}</h4>
+                <p>
+                    <br><br> {% trans "Mulkiy sugʼurta shartnomasi tuzishda sugʼurta qildiruvchi bilan sugʼurtalovchi oʼrtasida quyidagilar toʼgʼrisida kelishuvga erishilishi lozim:" %}
+                    <br><br> {% trans "sugʼurta obʼekti boʼlgan muayyan mol-mulk yoxud boshqa mulkiy manfaat toʼgʼrisida;" %}
+                    <br><br> {% trans "yuz berishi ehtimol tutilib sugʼurta amalga oshirilayotgan voqea (sugʼurta hodisasi)ning xususiyati toʼgʼrisida; " %}
+                    <br><br> {% trans "sugʼurta puli miqdori toʼgʼrisida;" %}
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 934-moddasi" %}</i></p>
+                <p>
+                    <br><br> {% trans "sugʼurta tovoni miqdorini aniqlash tartibi toʼgʼrisida, agar shartnomada uni sugʼurta pulidan oz miqdorda toʼlash mumkinligi nazarda tutilgan boʼlsa;" %}
+                    <br><br> {% trans "sugʼurta mukofotining miqdori va uni toʼlash muddati (muddatlari) toʼgʼrisida;" %}
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 942-moddasi" %}</i></p>
+                <p>
+                    <br><br> {% trans "shartnomaning amal qilish muddati toʼgʼrisida." %}
+                    <br><br> {% trans "Shaxsiy sugʼurta shartnomasi tuzishda sugʼurta qildiruvchi bilan sugʼurtalovchi oʼrtasida quyidagilar toʼgʼrisida kelishuvga erishilishi lozim:" %}
+                    <br><br> {% trans "sugʼurtalangan shaxs toʼgʼrisida;" %}
+                    <br><br> {% trans "sugʼurtalangan shaxs hayotida yuz berishi ehtimol tutilib sugʼurta amalga oshirilayotgan voqea (sugʼurta hodisasi)ning xususiyati toʼgʼrisida;" %}
+                    <br><br> {% trans "sugʼurta puli miqdori toʼgʼrisida;" %}
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 934-moddasi" %}</i></p>
+                <p>
+                    <br><br> {% trans "sugʼurta mukofotining miqdori va uni toʼlash muddati (muddatlari) toʼgʼrisida;" %}
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 942-moddasi" %}</i></p>
+                <p>
+                    <br><br>{% trans "shartnomaning amal qilish muddati toʼgʼrisida." %}
+                    <br><br>{% trans "Taraflarning kelishuviga binoan shartnomaga boshqa shartlar ham kiritilishi mumkin. Аgar sugʼurta shartnomasi sugʼurta qildiruvchi, sugʼurtalangan shaxs yoki naf oluvchi hisoblangan fuqaroning ahvolini qonun hujjatlarida belgilangan qoidalarga nisbatan yomonlashtiradigan shartlarni oʼz ichiga olsa, shartnomaning ana shu shartlari oʼrniga qonun hujjatlarining tegishli qoidalari qoʼllaniladi." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">930-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta shartnomasi shartlarini sugʼurta qoidalarida belgilab qoʼyish" %}                
+                </h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta shartnomasini tuzish shartlari sugʼurtalovchi yoxud sugʼurtalovchilar birlashmasi tomonidan qabul qilingan, maʼqullangan yoki tasdiqlangan tegishli turdagi sugʼurtaning standart qoidalari (sugʼurta qoidalari)da belgilab qoʼyilishi mumkin." %}
+                    <br><br> {% trans "Sugʼurta qoidalarida mavjud boʼlgan va sugʼurta shartnomasi (polisi) matniga kiritilmagan shartlar, agar shartnomada (polisda) shunday qoidalar qoʼllanilishi toʼgʼridan-toʼgʼri koʼrsatilgan va qoidalarning oʼzi shartnoma (polis) bilan bitta hujjatda yoki uning orqa tomonida bayon qilingan yoxud unga ilova qilingan boʼlsa, sugʼurta qiluvchi (naf oluvchi) uchun majburiydir. Ilova qilingan taqdirda, shartnomani tuzish paytida sugʼurta qildiruvchiga sugʼurta qoidalari topshirilgani shartnomada yozuv bilan tasdiqlab qoʼyilishi lozim." %}
+                    <br><br> {% trans "Sugʼurta shartnomasi tuzilayotganda sugʼurta qildiruvchi va sugʼurtalovchi sugʼurta qoidalarining ayrim bandlarini oʼzgartirish yoki chiqarib tashlash va qoidalarda boʼlmagan bandlarni shartnomaga kiritish toʼgʼrisida kelishishlari mumkin." %}
+                    <br><br> {% trans "Sugʼurta qildiruvchi (naf oluvchi) oʼz manfaatlarini himoya qilib, sugʼurta shartnomasida (polisida) koʼrsatib oʼtilgan tegishli turdagi sugʼurta qoidalarini, hatto agar bu qoidalar ushbu moddaga koʼra uning uchun majburiy boʼlmasa ham, vaj qilib keltirishga haqli." %}
+
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">931-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta shartnomasi tuzilayotganda sugʼurta qildiruvchi taqdim etadigan maʼlumotlar" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta shartnomasi tuzilayotganda sugʼurta qildiruvchi oʼziga maʼlum boʼlib, sugʼurta hodisasi yuz berishi ehtimolini va uning yuz berishi tufayli kutilajak zarar miqdori (sugʼurta xavfi)ni aniqlash uchun muhim ahamiyatga ega boʼlgan holatlarni sugʼurtalovchiga xabar qilishi shart." %}
+                    <br><br> {% trans "Sugʼurta shartnomasi (polisi)ning standart shaklida, sugʼurta qildiruvchiga berilgan sugʼurta qoidalarida yoki yozma soʼrovda sugʼurtalovchi tomonidan oldindan aniq aytib qoʼyilgan holatlar muhim deb hisoblanadi." %}
+                    <br><br> {% trans "Аgar sugʼurta shartnomasi sugʼurtalovchining qandaydir savollariga sugʼurta qildiruvchining javoblari boʼlmagan holda tuzilgan boʼlsa, sugʼurtalovchi tegishli holatlar sugʼurta qildiruvchi tomonidan maʼlum qilinmaganligiga asoslanib keyinchalik shartnomani bekor qilishni yoxud uni haqiqiy emas deb topishni talab qila olmaydi." %}
+                    <br><br> {% trans "Аgar sugʼurta shartnomasi tuzilganidan keyin, ushbu moddaning birinchi qismida koʼrsatilgan holatlar toʼgʼrisida sugʼurta qildiruvchi sugʼurtalovchiga bila turib yolgʼon maʼlumot berganligi aniqlansa, sugʼurtalovchi shartnomani haqiqiy emas deb topishni va ushbu Kodeks 123-moddasining ikkinchi qismida nazarda tutilgan oqibatlar qoʼllanilishini talab qilishga haqli." %}
+                    <br><br> {% trans "Аgar sugʼurta qildiruvchi aytib qoʼymagan holatlar oʼtib ketgan boʼlsa, sugʼurtalovchi shartnomani haqiqiy emas deb topishni talab qila olmaydi." %}
+
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">932-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurtalovchining sugʼurta xavfini baholash huquqi" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Mol-mulkni sugʼurtalash shartnomasi tuzilayotganida sugʼurtalovchi sugʼurta qilinayotgan mol-mulkni koʼzdan kechirishga, zarurat boʼlganda esa uning haqiqiy qiymatini belgilash maqsadida baholashdan oʼtkazishni tashkil etishga haqli. (OʼzR 17.09.2010 y. OʼRQ-257-son Qonuni tahriridagi qism) (Oldingi tahririga qarang)" %}
+                    <br><br> {% trans "Shaxsiy sugʼurta shartnomasi tuzilayotganida sugʼurtalovchi sugʼurta qilinayotgan shaxs sogʼligʼining haqiqiy holatini aniqlash uchun uni tekshirtirishga haqli." %}
+                    <br><br> {% trans "Ushbu modda asosida sugʼurtalovchi tomonidan sugʼurta xavfini baholash boshqa holatni isbotlashga haqli boʼlgan sugʼurta qildiruvchi uchun majburiy emas." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">933- {% trans "modda" %}</b>.
+                    {% trans "Sugʼurtalovchining sugʼurta xavfini baholash huquqi" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Sugʼurtalovchi sugʼurta qildiruvchi,sugʼurtalangan shaxs va naf oluvchi, ularning sogʼligʼining holati toʼgʼrisidagi, shuningdek bu shaxslarning mulkiy ahvoli toʼgʼrisidagi oʼz kasb faoliyati natijasida oʼzi olgan maʼlumotlarni oshkor qilishga haqli emas. Sugʼurta sirini buzganlik uchun sugʼurtalovchi buzilgan huquqlarning turi va buzish xususiyatiga qarab ushbu Kodeksning 985, 1021 va 1022-moddalari qoidalariga muvofiq javobgar boʼladi." %}
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: “Sugʼurta faoliyati toʼgʼrisida”gi Qonunning 26-moddasi" %}</i></p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">934-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta puli" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Mulkiy sugʼurta shartnomasi boʼyicha sugʼurtalovchi sugʼurta tovonini toʼlash majburiyatini oladigan yoki shaxsiy sugʼurta shartnomasi boʼyicha toʼlash majburiyatini oladigan summa (sugʼurta puli) sugʼurta qildiruvchining sugʼurtalovchi bilan kelishuviga koʼra ushbu modda qoidalariga muvofiq belgilanadi." %}
+                    <br><br>{% trans "Mol-mulkni yoki tadbirkorlik xavfini sugʼurta qilishda, agar sugʼurta shartnomasida boshqacha tartib nazarda tutilmagan boʼlsa, sugʼurta puli ularning haqiqiy qiymatidan (sugʼurta qiymatidan) oshmasligi lozim, quyidagilar shular jumlasiga kiradi:" %}
+                    <br><br>{% trans "mol-mulk uchun - uning sugʼurta shartnomasini tuzish kuni turgan joyidagi haqiqiy qiymati;" %}
+                    
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 935-moddasi" %}</i></p>
+                <p>
+                    <br><br>{% trans "tadbirkorlik xavfi - sugʼurta hodisasi yuz berganida sugʼurta qildiruvchi tadbirkorlik faoliyatidan koʼrishi mumkin boʼlgan zarar." %}
+                    <br><br>{% trans "Shaxsiy sugʼurta shartnomalarida va fuqaroviy javobgarlikni sugʼurtalash shartnomalarida sugʼurta pulini taraflar oʼz ixtiyorlariga koʼra aniqlaydilar, qonunda nazarda tutilgan hollar bundan mustasno. (OʼzR 21.04.2008 y. OʼRQ-156-son Qonuni tahriridagi qism)" %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">935-{% trans "modda" %}</b>.
+                    {% trans "Mol-mulkning sugʼurta qiymati" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta shartnomasini tuzish paytida taraflarning kelishuviga koʼra aniqlanadigan, sugʼurta manfaati bilan bogʼlanadigan mol-mulk qiymati, agar qonun hujjatlarida boshqacha tartib nazarda tutilmagan boʼlsa, sugʼurta qiymati (sugʼurta bahosi) deb hisoblanadi." %}
+                    <br><br> {% trans "Mol-mulkning shartnomada koʼrsatilgan sugʼurta qiymati ustida keyinchalik nizolashish mumkin emas, shartnoma tuzilgunga qadar sugʼurta xavfini baholash boʼyicha oʼz huquqidan foydalanmagan sugʼurtalovchi bu qiymat borasida bila turib chalgʼitilgan hol bundan mustasno." %}
+
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 932-moddasi" %}</i></p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">936-{% trans "modda" %}</b>.
+                    {% trans "Toʼliq boʼlmagan mulkiy sugʼurta" %}
+                </h4>
+                <p>
+                    <br><br> {% trans 'Аgar mol-mulkni yoki tadbirkorlik xavfini sugʼurtalash shartnomasida sugʼurta puli sugʼurta qiymatidan kam qilib belgilangan boʼlsa, sugʼurtalovchi sugʼurta hodisasi yuz berganida sugʼurta qildiruvchiga (naf oluvchiga) u koʼrgan zararni sugʼurta pulining sugʼurta qiymatiga boʼlgan nisbatiga mutanosib ravishda qoplashi shart.' %}
+
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">937-modda</b>.
+                    {% trans "Qoʼshimcha mulkiy sugʼurta" %}       
+                 </h4>
+                <p>
+                    <br><br> {% trans "Аgar mol-mulk yoki tadbirkorlik xavfi faqat sugʼurta qiymatining bir qismi miqdorida sugʼurtalangan boʼlsa, sugʼurta qildiruvchi (naf oluvchi) qoʼshimcha sugʼurta qilishga, shu jumladan boshqa sugʼurtalovchida sugʼurta qilishga haqli, ammo barcha sugʼurta shartnomalari boʼyicha umumiy sugʼurta puli sugʼurta qiymatidan oshib ketmasligi lozim." %}
+                    <br><br> {% trans "Ushbu modda birinchi qismining qoidalariga rioya etmaslik, ushbu Kodeksning 938-moddasida nazarda tutilgan oqibatlarni keltirib chiqaradi." %}
+                    
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 932-moddasi" %}</i></p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">938-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta qiymatidan ortiq miqdorda sugʼurta qilish oqibatlari" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Аgar sugʼurta shartnomasida koʼrsatilgan mol-mulk yoki tadbirkorlik xavfining sugʼurta puli sugʼurta qiymatidan ortiq boʼlsa, shartnoma sugʼurta pulining sugʼurta qiymatidan ortiq boʼlgan qismida oʼz-oʼzidan haqiqiy boʼlmaydi." %}
+                    <br><br>{% trans "Bu holda sugʼurta mukofotining ortiqcha toʼlangan qismi qaytarib berilmaydi. " %}
+                    <br><br>{% trans "Аgar sugʼurta shartnomasiga muvofiq sugʼurta mukofoti boʼlib-boʼlib toʼlansa va ushbu moddaning birinchi qismida koʼrsatilgan holatlar aniqlangan paytgacha uning hammasi toʼlanmagan boʼlsa, qolgan sugʼurta badallari sugʼurta puli miqdorini kamaytirishga mutanosib tarzda kamaytirilgan miqdorda toʼlanishi lozim." %}
+                    <br><br>{% trans "Аgar sugʼurta shartnomasidagi sugʼurta pulini oshirib yuborish sugʼurta qildiruvchi tomonidan aldashning oqibati boʼlsa, sugʼurtalovchi shartnomani haqiqiy emas deb topishni va oʼziga yetkazilgan zarar uning sugʼurta qildiruvchidan olgan sugʼurta puli summasidan ortiq miqdorda qoplanishini talab qilishga haqli." %}
+                                       
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FKning 14-moddasi" %}</i></p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">939-{% trans "modda" %}</b>.
+                    {% trans "Qoʼshaloq sugʼurta" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Ushbu Kodeksning 940-moddasida nazarda tutilgan qoidalar sugʼurta puli ayni bitta mol-mulkni yoki tadbirkorlik xavfini ikki yoki bir necha sugʼurtalovchida sugʼurta qilish (qoʼshaloq sugʼurta) natijasida sugʼurta qiymatidan oshib ketgan taqdirda ham tegishincha suratda qoʼllaniladi." %}
+                    <br><br> {% trans "Mol-mulk yoki tadbirkorlik xavfi qoʼshaloq sugʼurta qilinganda har bir sugʼurtalovchi sugʼurta tovonini oʼzi tuzgan shartnoma doirasida toʼlashga majbur boʼladi, biroq barcha sugʼurtalovchilardan olingan sugʼurta tovonlarining umumiy summasi haqiqiy zarardan ortiq boʼlishi mumkin emas." %}
+                                     
+                </p>
+                <p><i class="text-secondary">{% trans "Qarang: FK 14-moddasining ikkinchi qismi" %}</i></p>
+                <p>
+                    <br><br> {% trans "Bunda sugʼurta qildiruvchi (naf oluvchi) sugʼurta tovonini istalgan sugʼurtalovchidan u bilan tuzilgan shartnomada nazarda tutilgan sugʼurta puli doirasida olishga haqli. Olingan sugʼurta tovoni haqiqiy zararni qoplamagan taqdirda, sugʼurta qildiruvchi (naf oluvchi) yetishmayotgan summani boshqa sugʼurtalovchidan olishga haqli." %}
+                    <br><br> {% trans "Yetkazilgan zarar boshqa sugʼurtalovchilar tomonidan qoplangani sabali sugʼurta tovonini toʼlashdan toʼliq yoki qisman ozod qilingan sugʼurtalovchi sugʼurta qildiruvchiga sugʼurta toʼlovlarining tegishli qismini qilingan xarajatlarni chegirgan holda qaytarishi shart." %}
+                    <br><br> {% trans "Ushbu modda qoidalari har bir sugʼurtalovchi sugʼurta qildiruvchi, sugʼurtalangan shaxs va naf oluvchi oldidagi oʼz sugʼurta majburiyatlarini, boshqa sugʼurtalovchilar majburiyatlarini bajarganligidan qatʼi nazar, mustaqil bajaradigan qoʼshaloq shaxsiy sugʼurtada qoʼllanilmaydi." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">941-{% trans "modda" %}</b>.
+                    {% trans "Birgalikda sugʼurta qilish" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta obʼekti bitta shartnoma boʼyicha bir necha sugʼurtalovchi tomonidan oʼrtada sugʼurtalanishi mumkin (birgalikda sugʼurta qilish). Аgar bunday shartnomada sugʼurtalovchilardan har birining huquq va majburiyatlari belgilanmagan boʼlsa, ular mulkiy sugʼurta shartnomasi boʼyicha sugʼurta tovonini yoki shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta pulini toʼlash uchun sugʼurta qildiruvchi (naf oluvchi) oldida solidar javobgar boʼladilar." %}
+                    <br><br> {% trans "Yirik va alohida yirik xavflarni oʼrtada sugʼurta qilish uchun birgalikda sugʼurtalovchilar birgalikdagi faoliyat toʼgʼrisidagi shartnoma asosida oddiy shirkatlar (sugʼurta sherikchiligi) tuzishlari mumkin." %}
+                    <br><br> {% trans "Birgalikda sugʼurtalovchilar oʼrtasida tegishli kelishuv boʼlgan taqdirda, ulardan biri sugʼurta qildiruvchi (naf oluvchi)ning oldida faqat oʼz ulushi uchun javobgar boʼlib qolgani holda, u bilan oʼzaro munosabatlarda barcha birgalikdagi sugʼurtalovchilar nomidan vakil boʼlishi mumkin." %}
+                    
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">942-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta mukofoti va sugʼurta badallari" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta mukofoti deganda sugʼurta qildiruvchi (naf oluvchi) sugʼurta shartnomasida belgilangan tartibda va muddatlarda sugʼurtalovchiga toʼlashi shart boʼlgan sugʼurta haqi tushuniladi." %}
+                    <br><br> {% trans "Sugʼurtalovchi sugʼurta shartnomasi boʼyicha toʼlanishi lozim boʼlgan sugʼurta mukofoti miqdorini belgilashda sugʼurta obʼekti va sugʼurta xavfi xususiyati hisobga olingan holda oʼzi tomonidan ishlab chiqilgan, sugʼurta puli birligidan undiriladigan mukofotni aniqlaydigan sugʼurta tariflarini qoʼllashga haqli." %}
+                    <br><br> {% trans "Qonunda nazarda tutilgan hollarda sugʼurta mukofotining miqdori davlat sugʼurta nazorati organlari tomonidan joriy etilgan yoki tartibga solinadigan sugʼurta tariflariga muvofiq belgilanadi." %}
+                    <br><br> {% trans "Аgar sugʼurta shartnomasida sugʼurta mukofotini boʼlib-boʼlib toʼlash nazarda tutilgan boʼlsa, shartnomada navbatdagi sugʼurta badallarini belgilangan muddatlarda toʼlamaslik oqibatlari koʼrsatib qoʼyilishi mumkin." %}
+                    <br><br> {% trans "Аgar sugʼurta hodisasi toʼlash muddati oʼtkazib yuborilgan navbatdagi sugʼurta badali toʼlanishidan oldin yuz bergan boʼlsa, sugʼurtalovchi mulkiy sugʼurta shartnomasi boʼyicha toʼlanishi lozim boʼlgan sugʼurta tovoni yoki shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta puli miqdorini sugʼurta mukofotining oʼziga toʼlangan qismiga mutanosib summada cheklashga va muddati oʼtkazib yuborilgan sugʼurta badali summasini hisobga olishga haqli." %}
+                    
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">943-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta shartnomasining haqiqiy emasligi" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta mukofoti deganda sugʼurta qildiruvchi (naf oluvchi) sugʼurta shartnomasida belgilangan tartibda va muddatlarda sugʼurtalovchiga toʼlashi shart boʼlgan sugʼurta haqi tushuniladi." %}
+                    <br><br> {% trans "Sugʼurtalovchi sugʼurta shartnomasi boʼyicha toʼlanishi lozim boʼlgan sugʼurta mukofoti miqdorini belgilashda sugʼurta obʼekti va sugʼurta xavfi xususiyati hisobga olingan holda oʼzi tomonidan ishlab chiqilgan, sugʼurta puli birligidan undiriladigan mukofotni aniqlaydigan sugʼurta tariflarini qoʼllashga haqli." %}
+                    <br><br> {% trans "Qonunda nazarda tutilgan hollarda sugʼurta mukofotining miqdori davlat sugʼurta nazorati organlari tomonidan joriy etilgan yoki tartibga solinadigan sugʼurta tariflariga muvofiq belgilanadi." %}
+                    <br><br> {% trans "Аgar sugʼurta shartnomasida sugʼurta mukofotini boʼlib-boʼlib toʼlash nazarda tutilgan boʼlsa, shartnomada navbatdagi sugʼurta badallarini belgilangan muddatlarda toʼlamaslik oqibatlari koʼrsatib qoʼyilishi mumkin." %}
+                    <br><br> {% trans "Аgar sugʼurta hodisasi toʼlash muddati oʼtkazib yuborilgan navbatdagi sugʼurta badali toʼlanishidan oldin yuz bergan boʼlsa, sugʼurtalovchi mulkiy sugʼurta shartnomasi boʼyicha toʼlanishi lozim boʼlgan sugʼurta tovoni yoki shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta puli miqdorini sugʼurta mukofotining oʼziga toʼlangan qismiga mutanosib summada cheklashga va muddati oʼtkazib yuborilgan sugʼurta badali summasini hisobga olishga haqli." %}
+                </p>
+                <p>
+                    <i class="text-secondary">
+                        {% trans "Qarang: FK 916-moddasining toʼrtinchi qismi, 919-moddasining ikkinchi qismi, 920-moddasining ikkinchi qismi, 938-moddasining birinchi qismi" %}
+                    </i>
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">944-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurtalangan shaxsni almashtirish" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Zarar yetkazganlik uchun javobgarlik xavfini sugʼurta qilish shartnomasi boʼyicha sugʼurta qildiruvchidan boshqa shaxsning javobgarligi sugʼurtalangan hollarda, shartnomada boshqacha tartib nazarda tutilmagan boʼlsa, sugʼurta qildiruvchi bu shaxsni sugʼurta hodisasi yuz berguncha istalgan vaqtda, sugʼurtalovchini yozma ravishda xabardor qilib, boshqa shaxsga almashtirishga haqli." %}
+                    <br><br> {% trans "Shaxsiy sugʼurta shartnomasida koʼrsatilgan sugʼurtalangan shaxs sugʼurta qildiruvchi tomonidan shu sugʼurtalangan shaxs va sugʼurtalovchining roziligi bilangina boshqa shaxsga almashtirilishi mumkin." %}
+
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">945-{% trans "modda" %}</b>.
+                    {% trans "Naf oluvchini almashtirish" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta qildiruvchi sugʼurta shartnomasida koʼrsatilgan naf oluvchini boshqa shaxsga, bu haqda sugʼurtalovchini yozma ravishda xabardor qilib, almashtirishga haqli. Shaxsiy sugʼurta shartnomasi boʼyicha sugʼurtalangan shaxsning roziligi bilan tayinlangan naf oluvchini almashtirishga faqat shu shaxsning roziligi bilan yoʼl qoʼyiladi." %}
+                    <br><br> {% trans "Naf oluvchi sugʼurta shartnomasi boʼyicha bironta majburiyatni bajarganidan yoki sugʼurta tovonini yoxud sugʼurta pulini toʼlash toʼgʼrisida sugʼurtalovchiga talab qoʼyganidan keyin u boshqa shaxs bilan almashtirilishi mumkin emas." %}
+                    
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">946-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurtalangan shaxsni almashtirish" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Mol-mulkni sugʼurtalash shartnomasini tuzgan sugʼurta qildiruvchi vafot etgan taqdirda, sugʼurta qildiruvchining huquq va majburiyatlari bu mol-mulkni meros tartibida qabul qilib olgan shaxsga oʼtadi. Mulk huquqi oʼtishining boshqa hollarida sugʼurta qildiruvchining huquq va majburiyatlari, agar shartnomada yoki qonun hujjatlarida boshqacha tartib belgilanmagan boʼlsa, sugʼurtalovchining roziligi bilan yangi mulkdorga oʼtadi." %}
+                    <br><br> {% trans "Shaxsiy sugʼurta shartnomasini sugʼurtalangan shaxs foydasiga tuzgan sugʼurta qildiruvchi vafot etgan taqdirda, ushbu shartnoma bilan belgilanadigan huquq va majburiyatlar sugʼurtalangan shaxsning roziligi bilan unga oʼtadi. Sugʼurtalangan shaxs sugʼurta shartnomasi boʼyicha majburiyatlarini bajarishi mumkin boʼlmasa, uning huquqlari va majburiyatlari qonun hujjatlariga muvofiq uning huquq va qonuniy manfaatlarini muhofaza qiluvchi shaxslarga oʼtishi mumkin." %}
+                    <br><br> {% trans "Аgar sugʼurta shartnomasining amal qilish davrida sugʼurta qildiruvchi sud tomonidan muomalaga layoqatsiz yoki muomala layoqati cheklangan deb topilsa, bunday sugʼurta qildiruvchining huquq va majburiyatlarini uning vasiyi yoki homiysi oladi. Bunda sugʼurta qildiruvchining uchinchi shaxslar oldidagi javobgarligi sugʼurtasi uning muomala layoqati tugagan yoki cheklangan paytdan boshlab tugaydi." %}
+                    
+                </p>
+                <p>
+                    <i class="text-secondary">
+                        {% trans "Qarang: FKning 30, 31, 32-moddalari" %}
+                    </i>
+                </p>
+                <p>
+                    <br><br> {% trans "Yuridik shaxs boʼlgan sugʼurta qildiruvchi sugʼurta shartnomasi davrida qayta tashkil etilganida uning ushbu shartnoma boʼyicha huquq va majburiyatlari sugʼurtalovchining roziligi bilan tegishli huquqiy vorisga ushbu Kodeksda belgilangan tartibda oʼtadi." %}
+                </p>
+                <p>
+                    <i class="text-secondary">
+                        {% trans "Qarang: FKning 49, 50-moddalari" %}
+                    </i>
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">947-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta shartnomasi amal qilishining boshlanishi" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta shartnomasi, agar unda boshqacha tartib nazarda tutilmagan boʼlsa, sugʼurta mukofoti yoki birinchi badal toʼlangan paytda kuchga kiradi." %}
+                    <br><br> {% trans "Аgar shartnomada sugʼurta amal qilishi boshlanishining boshqacha muddati nazarda tutilmagan boʼlsa, shartnomada shartlashilgan sugʼurta sugʼurta shartnomasi kuchga kirganidan keyin yuz bergan sugʼurta hodisalariga nisbatan tatbiq etiladi." %}
+                    
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">948-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta shartnomasining muddatidan ilgari bekor boʼlishi" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Sugʼurta shartnomasi, agar u kuchga kirganidan keyin sugʼurta hodisasi yuz berishi ehtimoli yoʼqolgan va sugʼurta xavfining mavjud boʼlishi sugʼurta hodisasidan boshqa holatlar boʼyicha tugagan boʼlsa, tuzilgan muddati kelishidan oldin bekor boʼladi. Quyidagilar shunday holatlar jumlasiga kiradi, chunonchi:" %}
+                    <br><br> {% trans "sugʼurtalangan mol-mulkning yuz bergan sugʼurta hodisasidan boshqa sabablarga koʼra nobud boʼlishi;" %}
+                    <br><br> {% trans "tadbirkorlik xavfini yoki ana shu faoliyat bilan bogʼliq fuqaroviy javobgarlik xavfini sugʼurtalagan shaxsning tadbirkorlik faoliyatini belgilangan tartibda toʼxtatishi." %}
+                    <br><br> {% trans "Sugʼurta shartnomasi ushbu moddaning birinchi qismida koʼrsatilgan holatlar boʼyicha muddatidan oldin bekor boʼlganda, sugʼurtalovchi sugʼurta mukofotining bir qismini sugʼurta amal qilgan vaqtga mutanosib ravishda olish huquqiga ega." %}
+                    <br><br> {% trans "Sugʼurta qildiruvchi (naf oluvchi), agar voz kechish paytiga kelib sugʼurta hodisaning yuz berish ehtimoli ushbu moddaning birinchi qismida koʼrsatilgan holatlar boʼyicha yoʼqolmagan boʼlsa, sugʼurta shartnomasini bajarishdan istagan paytida voz kechishga haqli." %}
+                    <br><br> {% trans "Sugʼurta qildiruvchi (naf oluvchi) sugʼurta shartnomasidan muddatidan ilgari voz kechgan taqdirda, sugʼurtalovchiga toʼlangan sugʼurta mukofoti, agar shartnomada boshqacha tartib nazarda tutilmagan boʼlsa, qaytarib berilmaydi." %}
+                    
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">950-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta shartnomasining amal qilish davrida sugʼurta xavfining ortishi oqibatlari" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Mulkiy sugʼurta shartnomasining amal qilish davrida sugʼurta qildiruvchi (naf oluvchi) shartnoma tuzilayotganda sugʼurtalovchiga maʼlum qilingan holatlarda yuz bergan, oʼziga maʼlum boʼlgan muhim oʼzgarishlar toʼgʼrisida, agar bu oʼzgarishlar sugʼurta xavfi ortishiga jiddiy taʼsir koʼrsatishi mumkin boʼlsa, sugʼurtalovchiga darhol xabar qilishi shart. Sugʼurta shartnomasida (sugʼurta polisida) va sugʼurta qildiruvchiga berilgan sugʼurta qoidalarida aytib qoʼyilgan oʼzgarishlar muhim deb hisoblanadi." %}
+                    <br><br> {% trans "Sugʼurta xavfi ortishiga sabab boʼladigan holatlar toʼgʼrisida xabardor qilingan sugʼurtalovchi sugʼurta shartnomasining shartlarini oʼzgartirishni yoki xavf ortishiga mutanosib ravishda qoʼshimcha sugʼurta mukofoti toʼlashni talab qilishga haqli." %}
+                    <br><br> {% trans "Аgar sugʼurta qildiruvchi (naf oluvchi) sugʼurta shartnomasining shartlari oʼzgartirilishiga yoki sugʼurta mukofotiga qoʼshimcha toʼlashga eʼtiroz bildirsa, sugʼurtalovchi ushbu Kodeksning 28-bobida nazarda tutilgan qoidalarga muvofiq shartnomani bekor qilishni talab etishga haqli." %}
+                    <br><br> {% trans "Sugʼurta qiluvchi yoxud naf oluvchi ushbu moddaning birinchi qismida nazarda tutilgan majburiyatini bajarmagan taqdirda, sugʼurtalovchi sugʼurta shartnomasini bekor qilishni va shartnomani bekor qilish tufayli yetkazilgan zarar qoplanishini talab etishga haqli." %}
+                    <br><br> {% trans "Sugʼurtalovchi, agar sugʼurta xavfi ortishiga sabab boʼladigan holatlar yoʼqolgan boʼlsa, sugʼurta shartnomasini bekor qilishni talab etishga haqli emas." %}
+                    <br><br> {% trans "Shaxsiy sugʼurtada, sugʼurta shartnomasining amal qilishi davrida ushbu moddaning ikkinchi, uchinchi va toʼrtinchi qismlarida koʼrsatilgan sugʼurta xavfining oʼzgarishi oqibatlari, agar ular shartnomada toʼgʼridan-toʼgʼri koʼrsatilgan boʼlsagina, yuzaga kelishi mumkin." %}
+                    
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">951-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta hodisasi yuz bergani toʼgʼrisida sugʼurtalovchini xabardor qilish" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Mulkiy sugʼurta shartnomasi boʼyicha sugʼurta qildiruvchi sugʼurta hodisasi yuz bergani oʼziga maʼlum boʼlganidan keyin bu haqda darhol sugʼurtalovchini yoki uning vakilini xabardor qilishi shart. Аgar shartnomada xabar qilish muddati va (yoki) usuli nazarda tutilgan boʼlsa, bu shartlashilgan muddatda va shartnomada koʼrsatilgan usulda qilinishi lozim. Аgar naf oluvchi oʼzining foydasiga tuzilgan shartnoma boʼyicha sugʼurta tovoniga boʼlgan huquqdan foydalanish niyatida boʼlsa, ayni shunday majburiyat naf oluvchi zimmasida boʼladi." %}
+                    <br><br>{% trans "Ushbu moddaning birinchi qismida nazarda tutilgan majburiyatning bajarilmasligi sugʼurtalovchiga, agar sugʼurtalovchi sugʼurta hodisasi yuz berganini oʼz vaqtida bilganligi, yoxud bu haqda sugʼurtalovchida maʼlumotlar yoʼqligi uning sugʼurta tovonini toʼlash majburiyatiga taʼsir etmasligi isbotlanmasa, sugʼurta tovonini toʼlashni rad etish huquqini beradi." %}
+                    <br><br>{% trans "Ushbu moddada nazarda tutilgan qoidalar, agar sugʼurtalangan shaxsning vafoti yoki uning sogʼligʼiga zarar yetkazilishi sugʼurta hodisasi boʼlsa, tegishli suratda shaxsiy sugʼurta shartnomasiga nisbatan qoʼllaniladi. Bunda sugʼurtalovchini xabardor qilishning shartnomada belgilanadigan muddati yigirma kundan kam boʼlishi mumkin emas." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">952-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta hodisasidan koʼriladigan zararni kamaytirish" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Mulkiy sugʼurta shartnomasida nazarda tutilgan sugʼurta hodisasi yuz berganida, sugʼurta qildiruvchi ehtimol tutilgan zararni kamaytirish uchun oqilona va mumkin boʼlgan choralarni koʼrishi shart. Sugʼurta qildiruvchi bunday choralarni koʼrar ekan, agar oʼziga maʼlum qilingan boʼlsa, sugʼurtalovchining koʼrsatmalariga amal qilishi lozim." %}
+                    <br><br> {% trans "Zararni kamaytirish maqsadida qilingan, sugʼurtalovchi qoplashi lozim boʼlgan xarajatlar, agar bunday xarajatlar zarur boʼlgan boʼlsa yoki sugʼurtalovchining koʼrsatmalarini bajarish uchun qilingan boʼlsa, tegishli choralar foydasiz boʼlib chiqsa ham, sugʼurtalovchi tomonidan qoplanishi lozim. Bunday xarajatlar sugʼurta summasining sugʼurta qiymatiga nisbatiga mutanosib ravishda, boshqa zararlarni qoplash bilan birgalikda ular sugʼurta pulidan oshib ketishi mumkinligidan qatʼi nazar, qoplanadi." %}
+                    <br><br> {% trans "Sugʼurta qiluvchi ehtimol tutilgan zararni kamaytirish uchun qasddan choralar koʼrmagani oqibatida koʼrilgan zararni qoplashdan sugʼurtalovchi ozod qilinadi." %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">953-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta qildiruvchi, naf oluvchi  yoki sugʼurtalangan shaxsning aybi bilan sugʼurta hodisasi yuz berishining oqibatlari" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Аgar sugʼurta hodisasi sugʼurta qildiruvchi, naf oluvchi yoki sugʼurtalangan shaxsning qasd qilishi oqibatida yuz bergan boʼlsa, sugʼurtalovchi sugʼurta tovonini yoki sugʼurta pulini toʼlashdan ozod qilinadi, qasddan qilingan harakatlar ular tomonidan zaruriy mudofaa yoki oxirgi zarurat holatida, shuningdek ushbu moddaning uchinchi va toʼrtinchi qismlarida nazarda tutilgan hollarda sodir etilishi bundan mustasno." %}
+                    <br><br>{% trans "Qonunda sugʼurta hodisasi sugʼurta qiluvchining yoki naf oluvchining qoʼpol ehtiyotsizligi oqibatida yuzaga kelganda sugʼurtalovchini mulkiy sugʼurta shartnomasi boʼyicha sugʼurta tovonini toʼlashdan ozod qilish yoki tovon miqdorini kamaytirish hollari nazarda tutilishi mumkin." %}
+                    <br><br>{% trans "Sugʼurtalovchi sugʼurtalangan shaxsning hayoti yoki sogʼligʼiga zarar yetkazganlik uchun fuqaroviy javobgarlikni sugʼurta qilish shartnomasi boʼyicha sugʼurta tovonini toʼlashdan, agar zarar sugʼurtalanuvchi uchun javobgar shaxsning aybi bilan yetkazilgan boʼlsa, ozod qilinmaydi." %}
+                    <br><br>{% trans "Sugʼurtalovchi shaxsiy sugʼurta shartnomasi boʼyicha sugʼurtalangan shaxs vafot etgan taqdirda toʼlanishi lozim boʼlgan sugʼurta pulini toʼlashdan, agar uning vafoti oʼz joniga qasd qilish oqibatida roʼy bergan boʼlsa va bu vaqtgacha sugʼurta shartnomasi kamida ikki yil amal qilgan boʼlsa, ozod qilinmaydi." %}                                               
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">954-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurtalovchini sugʼurta tovonini va sugʼurta pulini toʼlashdan ozod qilish asoslari" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Sugʼurtalovchi, agar qonunda yoki sugʼurta shartnomasida boshqacha tartib belgilanmagan boʼlsa va sugʼurta hodisasi quyidagilar oqibatida yuzaga kelgan boʼlsa, sugʼurta tovonini va sugʼurta pulini toʼlashdan ozod qilinadi:" %}
+                    <br><br>{% trans "yadro portlashi, radiatsiya yoki radioaktiv zaharlanish taʼsirida;" %}
+                    <br><br>{% trans "harbiy harakatlar, manyovrlar yoki boshqa harbiy tadbirlar." %}
+                    <br><br>{% trans "Аgar mulkiy sugʼurta shartnomasida boshqacha tartib nazarda tutilmagan boʼlsa, sugʼurtalovchi sugʼurtalangan mol-mulk davlat organlarining farmoyishi bilan olib qoʼyilishi, musodara qilinishi, rekvizitsiya qilinishi, xatlanishi yoki yoʼq qilib tashlanishi oqibatida koʼrilgan zarar uchun sugʼurta tovonini toʼlashdan ozod qilinadi.  " %}                                                                            
+                </p>
+                <p>
+                    <i class="text-secondary">
+                        {% trans "Qarang: FKning 199, 203, 204-moddalari" %}
+                    </i>
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">955-modda</b>.
+                    {% trans "Sugʼurta tovoni yoki sugʼurta pulini toʼlashni rad etish" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Sugʼurtalovchi mulkiy sugʼurta shartnomasi boʼyicha sugʼurta qildiruvchiga (naf oluvchiga) sugʼurta tovonini yoki shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta pulini toʼlashni quyidagi hollarda rad etishga haqli, chunonchi:" %}
+                    <br><br>{% trans "sugʼurta shartnomasining amal qilishi sugʼurta hodisasi yuz bergunga qadar, shu jumladan ushbu Kodeksning 948 va 950-moddalarida koʼrsatilgan asoslar boʼyicha bekor qilinganda;" %}
+                    <br><br>{% trans "sugʼurta shartnomasi ushbu Kodeksda yoki boshqa qonunlarda nazarda tutilgan asoslar boʼyicha oʼz-oʼzidan haqiqiy boʼlmaganda;" %}
+                                    
+                </p>
+                <p>
+                    <i class="text-secondary">
+                        {% trans "Qarang: FK 916-moddasining toʼrtinchi qismi, 919-moddasining ikkinchi qismi, 920-moddasining ikkinchi qismi, 938-moddasining birinchi qismi, 943-moddasi" %}
+                    </i>
+                </p>
+                <p>
+                    <br><br>{% trans "sugʼurtalovchi ushbu Kodeksning 951-954-moddalarida koʼrsatilgan asoslar boʼyicha sugʼurta tovonini yoki sugʼurta puli toʼlashdan ozod qilinganda;" %}
+                    <br><br>{% trans "sugʼurtalovchi ushbu Kodeksda yoki boshqa qonunlarda nazarda tutilgan asoslar boʼyicha sugʼurta shartnomasini haqiqiy emas deb topish toʼgʼrisida yoxud sugʼurta qildiruvchi (naf oluvchi) sugʼurta hodisasi holatlarini tekshirib koʼrishga yoki yetkazilgan zarar miqdorini aniqlashga toʼsqinlik qilgani tufayli sugʼurta shartnomasini bekor qilish toʼgʼrisida daʼvo qoʼzgʼatganida." %}
+                    <br><br>{% trans "Sugʼurtalovchining sugʼurta tovonini yoki sugʼurta pulini toʼlashni rad etish toʼgʼrisidagi qarori sugʼurta qildiruvchiga (naf oluvchiga) ular sugʼurta tovonini yoki sugʼurta pulini toʼlashni soʼrab murojaat etganlaridan keyin oʼn besh kundan kechiktirmay xabar qilinishi va rad etish sabablarining asoslantirilgan dalil-isbotlarini oʼz ichiga olgan boʼlishi lozim." %}
+                    <br><br>{% trans "Sugʼurtalovchining sugʼurta tovonini yoki sugʼurta pulini toʼlashni rad etishiga qarshi unga nisbatan sudda daʼvo qoʼzgʼatish yoʼli bilan eʼtiroz bildirilishi mumkin." %}
+
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">956-{% trans "modda" %}</b>.
+                    {% trans "Shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta pulini toʼlash" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta puli, ijtimoiy sugʼurta, ijtimoiy taʼminot boʼyicha, boshqa sugʼurta shartnomalari boʼyicha yoki zararni qoplash tartibida sugʼurta qildiruvchiga, sugʼurtalangan shaxsga yoki naf oluvchiga tegishli summalardan qatʼi nazar, shartnoma kimning foydasiga tuzilgan boʼlsa, oʼsha shaxsga toʼlanadi." %}
+                    <br><br>{% trans "Ushbu Kodeks 921-moddasining uchinchi qismi asosida shaxsiy sugʼurta shartnomasi boʼyicha sugʼurtalangan shaxsning merosxoʼrlariga toʼlanadigan sugʼurta puli sugʼurtalangan shaxsning merosi tarkibiga kirmaydi." %}
+                                        
+                </p>
+               
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">957-{% trans "modda" %}</b>.
+                    {% trans "Sugʼurta qildiruvchining zarar qoplanishiga boʼlgan huquqlarining sugʼurtalovchiga oʼtishi (subrogatsiya)" %}
+                </h4>
+                <p>
+                    <br><br> {% trans "Аgar mulkiy sugʼurta shartnomasida boshqacha tartib nazarda tutilmagan boʼlsa, sugʼurta qildiruvchi (naf oluvchi)ning sugʼurta natijasida qoplangan zarar uchun javobgar shaxsdan talab qilish huquqi toʼlangan summa doirasida sugʼurta tovonini toʼlagan sugʼurtalovchiga oʼtadi. Biroq shartnomaning bila turib zarar yetkazgan shaxsga nisbatan talab qilish huquqi sugʼurtalovchiga oʼtishini istisno qiladigan shartlari oʼz-oʼzidan haqiqiy boʼlmaydi." %}
+                    <br><br> {% trans "Sugʼurtalovchiga oʼtgan talab qilish huquqi uning tomonidan sugʼurta qildiruvchi (naf oluvchi) va zarar uchun javobgar boʼlgan shaxs oʼrtasidagi munosabatlarni tartibga soluvchi qoidalarga rioya qilgan holda amalga oshiriladi." %}
+                    <br><br> {% trans "Sugʼurta qildiruvchi (naf oluvchi) sugʼurtalovchi oʼziga oʼtgan talab qilish huquqini amalga oshirishi uchun zarur boʼlgan barcha hujjatlar va dalillarni sugʼurtalovchiga berishi hamda barcha maʼlumotlarni unga maʼlum qilishi shart." %}
+                    <br><br> {% trans "Аgar sugʼurta qildiruvchi (naf oluvchi) sugʼurtalovchi tomonidan qoplangan zarar uchun javobgar shaxsga nisbatan oʼzining talab qilish huquqidan voz kechsa yoki bu huquqni amalga oshirish sugʼurta qildiruvchining (naf oluvchining) aybi bilan mumkin boʼlmagan boʼlsa, sugʼurtalovchi sugʼurta tovonini toʼliq yoki uning tegishli qismini toʼlashdan ozod qilinadi va tovonning ortiqcha toʼlangan summasini qaytarishni talab qilishga haqli boʼladi." %}
+                </p>
+                <p>
+                    <i class="text-secondary">
+                        {% trans "Shuningdek qarang: OXS Plenumining 2003 yil 28 fevraldagi 110-son “Oʼzbekiston Respublikasi Fuqarolik kodeksining talabdan boshqa shaxs foydasiga voz kechish huquqi bilan bogʼliq normalarini qoʼllashning ayrim masalalari toʼgʼrisida”gi Qarorining 2, 3-bandlari" %}
+                    </i>
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">{% trans "958-modda" %}</b>.
+                    {% trans "Sugʼurta qildiruvchining zarar qoplanishiga boʼlgan huquqlarining sugʼurtalovchiga oʼtishi (subrogatsiya)" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Sugʼurtalangan mol-mulkka boʼlgan huquqlarning sugʼurtalovchiga oʼtkazilishi" %}
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">959-{% trans "modda" %}</b>.
+                    {% trans "Qayta sugʼurta qilish" %}
+                </h4>
+                <p>
+                    <br><br>{% trans 'Sugʼurta shartnomasi boʼyicha sugʼurtalovchi oʼz zimmasiga olgan sugʼurta tovonini yoki sugʼurta pulini toʼlash xavfi uning tomonidan toʼliq yoki qisman boshqa sugʼurtalovchida (sugʼurtalovchilarda) u bilan tuzilgan qayta sugʼurta qilish shartnomasi boʼyicha sugʼurtalanishi mumkin.' %}
+                    <br><br>{% trans "Qayta sugʼurta qilish shartnomasiga nisbatan, agar qayta sugʼurta qilish shartnomasida boshqacha tartib nazarda tutilmagan boʼlsa, ushbu bobning tadbirkorlik xavfini sugʼurta qilish borasida qoʼllanishi lozim boʼlgan qoidalari tatbiq etiladi. Qayta sugʼurta qilish shartnomasini tuzgan sugʼurta shartnomasi (asosiy shartnoma) boʼyicha sugʼurtalovchi keyingi shartnomada sugʼurta qildiruvchi hisoblanadi." %}
+                    <br><br>{% trans "Qayta sugʼurta qilishda sugʼurta tovonini yoki sugʼurta pulini toʼlash uchun asosiy sugʼurta shartnomasi boʼyicha sugʼurta qildiruvchi oldida ushbu shartnoma boʼyicha sugʼurtalovchi javobgar boʼlib qolaveradi." %}
+                    <br><br>{% trans "Biroq asosiy sugʼurta shartnomasi boʼyicha sugʼurtalanuvchi hisoblangan sugʼurta tashkiloti sugʼurta hodisasi yuz berishidan oldin tugatilgan taqdirda, uning ushbu shartnoma boʼyicha huquq va majburiyatlarining qayta sugʼurta qilingan qismi qayta sugʼurta qilish shartnomasi boʼyicha sugʼurtalovchiga oʼtadi." %}
+                    <br><br>{% trans "Ikki yoki bir nechta qayta sugʼurta qilish shartnomalarini ketma-ket tuzishga yoʼl qoʼyiladi. Bunday shartnomalarning har biri keyingi qayta sugʼurta qilish shartnomasiga nisbatan asosiy sugʼurta shartnomasi deb hisoblanadi." %}
+                    
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">960-{% trans "modda" %}</b>.
+                    {% trans "Ikki tomonlama sugʼurta" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Fuqarolar va yuridik shaxslar oʼz mol-mulklarini hamda ushbu Kodeks 915-moddasining ikkinchi qismida koʼrsatilgan boshqa mulkiy manfaatlarini ikki taraflama asosda, buning uchun ikki tomonlama sugʼurta qilish jamiyatlarida zarur mablagʼlarni birlashtirish yoʼli bilan sugʼurta qilishlari mumkin." %}
+                    <br><br>{% trans "Ikki tomonlama sugʼurta qilish jamiyatlari oʼz aʼzolarining mol-mulki hamda boshqa mulkiy manfaatlarini sugʼurta qilishni amalga oshiradi va tijoratchi boʼlmagan tashkilot hisoblanadi." %}
+                                        
+                </p>
+                <p><i class="text-secondary">
+                    {% trans "Qarang: FK 4-bobining 3-§" %}
+                </i></p>
+                <p>
+                    <br><br> {% trans "Ikki tomonlama sugʼurta qilish tashkilotlari tomonidan oʼz aʼzolarining mol-mulki va mulkiy manfaatlarini sugʼurta qilish, agar jamiyatning taʼsis hujjatlarida bunday hollarda sugʼurta shartnomalari tuzish nazarda tutilmagan boʼlsa, bevosita aʼzolik asosida amalga oshiriladi." %}
+                    <br><br> {% trans "Ushbu bobning qoidalari, agar qonunda, tegishli jamiyatning taʼsis hujjatlarida yoki jamiyat belgilagan sugʼurta qilish qoidalarida boshqacha tartib nazarda tutilmagan boʼlsa, ikki tomonlama sugʼurta qilish jamiyati bilan uning aʼzolari oʼrtasidagi sugʼurtaga doir munosabatlarga nisbatan qoʼllaniladi." %}
+                    <br><br> {% trans "Ikki tomonlama sugʼurta qilish yoʼli bilan majburiy sugʼurtani amalga oshirishga faqat qonunda nazarda tutilgan hollarda yoʼl qoʼyiladi." %}
+                    <br><br> {% trans "Ikki tomonlama sugʼurta qilish jamiyati sugʼurtalovchi sifatida, agar uning taʼsis hujjatlarida sugʼurta faoliyatini amalga oshirish nazarda tutilgan, jamiyatning oʼzi tijorat tashkiloti shaklida tuzilgan, tegishli turdagi sugʼurtani amalga oshirish uchun litsenziyaga ega boʼlsa va qonunda belgilangan boshqa talablarga javob bersa, jamiyatning aʼzolari boʼlmagan shaxslarning manfaatlarini sugʼurta qilishni amalga oshirishi mumkin." %}
+                    <br><br> {% trans "Ikki tomonlama sugʼurta qilish jamiyatining aʼzosi boʼlmagan shaxslarning manfaatlarini sugʼurta qilish jamiyat tomonidan sugʼurta shartnomalari asosida ushbu bobning qoidalariga muvofiq amalga oshiriladi." %}
+                    <br><br> {% trans "Ikki tomonlama sugʼurta qilish jamiyatlari huquqiy holatining xususiyatlari va ularning faoliyat yuritish shartlari qonun hujjatlari bilan belgilanadi." %}
+
+                </p>
+            </div>
+            <div class="card mt-3 py-2 px-4">
+                <h4>
+                    <b class="text-success">961-{% trans "modda" %}</b>.
+                    {% trans "Majburiy davlat sugʼurtasi" %}
+                </h4>
+                <p>
+                    <br><br>{% trans "Fuqarolarning ijtimoiy manfaatlarini va davlatning manfaatlarini taʼminlash maqsadida qonunda hayot, sogʼliq va mol-mulkning majburiy davlat sugʼurtasi belgilab qoʼyilishi mumkin." %}
+                    <br><br>{% trans "Majburiy davlat sugʼurtasi ana shu maqsadlar uchun davlat byudjetidan ajratiladigan mablagʼlar hisobiga amalga oshiriladi." %}
+                    <br><br>{% trans "Majburiy davlat sugʼurtasi bevosita sugʼurta toʼgʼrisidagi qonun hujjatlari asosida unda koʼrsatilgan davlat sugʼurta tashkilotlari yoki davlatning boshqa tashkilotlari (sugʼurtalovchilar) tomonidan amalga oshiriladi." %}
+                                                           
+                </p>
+                <p><i class="text-secondary">
+                    {% trans "Qarang: VM 1994 yil 26 yanvardagi \"Harbiy xizmatchilar va harbiy masʼuliyatli shaxslarning, oddiy askarlar hamda boshliqlar tarkibiga kiruvchi shaxslarning davlat majburiy shaxsiy sugʼurtasi toʼgʼrisida\"gi 38-son Qarori; VM 1994 yil 16 iyuldagi “Koʼmir, neftь, gaz qazib olish va geologiya-razvedka ishlari tizimi xodimlarining majburiy davlat shaxsiy sugʼurtasi toʼgʼrisida”gi 365-son Qarori; VM 1994 yil 30 dekabrdagi “Oʼzbekiston Respublikasi soliq organlari xodimlarining majburiy davlat sugʼurtasi boʼyicha sugʼurta summalari va sugʼurta tariflari miqdorlari toʼgʼrisida”gi 631-son Qarori" %}
+                </i></p>
+
+            </div>
+       </div>
+       <div class="card w-100 mb-5">
+        <div class="card-header bg-success text-light h4">
+            {% trans "Eslatma!" %}
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            {% trans "Ushbu bobning qoidalari, agar sugʼurta toʼgʼrisidagi qonun hujjatlarida boshqacha tartib nazarda tutilmagan boʼlsa va sugʼurta boʼyicha mavjud munosabatlar mohiyatidan kelib chiqmasa. majburiy davlat sugʼurtasiga nisbatan qoʼllaniladi." %}
+          </li>
+        </ul>
+      </div>
+         
+</div>
+</div>
+{% endblock content %}
+    

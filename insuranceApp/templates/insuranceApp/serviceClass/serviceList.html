@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load static %}
+{% block service %}
+  active
+{% endblock %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/card.css' %}">
+
+<div class="fullwidth-block bg-light">
+    <div class="container">
+        <div class="container">
+            <h2 class="section-title">Xizmat turlari</h2>
+            <div class="card-deck">
+                {% if services %}
+                    {% for service in services %}
+                    <div class="card">
+                        <img class="card-img-top" src="{{ service.image.url }}" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="{% url 'serviceView' service.id %}" class="card-text nav-my-link text-dark">
+                                    {{ service.title }}
+                                </a>
+                            </h5>
+                            <br>
+                            <p>
+                                <pre>
+                                    {{ service }}
+                                </pre>
+                                
+                            </p>
+                            <div>
+                                {% if user.is_superuser %}
+                                <div class="col-sm-6 mt-3">
+                                    <a href="{% url 'serviceUpdate' service.id  %}" class="w-100 btn btn-outline-primary">Edit</a>
+                                </div>
+                                <div class="col-sm-6 mt-3">
+                                    <a href="{% url 'serviceDelete' service.id %}" class="w-100 btn btn-outline-danger">Delete</a>
+                                </div>
+                                    
+                                    
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    
+                {% else %}
+                <div class="w-100 alert alert-danger">Hozircha sug'urta xizmatturlari mavjud emas</div>						
+
+                {% endif %}
+                
+                
+                
+            </div>
+            
+                
+        </div>
+        
+            
+    </div>
+    
+</div>
+
+{% endblock %}

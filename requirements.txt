@@ -1,0 +1,11 @@
+beautifulsoup4==4.9.3
+Django==3.2.2
+django-bootstrap4==3.0.1
+django-crispy-forms==1.11.2
+django-filter==2.4.0
+django-i18n==1.0.4
+django-phonenumber-field==5.1.0
+mysqlclient==2.0.3
+Pillow==8.2.0
+requests==2.25.1
+phonenumbers==8.12.24asgiref==3.3.4

@@ -1,0 +1,259 @@
+{% extends "base.html" %}
+{% load static %}
+{% block home %}active{% endblock %}
+{% load i18n %}
+{% block content %}
+<div class="hero hero-slider">
+    <ul class="slides">
+        <li data-bg-image="{% static 'images/slide-1.jpg' %}">
+            <div class="container">
+                <div class="slide-content">
+                    <div>
+                        <b class="text-center text-success">{% trans "OMAD SUG`URTA" %}</b>
+                        <br>
+                        {% trans "mas’uliyati cheklangan jamiyati," %}
+                        <br><br>
+                        <b>{% trans "O‘zbekiston Respublikasi" %}</b> {% trans "Adliya vazirligi tomonidan" %}
+                        <br><br>
+                        <b>{% trans '2019 yil 18 iyunda 733508-reyestr'%}</b> {% trans 'raqami bilan ro‘yxatga olingan' %}
+                        <br><br>
+                        {% trans "Jamiyat yagona ishtirokchisi: " %} <b>{% trans "ASAKA CAPITAL INVEST" %}</b>
+                        <br><br>
+                        {% trans "Jamiyat o‘z mustaqil balansiga..." %}
+                        <br><br>
+                    <button type="button" class="btn btn-outline-success" data-toggle="modal"  data-target="#myModal">
+                        {% trans "batafsil ma'lumot uchun" %}
+                    </button>
+                    
+                    <!-- Modal -->
+                    
+                    
+                    </div>
+                    <!-- Button trigger modal -->
+                    
+                </div>
+            </div>
+        </li>
+        <li data-bg-image="{% static 'images/slide-1.jpg' %}">
+            <div class="container">
+                <div class="slide-content">
+                    <b class="text-success">{% trans "Omad sug'urta" %}</b>
+                    <br>
+                    {% trans "Kompaniyaning ta'sischisi va 100 foizlik ulushi" %}
+                    
+                    <br> <b class="text-success">{% trans '"Asaka Kapital Invest"'%}</b> {% trans 'da hisoblanadi.' %} 
+                    <br>
+                    <br>
+                    {% trans 'Kompaniyaning ustav kapitali' %} <b class="text-success">30</b> {% trans 'mlrd.so‘mni tashkil etadi.' %}
+                    <br>
+                    <br>
+                    {% trans "Bu esa Kompaniyaga o‘z sug‘urta xizmatlarini nafaqat" %}
+                    <br><br> 
+                    {% trans "Respublika hududida balki undan tashqarida ham ko‘rsatish imkonini beradi." %}
+                    <br><br>
+                    <button type="button" class="btn btn-outline-success" data-toggle="modal"  data-target="#myModal2">
+                        {% trans "batafsil ma'lumot uchun" %}
+                    </button>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalScrollableTitle">
+                    <b><span class="text-success">{% trans 'OMAD SUG`URTA' %}</span>{% trans "MCHJ" %}</b>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id='clipboardAbout'>
+                <b class="text-center text-success">{% trans "OMAD SUG`URTA" %}</b>
+                <br>
+                
+                {% trans "mas’uliyati cheklangan jamiyati" %},
+
+                <b>{% trans 'O‘zbekiston Respublikasi' %}</b> {% trans 'Adliya vazirligi tomonidan' %}
+                <b>
+                    {% trans "2019 yil 18 iyunda 733508-reyestr" %}
+                </b>
+                {% trans "raqami bilan ro‘yxatga olingan" %}
+                <br><br>
+                {% trans 'Jamiyat yagona ishtirokchisi' %}: <b>{% trans 'ASAKA CAPITAL INVEST' %}</b>
+                <br><br>
+                {% trans 'Jamiyat o‘z mustaqil balansiga, yumaloq muxri, burchak muxri, firma blanki va tovar belgisi hamda timsoliga ega. Banklarda hisob raqamlari mavjud' %}.
+                <br><br>
+                {% trans 'Jamiyatning maqsadi yuridik va jismoniy shaxslar(O‘zbekiston Respublikasi rezidenta va norezidentlari) manfaatlarini ishonchli sug‘urta ximoyasi bilan ta’minlash, keng qamrovli sug‘urta xizmatlarini ko‘rsatish va foyda olish hisoblanadi' %}.
+                <br><br>
+                {% trans 'Banklar va bank faoliyatini, sanoatning turli sohalarini, korporatsiyalar, kompaniyalarni va iktisodiyotning boshqa tarmoqlarini kompleks sug‘urta qilish bo‘lib u maxsus davlat organi tomonidan berilgan litsenziya asosida amalga oshiriladigan ixtiyoriy, majburiy va qayta sug‘urta turlarini o‘z ichiga oladi' %} 
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalScrollableTitle">
+                    <b><span class="text-success">{% trans 'OMAD SUG`URTA' %}</span>{% trans "MCHJ" %}</b>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id='clipboardAbout'>
+                <b class="text-success">{% trans "Omad sug'urta" %}</b>
+                <br>
+                {% trans "Kompaniyaning ta'sischisi va 100 foizlik ulushi" %}
+                <br> <b class="text-success">{% trans '"Asaka Kapital Invest"' %}</b> <i>da</i> hisoblanadi. 
+                <br>
+                <br>
+                {% trans "Kompaniyaning ustav kapitali" %} <b class="text-success">30</b> {% trans "mlrd.so‘mni tashkil etadi." %}
+                <br>
+                <br>
+                {% trans 'Bu esa Kompaniyaga o‘z sug‘urta xizmatlarini nafaqat' %}
+                <br><br> 
+                {% trans 'Respublika hududida balki undan tashqarida ham ko‘rsatish imkonini beradi.' %}
+                <br>
+                <br>
+                {% trans 'Eng asosiysi shakllantirilgan ustav kapitali ' %}
+                <br><br>
+                {% trans 'Kompaniyaga amaldagi qonunchilik normalariga ko‘ra qayta' %} 
+                <br><br>
+                {% trans "sug‘urtalash sohasi bilan ham shug‘ullanish xuquqini beradi." %}
+                <br><br>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="rectangle1 mt-5 pt-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mt-md-3 mt-0 smaller-font">
+                <h1 class="mt-2 text-center pt-2"><b class="text-success">Omad Sug'urta</b></h1>
+                <p class="mt-2">
+                    {% trans "«OMAD SUG`URTA» mas’uliyati cheklangan jamiyati O’zbekiston Respublikasi Moliya Vazirligi tomonidan 2019 yil 27 Dekabrda berilgan 00255-SF-sonli litsenziya asosida ixtiyoriy shaklda umumiy sug’urta sohasidagi barcha 17 ta klass bo’yicha sug’urta faoliyatini amalga oshiradi." %}
+                <div class="more mt-3">
+                    <a href="{% url 'about' %}" class="btn btn-success">{% trans "Batafsil ma'lumot" %}</a>
+                </div>
+
+            </div>
+            <div class="col-lg-6 mt-3 index-video">
+                
+                <video class="img-fluid" controls="" controlsList="nodownload">
+                    <source src="{% static 'videos/omad-sugurta-video.MP4' %}" type="video/mp4">
+                </video>
+
+            </div>
+        </div>
+    </div>
+</div>
+<main class="main-content">
+    <div class="fullwidth-block greet-section">
+        <div class="container">
+            <h2 class="section-title"><b class="text-success">{% trans "Omad sug'urta" %}</b>
+                {% trans 'kompaniyasini qulayliklari Saytning qulaylinklari' %}
+            </h2>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="icon-phone-24 text-success"></i>
+                        <h3 class="feature-title text-dark"><b>{% trans "24 soatlik davomiy alaqa" %}</b></h3>
+                        <p>{% trans 'Biz siz bilan doimo aloqdamiz' %}</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="fas fa-handshake text-success"></i>
+                        <h3 class="feature-title text-dark"><b>
+                            {% trans "Xavfsiz sug'urta xizmatlari" %}
+                        </b></h3>
+                        <p>
+                            {% trans "Biz ishonchli va xavfsiz sug'urtalaymiz" %}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="icon-credit-card-hand text-success"></i>
+                        <h3 class="feature-title text-dark"><b> {% trans "Qulay to'lov uslubu" %}</b></h3>
+                        <p>{% trans "Bizning sug'urta polislarimizni" %}<b> {% trans 'Bank plastik kartasi, Naqt pul, Payme, Click' %}</b> {% trans "to'lov qilishingiz mumkin" %}</p>
+                    </div>
+                </div>
+            </div> <!-- .row -->
+
+        </div>
+    </div>
+    <div class="fullwidth-block">
+        <div class="container">
+            <h2 class="section-title">{% trans 'Yangiliklar' %}</h2>
+            <div class="card-deck">
+                {% if posts %}
+                <div class="container">
+                    <div class="row">
+                        {% for post in posts %}
+                            <div class="col-lg-4 mb-4">
+                                <div class="h-100 card">
+                                    <img class="card-img-top" src="{{ post.postImage.url }}" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="{% url 'newsView' post.id %}" class="card-text nav-my-link text-dark">
+                                                {{ post.title }}
+                                            </a>
+                                        </h5>
+                                        <br>
+                                        <p>
+                                            {{ post.description|slice:":50" }}...                                        </p>
+                                        <span class="fa fa-calendar text-success" aria-hidden="true">
+                                            {{ post.create_date }}
+                                        </span>
+                                        <div>
+                                            {% if user.is_staff %}
+                                            <div class="col-sm-12 mt-3">
+                                                <a href="{% url 'newsUpdate' post.id %}" class="w-100 btn btn-outline-primary">{% trans "tahrirlash" %}</a>
+                                            </div>
+                                            <div class="col-sm-12 mt-3">
+                                                <a href="{% url 'newsDelete' post.id %}" class="w-100 btn btn-outline-danger">{% trans "o'chirish" %}</a>
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        {% endfor %}
+                    </div>
+                    
+                </div>
+                
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div style="text-align: center !important;">
+                            <a href="{% url 'news' %}"
+                                class="mx-auto d-block more btn btn-outline-success">{% trans "Batafsil ma'lumot" %}</a>
+                        </div>
+                    </div>
+                </div>
+                {% else %}
+                <div class="w-100 alert alert-danger">
+                    {% trans "Hozircha yangiliklar yo'q" %}
+                </div>
+                {% endif %}
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</main>
+
+{% endblock %}

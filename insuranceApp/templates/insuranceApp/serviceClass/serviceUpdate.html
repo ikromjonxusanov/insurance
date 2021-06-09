@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block news %}
+  active
+{% endblock %}
+{% block content %}
+<div class="container">
+    <h2 class="section-title text-left">Xizmat turi taxrirlash</h2>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+       <div class="row">
+            <div class="col-md-4"> 
+                {{ form.topic | as_crispy_field  }}
+            </div>
+            <div class="col-md-4"> 
+                {{ form.title | as_crispy_field  }}
+            </div>
+            <div class="col-md-4"> 
+                {{ form.postImage | as_crispy_field }} 
+            </div>
+        </div>
+        
+        
+        {{ form.description  | as_crispy_field  }} 
+
+        <p class="text-right">
+            <button class="btn btn-success">Send message</button>
+        </p>
+        
+    </form>
+<br>
+
+</div>
+<div class="clearfix"></div>
+
+{% endblock %}

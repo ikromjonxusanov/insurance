@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block about %}
+  active
+{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/card.css' %}">
+<div id="site-content">
+	<main class="main-content bg-light">
+		<div class="page">
+			<div class="fullwidth-block">
+
+				<div class="container">
+					<h1 class="entry-title text-success">{% trans "Kampaniya haqida" %}</h1>
+					<p>
+						<b>{% trans "«OMAD SUG`URTA»" %}</b> 
+						{% trans "mas’uliyati cheklangan jamiyati  O’zbekiston Respublikasi Moliya Vazirligi tomonidan  2019 yil 27 Dekabrda berilgan" %} 
+						<b>{% trans "00255-SF" %}</b> - {% trans "sonli litsenziya asosida ixtiyoriy shaklda umumiy sug’urta sohasidagi barcha" %}
+						<b>17</b> {% trans "ta klass bo’yicha sug’urta faoliyatini amalga oshiradi." %} 
+					</p>
+					<p>
+						<b>{% trans '«OMAD SUG`URTA»'%} {% trans 'MChJ' %}</b> {% trans "Sug‘urta Kompaniyasi o‘z faoliyatini O‘zbekiston Respublikasi Moliya vazirligi tomonidan 2019 yil 27 dekabrda berilgan SF 00255-sonli lisenziyaga muvofiq olib boradi." %}
+					</p>
+					<p> 
+						{% trans "Kompaniya yurtimizdagi yuridik va jismoniy shaxslarga sifatli sug‘urta xizmatlarini ko‘rsatish orqali O‘zbekiston sug‘urta bozorining rivojiga o‘zining salmoqli ulushi bilan o‘z hissasini qo‘shib kelmoqda." %}
+					</p>
+					<p>
+						<b>{% trans "«OMAD SUG`URTA»" %}</b>
+						{% trans "mas’uliyati cheklangan jamiyati iqtisodiyotning turli xil sub’ektlari moliyaviy va mulkiy manfaatlarini sug’urta himoyasi bilan ta’minlab kelmoqda. Kompaniya quyidagi ihtiyoriy shakldagi sug’urta xizmatlarini taqdim etmoqda:" %}
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<div class="my-1">- {% trans "Bank va bank faoliyatini sug’urta qilish" %} <i>{% trans '(bankers blanket bond);' %}</i></div>
+						</li>
+						<li class="nav-item">
+							<div class="my-1">- {% trans "Mulkni majmuaviy sug’urta qilish;" %}</div>
+						</li>
+						<li class="nav-item">
+							<div class="my-1">- {% trans "Baxtsiz xodisalardan sug’urta qilish;" %}</div>
+						</li>
+						<li class="nav-item">
+							<div class="my-1">- {% trans "Garov yoki lizingga berilayotgan yerusti transport vositalarini kompleks sug’urta qilish;" %}</div>
+						</li>
+						<li class="nav-item">
+							<div class="my-1">- {% trans "Ipotekani majmuaviy sug’urta qilish;" %}</div>
+						</li>
+						<li class="nav-item">
+							<div class="my-1">- {% trans "Yukni sug’urta qilish;" %}</div>
+						</li>
+						<li class="nav-item">
+							<div class="my-1">- {% trans "Qurilish qaltisliklarini majmuaviy sug’urta qilish;" %}</div>
+						</li>
+						<li class="nav-item">
+							<div class="my-1">- {% trans "Lizing ob’ektini sug’urta qilish" %}</div>
+						</li>
+					</ul>
+					</p>
+					<a class="btn btn-outline-success" href="/media/litsenziya.png/">{% trans "Litsenziyani ko'rish" %}</a> 
+
+						
+					
+				</div> <!-- .container -->
+			</div> <!-- .fullwidth-block -->
+			<h2 class="section-title">{% trans "Sug'urta Xizmat turlari" %}</h2>
+			<div class="container">
+				<div class="card-deck">
+					<div class="card">
+						<img class="card-img-top" src="{% static 'img/1-klass.png' %}" alt="Card image cap"
+							hieght="200">
+						<div class="card-body">
+							<h5 class="card-title">
+								<a href="#" class="card-text nav-my-link text-dark">
+									{% trans 'Baxtsiz hodisalardan ehtiyot shart sug`urta qilish' %}
+								</a>
+							</h5>
+							<br>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="{% static 'img/2-klass.png' %}" alt="Card image cap"
+							hieght="200">
+						<div class="card-body">
+							<h5 class="card-title"> <a href="#" class="card-text nav-my-link text-dark">
+									{% trans "Kasalikdan ehtiyot shart sug`urta qilish" %}
+								</a></h5>
+							<br>
+
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="{% static 'img/3-klass.png' %}" alt="Card image cap"
+							hieght="200">
+						<div class="card-body">
+							<h5 class="card-title">
+								<a href="#" class="card-text nav-my-link text-dark">
+									{% trans "Yer usti transport vositalarini sug`urta qilish" %}
+								</a>
+							</h5>
+							<br>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="{% static 'img/4-klass.png' %}" alt="Card image cap"
+							hieght="200">
+						<div class="card-body">
+							<h5 class="card-title">
+								<a href="#" class="card-text nav-my-link text-dark">
+									{% trans 'Harakatlanadigan temir yo`l tarkibini sug`urta qilish' %}
+								</a>
+								<br>
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</main>
+</div>
+{% endblock %}

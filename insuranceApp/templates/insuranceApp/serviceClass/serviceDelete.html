@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block news %}
+  active
+{% endblock %}
+{% block content %}
+<div class="container bg-light">
+    <h3>
+    {{ item.title }}
+    </h3>
+    <p>You really want to delete the post</p>
+    <form method="POST">
+        {% csrf_token %}
+        <a href="{% url 'service' %}" class="btn btn-outline-success">
+            Cancel
+        </a>
+        <button class="btn btn-danger">Delete</button>
+    </form>
+    
+
+</div>
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block contact %}
+  active
+{% endblock %}
+{% block content %}
+<style>
+  .l-h {
+    line-height: 100%;
+  }
+</style>
+
+<div class="container">
+<table class="table table-sm bg-white">
+  <thead>
+    <tr>
+      <th class="h5" scope="col">Read</th>
+      <th class="h5" scope="col">name</th>
+      <th class="h5" scope="col">phone</th>
+      <th class="h5" scope="col">description</th>
+      <th class="h5" scope="col">date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for object in contacts %}
+    <tr>
+      {% if object.read %}
+      <td scope='row'>
+        <a href="/" class="h6 pl-2 text-decoration-none text-dark">
+          view
+        </a>
+      </td>
+      <td>{{object.name}}</td>
+      <td>{{ object.phone }}</td>
+      <td>{{ object.description | slice:":30" }}...</td>
+      <td>{{ object.create_date }}</td>
+      {% else %}
+      <td scope='row'>
+        <a href="/" class="h6 pl-2 text-decoration-none text-secondary">
+          view
+        </a>
+
+      </td>
+      <td class="text-secondary">{{ object.name }}</td>
+      <td class="text-secondary">{{ object.phone }}</td>
+      <td class="text-secondary">{{ object.description | slice:":30" }}...</td>
+      <td class="text-secondary">{{ object.create_date }}</td>
+      {% endif %}      
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+
+
+{% endblock content %}

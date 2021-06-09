@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+
+{% block contact %}
+  active
+{% endblock contact %}
+
+{% block content %}
+	<div id="site-content">
+	
+
+	<main class="main-content">
+
+
+		<div class="page bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="section-title text-left">{% trans "Ariza qoldirish" %}</h2>
+						<form method="POST" class="contact-form">
+							{% csrf_token %}
+							<div class="row">
+								<div class="col-md-6"> 
+									<label for="id_name">{% trans "Ismingizni kiriting" %}</label>
+									{{ form.name }}
+								</div>
+								<div class="col-md-6">
+									<label for="id_phone">{% trans "Telefon raqamingizni kiriting" %}</label>
+									{{ form.phone }}
+								</div>
+							</div>
+							<label for="id_description">{% trans "Xabaringizni kiriting" %}</label>
+							{{ form.description }}
+
+							<p class="text-right">
+								<button class="btn btn-success">{% trans "Yuborish" %}</button>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div> <!-- .page -->
+	</main>
+</div>
+
+{% endblock content %}
+	

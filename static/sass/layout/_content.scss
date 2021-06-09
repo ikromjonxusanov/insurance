@@ -1,0 +1,494 @@
+.hero-slider{
+	position: relative;
+	margin-bottom: 50px;
+	.slides{
+		list-style: none;
+		@include clearfix;
+		li{
+			min-height: 580px;
+			float: left;
+			margin-right: -100%;
+			width: 100%;
+			background-size: cover;
+			background-position: center center;
+		}
+	}
+
+	.slide-content{
+		border-radius: 3px;
+		background-color: white;
+		width: 25%;
+		padding: 30px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+
+		@media screen and (max-width: 990px){ width: 50% }
+		@media screen and (max-width: 480px){ width: 100% }
+		
+		.slide-title{
+			@include em(35);
+			font-weight: 300;
+			margin-bottom: 30px;
+
+			strong{
+				color: $accent-color;
+				display: block;
+				font-weight: 300;
+			}
+		}
+
+		p{
+			line-height: 2;
+			margin-bottom: 50px;
+		}
+	}
+
+	.flex-control-nav{
+		list-style: none;
+		position: absolute;
+		bottom: -50px;
+		width: 100%;
+		text-align: center;
+
+		li{
+			display: inline-block;
+			margin: 0 5px;
+
+			a{
+				display: block;
+				width: 15px;
+				height: 15px;
+				background-color: #c6c7c7;
+				border-radius: 50%;
+				overflow: hidden;
+				text-indent: -99999px;
+				cursor: pointer;
+
+				&.flex-active{
+					background-color: $accent-color;
+				}
+			}
+		}
+	}
+}
+
+.fullwidth-block{
+	padding: 50px 0;
+}
+
+.section-title,.section-subtitle{
+	font-weight: 300;
+	margin-bottom: 50px;
+	text-align: center;
+	display: block;
+}
+.section-title{
+	@include em(48);
+}
+.section-subtitle{
+	@include em(30);
+	color: $muted-color;
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+
+.feature{
+	margin-bottom: 30px;
+	text-align: center;
+
+	i{
+		@include em(48);
+		color: $accent-color;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.feature-title{
+		@include em(20);
+		margin-bottom: 20px;
+		color: $accent-color;
+		font-weight: 400;
+
+	}
+}
+
+.text-center{ text-align: center; }
+.text-left{ text-align: left; }
+.text-right{ text-align: right; }
+
+.offer{
+	position: relative;
+	margin-bottom: 30px;
+	overflow: hidden;
+
+	.caption{
+		position: absolute;
+		background-color: rgba(0,0,0,.3);
+		color: white;
+		width: 100%;
+		padding: 20px;
+	}
+	&.caption-top .caption{top: 0}
+	&.caption-bottom .caption{bottom: 0}
+
+	img{
+		display: block;
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+	}
+	.offer-title{
+		margin: 0;
+	}
+}
+
+.news-list{margin-top: 50px}
+.news{
+	figure{
+		margin-bottom: 20px;
+		overflow: hidden;
+		img{
+			display: block;
+			max-width: 100%;
+			width: 100%;
+		}
+	}
+	.date{
+		@include em(14);
+		img{margin-right: 10px}
+	}
+	.entry-title{
+		@include em(16);
+		font-weight: 300;
+		a{
+			color: $body-color;
+			transition: .3s ease;
+
+			&:hover{ color: $accent-color }
+
+			&:after{
+				content:" ";
+				display: inline-block;
+				margin-left: 10px;
+				width: 10px;
+				height: 7px;
+				background: url("images/arrow-blue.png");
+			}
+		}
+	}
+}
+
+.testimonial-slider{
+	color: white;
+	position: relative;
+	padding-bottom: 50px;
+
+	.slides{
+		list-style: none;
+		@include clearfix;
+	}
+	blockquote{
+		@include em(30);
+		text-align: center;
+
+		cite{
+			@include rem(15);
+			text-transform: uppercase;
+			margin-top: 30px;
+			display: block;
+			font-style: normal;
+		}
+	}
+
+	.flex-control-nav{
+		position: absolute;
+		bottom: 30px;
+		width: 100%;
+		text-align: center;
+		list-style: none;
+		z-index: 99;
+
+		li{
+			display: inline-block;
+			margin: 0 5px;
+
+			a{
+				overflow: hidden;
+				text-indent: -9999px;
+				background: #4795cd;
+				border-radius: 50%;
+				display: block;
+				width: 15px;
+				height: 15px;
+				cursor: pointer;
+
+				&.flex-active{
+					background-color: white;
+				}
+			}
+		}
+	}
+}
+
+.partners{
+	text-align: center;
+	margin-top: 50px;
+
+	a{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 10px 10px;
+	}
+}
+
+.page{
+	padding: 50px 0;
+	.entry-title{
+		@include em(48);
+		font-weight: 300;
+	}
+	p{
+		line-height: 2
+	}
+
+	.row{
+		margin: 25px -15px;
+	}
+}
+
+.features{
+	@include clearfix;
+	margin: 0 -15px;
+	position: relative;
+	z-index: 1;
+
+	&:after{
+		content:" ";
+		height: 50px;
+		top: 50px;
+		left:15px;
+		right:15px;
+		position: absolute;
+		background: url(images/dotted.png) repeat-x;
+		z-index: -1;
+		@media screen and (max-width: 768px){
+			display: none;
+		}
+	}
+
+	.feature-numbered{
+		width: 25%;
+		float: left;
+		padding: 15px;
+		text-align: center;
+
+		@media screen and (max-width: 768px){
+			width: 50%;
+		}
+		@media screen and (max-width: 480px){
+			width: 100%;
+		}
+
+
+		.num{
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			border: 2px solid $accent-color;
+			color: $accent-color;
+			text-align: center;
+			@include em(36);
+			line-height: 1.8;
+			font-weight: 400;
+			margin: 0 auto 20px;
+			background-color: white;
+			box-shadow: 0 0 0 10px white;
+		}
+
+		.feature-title{
+			@include em(20);
+			color: $accent-color;
+			font-weight: 400;
+		}
+	}
+}
+
+.team{
+	text-align: center;
+	margin-top: 50px;
+	.team-image{
+		overflow: hidden;
+		border-radius: 50%;
+		width: 230px;
+		height: 230px;
+		margin: 0 auto 30px;
+
+		img{
+			display: block;
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+
+	.team-name,.team-title{
+		@include em(16);
+	}
+	.team-name{
+		margin-bottom: 0;
+	}
+	.team-title{
+		font-style: italic;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.social-links{
+		float: none;
+		display: inline-block;
+
+		a{
+			background: $accent-color;
+			border: none;
+			@include em(14);
+			line-height: 2;
+		}
+	}
+}
+.filterable-nav{
+	margin: 50px 0 30px;
+	.mobile-filter{
+		display: none;
+	}
+	strong {
+		font-weight: 300;
+		margin-right: 10px;
+	}
+
+	a{
+		padding: 10px 20px;
+		border-radius: 3px;
+		border: 1px solid #ccc;
+		color: $body-color;
+		display: inline-block;
+		margin-bottom: 10px;
+		transition: .3s ease;
+
+
+		&.current, &:hover{
+			color: $accent-color;
+			border-color: $accent-color;
+		}
+	}
+}
+.filterable-items{
+	margin: 0 -15px;
+	transition: .3s ease;
+}
+.insurance-item{
+	width: 33.3333%;
+	padding: 15px;
+
+	@media screen and (max-width: 990px){
+		width: 50%;
+	}
+	@media screen and (max-width: 480px){
+		width: 100%;
+	}
+	.insurance-icon{
+		@include em(48);
+		color: $accent-color;
+		margin-bottom: 20px;
+	}
+	.insurance-content{
+		background: #f1f1f1;
+		border-radius: 3px;
+		padding: 30px;
+		text-align: center;
+	}
+	.insurance-title{
+		@include em(36);
+		font-weight: 300;
+		color: $accent-color;
+	}
+}
+
+.pagination{
+	text-align: center;
+	margin-top: 40px;
+
+	span,a{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		line-height: 1.8;
+		transition: .3s ease;
+	}		
+	span.current,a:hover{
+		background-color: $accent-color;
+		color: white;
+		border: 1px solid $accent-color;
+	}
+	a{
+		border: 1px solid #ccc;
+		color: $body-color;
+	}
+}
+
+.arrow-list{
+	list-style: none;
+	margin-bottom: 30px;
+
+	li{
+		padding-left: 20px;
+		position: relative;
+		margin-bottom: 10px;
+
+		&:before{
+			content:" ";
+			width: 7px;
+			height: 5px;
+			background: url(images/arrow.png) no-repeat;
+			display: block;
+			position: absolute;
+			top:10px;
+			left:0;
+		}
+	}
+}
+
+.boxed-feature{
+	background: #f1f1f1;
+	border-radius: 5px;
+	padding: 20px 30px; 
+	margin-bottom: 30px;
+
+	i,.feature-desc{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	i{
+		@include em(48);
+		color: $accent-color;
+		margin-right: 20px;
+		margin-top: -10px;
+	}
+	.feature-title{
+		margin-bottom: 0;
+		font-weight: 300;
+	}
+}
+
+.contact-form{
+	input:not([type="submit"]),textarea{
+		width:100%;
+		margin-bottom: 10px;
+		transition: .3s ease;
+		&:focus,&:hover{
+			border-color: $accent-color;
+		}
+	}
+	textarea{
+		min-height: 150px;
+		margin-bottom: 20px;
+	}
+}

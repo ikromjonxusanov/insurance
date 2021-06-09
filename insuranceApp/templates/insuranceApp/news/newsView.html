@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load static %}
+{% block news %}
+  active
+{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/card.css' %}">
+<div class="container py-5">
+    <div class="card bg-light">
+        <img class="card-img-top" src="{{ post.postImage.url }}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a href="#" class="card-text nav-my-link text-dark">
+                    {{ post.title }}
+                </a>
+            </h5>
+            <br>
+            <p>
+                {{ post.description }}
+            </p>
+            <span class="fa fa-calendar text-success" aria-hidden="true">
+                {{ post.create_date }}
+            </span>
+            <div>
+                {% if user.is_staff %}
+                <div class="col-sm-6 mt-3">
+                    <a href="{% url 'newsUpdate' post.id %}" class="w-100 btn btn-outline-primary">Edit</a>
+                </div>
+                <div class="col-sm-6 mt-3">
+                    <a href="{% url 'newsDelete' post.id %}" class="w-100 btn btn-outline-danger">Delete</a>
+                </div>
+                    
+                    
+                {% endif %}
+            </div>
+            
+                
+        </div>
+    </div>
+</div>
+    
+{% endblock %}

@@ -1,0 +1,2770 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-26 22:05+0500\n"
+"PO-Revision-Date: 2021-04-26 18:41+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: .\insuranceApp\forms.py:69 .\insuranceApp\models.py:47
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:45
+msgid "Toshkent shahri"
+msgstr "Город Ташкент"
+
+#: .\insuranceApp\forms.py:70 .\insuranceApp\models.py:48
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:46
+msgid "Toshkent viloyati"
+msgstr "Ташкент область"
+
+#: .\insuranceApp\forms.py:71 .\insuranceApp\models.py:49
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:47
+msgid "Sirdaryo viloyati"
+msgstr "Сырдарья область"
+
+#: .\insuranceApp\forms.py:72 .\insuranceApp\models.py:50
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:48
+msgid "Jizzax viloyati"
+msgstr "Джизак область"
+
+#: .\insuranceApp\forms.py:73 .\insuranceApp\models.py:51
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:49
+msgid "Samarqand viloyati"
+msgstr "Самарканд область"
+
+#: .\insuranceApp\forms.py:74 .\insuranceApp\models.py:52
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:50
+msgid "Qashqadaryo viloyati"
+msgstr "Кашкадарья область"
+
+#: .\insuranceApp\forms.py:75 .\insuranceApp\models.py:53
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:51
+msgid "Surxondaryo viloyati"
+msgstr "Сурхондарьинская область"
+
+#: .\insuranceApp\forms.py:76
+msgid "Buhoro viloyati"
+msgstr "Бухара область"
+
+#: .\insuranceApp\forms.py:77 .\insuranceApp\models.py:55
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:53
+msgid "Navoiy viloyati"
+msgstr "Навои область"
+
+#: .\insuranceApp\forms.py:78 .\insuranceApp\models.py:56
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:54
+msgid "Xorazm viloyati"
+msgstr "Хорезм область"
+
+#: .\insuranceApp\forms.py:79 .\insuranceApp\models.py:57
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:55
+msgid "Andijon viloyati"
+msgstr "Андижан область"
+
+#: .\insuranceApp\forms.py:80 .\insuranceApp\models.py:58
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:56
+msgid "Farg'ona viloyati"
+msgstr "Фергана область"
+
+#: .\insuranceApp\forms.py:81 .\insuranceApp\models.py:59
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:57
+msgid "Namangan viloyati"
+msgstr "Наманган область"
+
+#: .\insuranceApp\forms.py:82 .\insuranceApp\models.py:60
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:58
+msgid "Qoraqalpog'iston Respublikasi"
+msgstr "Республика Каракалпакстан"
+
+#: .\insuranceApp\models.py:54
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:52
+msgid "Buxoro viloyati"
+msgstr "Бухарская область"
+
+#: .\insuranceApp\templates\base.html:54
+msgid "Bosh sahifa"
+msgstr "Главная"
+
+#: .\insuranceApp\templates\base.html:59 .\insuranceApp\templates\base.html:163
+msgid "Haqida"
+msgstr "О нас"
+
+#: .\insuranceApp\templates\base.html:64 .\insuranceApp\templates\base.html:166
+#: .\insuranceApp\templates\insuranceApp\index.html:195
+#: .\insuranceApp\templates\insuranceApp\news\newsList.html:11
+msgid "Yangiliklar"
+msgstr "Новости"
+
+#: .\insuranceApp\templates\base.html:69
+#: .\insuranceApp\templates\insuranceApp\service.html:12
+msgid "Xizmat turlari"
+msgstr "Виды услуг"
+
+#: .\insuranceApp\templates\base.html:74 .\insuranceApp\templates\base.html:171
+msgid "Filiallar"
+msgstr "Филиалы"
+
+#: .\insuranceApp\templates\base.html:79 .\insuranceApp\templates\base.html:173
+msgid "Kodekslar"
+msgstr "Кодекси"
+
+#: .\insuranceApp\templates\base.html:84 .\insuranceApp\templates\base.html:176
+msgid "Kantakt"
+msgstr "Контакты"
+
+#: .\insuranceApp\templates\base.html:149
+#: .\insuranceApp\templates\insuranceApp\about.html:15
+msgid "Kampaniya haqida"
+msgstr "О кампании"
+
+#: .\insuranceApp\templates\base.html:152
+#: .\insuranceApp\templates\insuranceApp\index.html:140
+msgid ""
+"«OMAD SUG`URTA» mas’uliyati cheklangan jamiyati O’zbekiston Respublikasi "
+"Moliya Vazirligi tomonidan 2019 yil 27 Dekabrda berilgan 00255-SF-sonli "
+"litsenziya asosida ixtiyoriy shaklda umumiy sug’urta sohasidagi barcha 17 ta "
+"klass bo’yicha sug’urta faoliyatini amalga oshiradi."
+msgstr ""
+"«ОМАД СУҒУРТА» общество с ограниченной ответственностью Республика "
+"Узбекистан № 00255-СФ, выданный Министерством финансов 27 октября 2019 г.в "
+"добровольной форме на основании лицензии все 17 субъектов общего страхования "
+"осуществляет страховую деятельность по классам."
+
+#: .\insuranceApp\templates\base.html:159
+#: .\insuranceApp\templates\insuranceApp\index.html:12
+#: .\insuranceApp\templates\insuranceApp\index.html:68
+#: .\insuranceApp\templates\insuranceApp\index.html:75
+#: .\insuranceApp\templates\insuranceApp\index.html:103
+msgid "OMAD SUG`URTA"
+msgstr "OMAD SUG`URTA"
+
+#: .\insuranceApp\templates\base.html:169
+msgid "Xizmatlar"
+msgstr "Услуги"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:17
+#: .\insuranceApp\templates\insuranceApp\about.html:23
+#: .\insuranceApp\templates\insuranceApp\about.html:29
+#: .\insuranceApp\templates\insuranceApp\service.html:14
+msgid "«OMAD SUG`URTA»"
+msgstr "«ОМАД СУҒУРТА»"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:18
+msgid ""
+"mas’uliyati cheklangan jamiyati  O’zbekiston Respublikasi Moliya Vazirligi "
+"tomonidan  2019 yil 27 Dekabrda berilgan"
+msgstr ""
+"общество с ограниченной ответственностью выдано Министерством финансов "
+"Республики Узбекистан 27 декабря 2019 года"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:19
+msgid "00255-SF"
+msgstr "СФ №00255 от 27.12.2019г."
+
+#: .\insuranceApp\templates\insuranceApp\about.html:19
+msgid ""
+"sonli litsenziya asosida ixtiyoriy shaklda umumiy sug’urta sohasidagi barcha"
+msgstr "по всем 17-ти классам отрасли общего страхования "
+
+#: .\insuranceApp\templates\insuranceApp\about.html:20
+msgid "ta klass bo’yicha sug’urta faoliyatini amalga oshiradi."
+msgstr "осуществляет страховую деятельность по классу та."
+
+#: .\insuranceApp\templates\insuranceApp\about.html:23
+msgid "MChJ"
+msgstr "ООО"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:23
+msgid ""
+"Sug‘urta Kompaniyasi o‘z faoliyatini O‘zbekiston Respublikasi Moliya "
+"vazirligi tomonidan 2019 yil 27 dekabrda berilgan SF 00255-sonli lisenziyaga "
+"muvofiq olib boradi."
+msgstr ""
+"Страховая компания осуществляет свою деятельность на основании лицензии  № "
+"СФ 00255, выданной Министерства финансов  27 декабря 2019 года ведет в "
+"соответствии."
+
+#: .\insuranceApp\templates\insuranceApp\about.html:26
+msgid ""
+"Kompaniya yurtimizdagi yuridik va jismoniy shaxslarga sifatli sug‘urta "
+"xizmatlarini ko‘rsatish orqali O‘zbekiston sug‘urta bozorining rivojiga "
+"o‘zining salmoqli ulushi bilan o‘z hissasini qo‘shib kelmoqda."
+msgstr ""
+"Путём обеспечения качественных страховых услуг юридическим и физическим "
+"лицам, компания вносит свой значительный вклад в развитии рынка страховых "
+"услуг "
+
+#: .\insuranceApp\templates\insuranceApp\about.html:30
+#: .\insuranceApp\templates\insuranceApp\service.html:15
+msgid ""
+"mas’uliyati cheklangan jamiyati iqtisodiyotning turli xil sub’ektlari "
+"moliyaviy va mulkiy manfaatlarini sug’urta himoyasi bilan ta’minlab "
+"kelmoqda. Kompaniya quyidagi ihtiyoriy shakldagi sug’urta xizmatlarini "
+"taqdim etmoqda:"
+msgstr ""
+"общество с ограниченной ответственностью продолжает обеспечивать страховую "
+"защиту финансовых и имущественных интересов различных субъектов экономики. "
+"Компания предоставляет страховые услуги в следующих добровольных формах:"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:33
+#: .\insuranceApp\templates\insuranceApp\service.html:18
+msgid "Bank va bank faoliyatini sug’urta qilish"
+msgstr "Банковское и банковское страхование"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:33
+#: .\insuranceApp\templates\insuranceApp\service.html:18
+msgid "(bankers blanket bond);"
+msgstr "(банкиры покрывают облигации);"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:36
+#: .\insuranceApp\templates\insuranceApp\service.html:21
+msgid "Mulkni majmuaviy sug’urta qilish;"
+msgstr "Имущественное комплексное страхование;"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:39
+#: .\insuranceApp\templates\insuranceApp\service.html:24
+msgid "Baxtsiz xodisalardan sug’urta qilish;"
+msgstr "Страхование от несчастных случаев;"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:42
+#: .\insuranceApp\templates\insuranceApp\service.html:27
+msgid ""
+"Garov yoki lizingga berilayotgan yerusti transport vositalarini kompleks "
+"sug’urta qilish;"
+msgstr ""
+"Garov yoki lizingga berilayotgan yerusti transport vositalarini kompleks "
+"sug’urta qilish;"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:45
+#: .\insuranceApp\templates\insuranceApp\service.html:30
+msgid "Ipotekani majmuaviy sug’urta qilish;"
+msgstr "Комплексное ипотечное страхование;"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:48
+#: .\insuranceApp\templates\insuranceApp\service.html:33
+msgid "Yukni sug’urta qilish;"
+msgstr "Комплексное ипотечное страхование;"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:51
+#: .\insuranceApp\templates\insuranceApp\service.html:36
+msgid "Qurilish qaltisliklarini majmuaviy sug’urta qilish;"
+msgstr "Комплексное страхование строительных рисков;"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:54
+#: .\insuranceApp\templates\insuranceApp\service.html:39
+msgid "Lizing ob’ektini sug’urta qilish"
+msgstr "Страхование объекта лизинга"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:58
+msgid "Litsenziyani ko'rish"
+msgstr "Просмотр лицензии"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:64
+#: .\insuranceApp\templates\insuranceApp\service.html:44
+msgid "Sug'urta Xizmat turlari"
+msgstr " Страховые услуги"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:73
+#: .\insuranceApp\templates\insuranceApp\service.html:54
+msgid "Baxtsiz hodisalardan ehtiyot shart sug`urta qilish"
+msgstr "Страхование от несчастных случаев"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:84
+#: .\insuranceApp\templates\insuranceApp\service.html:67
+msgid "Kasalikdan ehtiyot shart sug`urta qilish"
+msgstr "Страхование на случай болезни"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:96
+#: .\insuranceApp\templates\insuranceApp\service.html:81
+msgid "Yer usti transport vositalarini sug`urta qilish"
+msgstr "Страхование наземного транспорта"
+
+#: .\insuranceApp\templates\insuranceApp\about.html:108
+#: .\insuranceApp\templates\insuranceApp\service.html:95
+msgid "Harakatlanadigan temir yo`l tarkibini sug`urta qilish"
+msgstr "Страхование подвижного состава железной дороги"
+
+#: .\insuranceApp\templates\insuranceApp\contact.html:20
+msgid "Ariza qoldirish"
+msgstr "Оставьт заявку "
+
+#: .\insuranceApp\templates\insuranceApp\contact.html:25
+msgid "Ismingizni kiriting"
+msgstr "Введите ваше имя"
+
+#: .\insuranceApp\templates\insuranceApp\contact.html:29
+msgid "Telefon raqamingizni kiriting"
+msgstr "Введите свой номер телефона"
+
+#: .\insuranceApp\templates\insuranceApp\contact.html:33
+msgid "Xabaringizni kiriting"
+msgstr "Введите свои вопросы"
+
+#: .\insuranceApp\templates\insuranceApp\contact.html:37
+msgid "Yuborish"
+msgstr "Отправить"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:14
+msgid "mas’uliyati cheklangan jamiyati,"
+msgstr "общество с ограниченной ответственностью,"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:16
+#: .\insuranceApp\templates\insuranceApp\index.html:80
+msgid "O‘zbekiston Respublikasi"
+msgstr "Республика Узбекистан"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:16
+#: .\insuranceApp\templates\insuranceApp\index.html:80
+msgid "Adliya vazirligi tomonidan"
+msgstr "Министерством юстиции"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:18
+#: .\insuranceApp\templates\insuranceApp\index.html:82
+msgid "2019 yil 18 iyunda 733508-reyestr"
+msgstr "Реестр 733508 на 18 июня 2019 г."
+
+#: .\insuranceApp\templates\insuranceApp\index.html:18
+#: .\insuranceApp\templates\insuranceApp\index.html:84
+msgid "raqami bilan ro‘yxatga olingan"
+msgstr "зарегистрировано по номеру"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:20
+msgid "Jamiyat yagona ishtirokchisi: "
+msgstr "Единственный участник общества:"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:20
+#: .\insuranceApp\templates\insuranceApp\index.html:86
+msgid "ASAKA CAPITAL INVEST"
+msgstr "ASAKA CAPITAL INVEST"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:22
+msgid "Jamiyat o‘z mustaqil balansiga..."
+msgstr "Общество на свой самостоятельный баланс..."
+
+#: .\insuranceApp\templates\insuranceApp\index.html:25
+#: .\insuranceApp\templates\insuranceApp\index.html:55
+msgid "batafsil ma'lumot uchun"
+msgstr "подробной информации"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:40
+#: .\insuranceApp\templates\insuranceApp\index.html:110
+#: .\insuranceApp\templates\insuranceApp\index.html:159
+msgid "Omad sug'urta"
+msgstr "ОMAD SUG`URTA"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:42
+#: .\insuranceApp\templates\insuranceApp\index.html:112
+msgid "Kompaniyaning ta'sischisi va 100 foizlik ulushi"
+msgstr "Учредитель и 100% акций компании"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:44
+#: .\insuranceApp\templates\insuranceApp\index.html:113
+msgid "\"Asaka Kapital Invest\""
+msgstr "\"Асака Капитал Invest\""
+
+#: .\insuranceApp\templates\insuranceApp\index.html:44
+msgid "da hisoblanadi."
+msgstr "является."
+
+#: .\insuranceApp\templates\insuranceApp\index.html:47
+#: .\insuranceApp\templates\insuranceApp\index.html:116
+msgid "Kompaniyaning ustav kapitali"
+msgstr "Уставный капитал компании"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:47
+#: .\insuranceApp\templates\insuranceApp\index.html:116
+msgid "mlrd.so‘mni tashkil etadi."
+msgstr "млрд сўм"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:50
+#: .\insuranceApp\templates\insuranceApp\index.html:119
+msgid "Bu esa Kompaniyaga o‘z sug‘urta xizmatlarini nafaqat"
+msgstr "Это позволяет компании не только предоставлять свои страховые услуги"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:52
+#: .\insuranceApp\templates\insuranceApp\index.html:121
+msgid ""
+"Respublika hududida balki undan tashqarida ham ko‘rsatish imkonini beradi."
+msgstr ""
+"Позволяет показывать не только на территории республики, но и за ее "
+"пределами."
+
+#: .\insuranceApp\templates\insuranceApp\index.html:68
+#: .\insuranceApp\templates\insuranceApp\index.html:103
+msgid "MCHJ"
+msgstr "ООО"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:78
+msgid "mas’uliyati cheklangan jamiyati"
+msgstr "общество с ограниченной ответственностью"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:86
+msgid "Jamiyat yagona ishtirokchisi"
+msgstr "Единственный участник общества"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:88
+msgid ""
+"Jamiyat o‘z mustaqil balansiga, yumaloq muxri, burchak muxri, firma blanki "
+"va tovar belgisi hamda timsoliga ega. Banklarda hisob raqamlari mavjud"
+msgstr ""
+"Общество имеет свой независимый баланс, круглую печать, угловую печать, "
+"фирменный бланк и имеет фирменный знак и эмблему. Есть счета в банках"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:90
+msgid ""
+"Jamiyatning maqsadi yuridik va jismoniy shaxslar(O‘zbekiston Respublikasi "
+"rezidenta va norezidentlari) manfaatlarini ishonchli sug‘urta ximoyasi bilan "
+"ta’minlash, keng qamrovli sug‘urta xizmatlarini ko‘rsatish va foyda olish "
+"hisoblanadi"
+msgstr ""
+"Целью общества является обеспечение надежной страховой защиты интересов "
+"юридических и физических лиц(резидентов и нерезидентов Республики "
+"Узбекистан), оказание комплексных страховых услуг и получение прибыли"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:92
+msgid ""
+"Banklar va bank faoliyatini, sanoatning turli sohalarini, korporatsiyalar, "
+"kompaniyalarni va iktisodiyotning boshqa tarmoqlarini kompleks sug‘urta "
+"qilish bo‘lib u maxsus davlat organi tomonidan berilgan litsenziya asosida "
+"amalga oshiriladigan ixtiyoriy, majburiy va qayta sug‘urta turlarini o‘z "
+"ichiga oladi"
+msgstr ""
+"Банки и банковская деятельность, различные отрасли промышленности, "
+"корпорации, комплексное страхование компаний и других секторов экономики в "
+"первую очередь на основании лицензии, выданной специальным государственным "
+"органом Об утверждении перечня видов добровольного, обязательного и "
+"перестрахования, включает в себя"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:124
+msgid "Eng asosiysi shakllantirilgan ustav kapitali "
+msgstr "Основным является сформированный уставный капитал"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:126
+msgid "Kompaniyaga amaldagi qonunchilik normalariga ko‘ra qayta"
+msgstr ""
+" компаниия можеть осушествлять перестрахование в соответствии с нормами "
+"действующего законодательства"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:128
+msgid "sug‘urtalash sohasi bilan ham shug‘ullanish xuquqini beradi."
+msgstr "также дает право заниматься страховой сферой."
+
+#: .\insuranceApp\templates\insuranceApp\index.html:142
+#: .\insuranceApp\templates\insuranceApp\index.html:241
+msgid "Batafsil ma'lumot"
+msgstr "Подробнее"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:160
+msgid "kompaniyasini qulayliklari Saytning qulaylinklari"
+msgstr "удобства компании удобная ссылка на сайт"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:167
+msgid "24 soatlik davomiy alaqa"
+msgstr "Круглосуточная поддержка"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:168
+msgid "Biz siz bilan doimo aloqdamiz"
+msgstr "Мы всегда на связи с вами"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:175
+msgid "Xavfsiz sug'urta xizmatlari"
+msgstr "Безопасные страховые услуги"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:178
+msgid "Biz ishonchli va xavfsiz sug'urtalaymiz"
+msgstr "обеспечиваем надежную и безопасную страховк"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:185
+msgid "Qulay to'lov uslubu"
+msgstr "Удобный способ оплаты"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:186
+msgid "Bizning sug'urta polislarimizni"
+msgstr "Наши страховые полисы"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:186
+msgid "Bank plastik kartasi, Naqt pul, Payme, Click"
+msgstr "Банк пластик картаси, Naqt pul, Payme, Click"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:186
+msgid "to'lov qilishingiz mumkin"
+msgstr "вы можете оплатить"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:220
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:107
+#: .\insuranceApp\templates\insuranceApp\news\newsList.html:36
+msgid "tahrirlash"
+msgstr "редактировать"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:223
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:110
+#: .\insuranceApp\templates\insuranceApp\news\newsList.html:39
+msgid "o'chirish"
+msgstr "удалить"
+
+#: .\insuranceApp\templates\insuranceApp\index.html:247
+#: .\insuranceApp\templates\insuranceApp\news\newsList.html:53
+msgid "Hozircha yangiliklar yo'q"
+msgstr "Пока нет новостей"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:12
+msgid "OʼZBEKISTON RESPUBLIKАSINING"
+msgstr "РЕСПУБЛИКИ УЗБЕКИСТАН"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:14
+msgid "FUQАROLIK KODEKSI"
+msgstr "ГРАЖДАНСКИЙ КОДЕКС"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:18
+msgid "52-BOB. SUGʼURTА"
+msgstr "Глава 52. Страхование"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:22
+msgid "Shuningdek qarang:"
+msgstr "Смотрите также:"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:22
+msgid "“NORMA”"
+msgstr "“Норма”"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:22
+msgid "АQT qonunchilik Klassifikatorining"
+msgstr "Законодательный классификатор ИКТ"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:23
+msgid "“Meʼyoriy-huquqiy hujjatlar namunalari”"
+msgstr "“Примеры нормативных правовых актов”"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:23
+msgid "bosh papkasi"
+msgstr "папка Bosch"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:24
+msgid "“OʼzR Tadbirkorlik faoliyati toʼgʼrisida”"
+msgstr "“О предпринимательской деятельности в РУз”"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:24
+msgid "katta papkasi"
+msgstr "большая папка"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:24
+msgid "“Sugʼurtalash”"
+msgstr "Страховщик"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:24
+msgid "papkasi"
+msgstr "папка"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:28
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:29
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:30
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:31
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:32
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:33
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:34
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:35
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:36
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:37
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:38
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:39
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:40
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:41
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:42
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:43
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:44
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:45
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:46
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:47
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:48
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:49
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:50
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:51
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:52
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:53
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:54
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:55
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:56
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:57
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:58
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:59
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:60
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:61
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:62
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:63
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:64
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:65
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:66
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:67
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:68
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:69
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:70
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:71
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:72
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:73
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:74
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:75
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:80
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:97
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:117
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:127
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:135
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:144
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:155
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:171
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:184
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:205
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:226
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:234
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:243
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:255
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:267
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:299
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:312
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:326
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:337
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:347
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:364
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:376
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:398
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:412
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:429
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:441
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:455
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:473
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:484
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:495
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:520
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:531
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:546
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:561
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:572
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:583
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:595
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:636
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:648
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:674
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:688
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:711
+msgid "modda"
+msgstr "Статья"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:28
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:80
+msgid "Ixtiyoriy va majburiy sugʼurta"
+msgstr "Добровольное и обязательное страхование"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:29
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:97
+msgid "Mulkiy sugʼurta shartnomasi"
+msgstr "Договор имущественного страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:30
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:117
+msgid "Sugʼurtalashga yoʼl qoʼyilmaydigan manfaatlar"
+msgstr "Интересы, страхование которых не допускается"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:31
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:127
+msgid "Mol-mulkni sugʼurta qilish"
+msgstr "Страхование имущества "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:32
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:135
+msgid "Zarar yetkazganlik uchun javobgarlikni sugʼurta qilish"
+msgstr "Страхования ущерба"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:33
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:144
+msgid "Shartnoma boʼyicha javobgarlikni sugʼurta qilish"
+msgstr "Страхование договорной ответственности"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:34
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:155
+msgid "Tadbirkorlik xavfini sugʼurta qilish"
+msgstr "Страхование бизнес-рисков"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:35
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:171
+msgid "Shaxsiy sugʼurta shartnomasi"
+msgstr "Договор личного страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:36
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:184
+msgid "Majburiy sugʼurta"
+msgstr "Обязательное страхование"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:37
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:205
+msgid "Majburiy sugʼurtani amalga oshirish"
+msgstr "Осуществление обязательного страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:38
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:226
+msgid "Majburiy sugʼurta toʼgʼrisidagi qoidalarni buzish oqibatlari"
+msgstr "Последствия нарушения правил об обязательном страховании"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:39
+msgid "Sugʼurtalovchi"
+msgstr "Страховщик"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:40
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:235
+msgid ""
+"Sugʼurta shartnomasidan kelib chiqadigan majburiyatlarning sugʼurta "
+"qildiruvchi va naf oluvchi tomonidan bajarilishi"
+msgstr ""
+"Выполнение обязанностей по договору страхования страхователем и "
+"выгодоприобретателем"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:41
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:243
+msgid "Sugʼurta shartnomasining shakli"
+msgstr "Форма договора страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:42
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:256
+msgid "Bosh polis boʼyicha sugʼurtalash"
+msgstr "Страхование по генеральному полису"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:43
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:267
+msgid "Sugʼurta shartnomasining muhim shartlari"
+msgstr "Существенные условия договора страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:44
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:300
+msgid "Sugʼurta shartnomasi shartlarini sugʼurta qoidalarida belgilab qoʼyish"
+msgstr "Определение условий договора страхования в правилах страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:45
+msgid ""
+"Sugʼurta shartnomasi tuzilayotganda sugʼurta qidiruvchi taqdim etadigan "
+"maʼlumotlar"
+msgstr ""
+"Сведения, предоставляемые страхователем при заключении договора страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:46
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:327
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:338
+msgid "Sugʼurtalovchining sugʼurta xavfini baholash huquqi"
+msgstr "Право страховщика на оценку страхового риска"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:47
+msgid "Sugʼurta siri"
+msgstr "Тайна страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:48
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:348
+msgid "Sugʼurta puli"
+msgstr "Страховая сумма"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:49
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:365
+msgid "Mol-mulkning sugʼurta qiymati"
+msgstr "Страховая стоимость имущества"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:50
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:377
+msgid "Toʼliq boʼlmagan mulkiy sugʼurta"
+msgstr "Неполное имущественное страхование"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:51
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:387
+msgid "Qoʼshimcha mulkiy sugʼurta"
+msgstr "Дополнительное имущественное страхование"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:52
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:399
+msgid "Sugʼurta qiymatidan ortiq miqdorda sugʼurta qilish oqibatlari"
+msgstr "Страховые последствия в размере, превышающем страховую стоимость"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:53
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:413
+msgid "Qoʼshaloq sugʼurta"
+msgstr "Двойная страховка"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:54
+msgid "Turli xildagi sugʼurta xavflaridan mulkiy sugʼurta"
+msgstr "Имущественное страхование от различных видов страховых рисков"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:55
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:430
+msgid "Birgalikda sugʼurta qilish"
+msgstr "Совместное страхование"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:56
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:442
+msgid "Sugʼurta mukofoti va sugʼurta badallari"
+msgstr "Страховые премии и страховые взносы"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:57
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:456
+msgid "Sugʼurta shartnomasining haqiqiy emasligi"
+msgstr "Недействительность договора страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:58
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:474
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:496
+msgid "Sugʼurtalangan shaxsni almashtirish"
+msgstr "Замена застрахованного лица"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:59
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:485
+msgid "Naf oluvchini almashtirish"
+msgstr "Замена выгодоприобретателя"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:60
+msgid "Sugʼurta qildiruvchini almashtirish"
+msgstr "Замена предохранителя"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:61
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:521
+msgid "Sugʼurta shartnomasi amal qilishining boshlanishi"
+msgstr "Заключение договора страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:62
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:532
+msgid "Sugʼurta shartnomasining muddatidan ilgari bekor boʼlishi"
+msgstr ""
+"Последствия увеличения страхового риска в период действия договора "
+"страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:63
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:547
+msgid ""
+"Sugʼurta shartnomasining amal qilish davrida sugʼurta xavfining ortishi "
+"oqibatlari"
+msgstr ""
+"Повышенный страховой риск в период действия договора страхованияпоследствия"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:64
+msgid "Sugʼurtalangan mol-mulkka boʼlgan huquqlarning boshqa shaxsga oʼtishi"
+msgstr "Переход прав на застрахованное имущество"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:65
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:562
+msgid ""
+"Sugʼurta hodisasi yuz bergani toʼgʼrisida sugʼurtalovchini xabardor qilish"
+msgstr "Уведомить страховщика о страховом случае"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:66
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:573
+msgid "Sugʼurta hodisasidan koʼriladigan zararni kamaytirish"
+msgstr "Уменьшение ущерба от страхового случая"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:67
+msgid ""
+"Sugʼurta qildiruvchi, naf oluvchi yoki sugʼurtalangan shaxsning aybi bilan "
+"sugʼurta hodisasi yuz berishining oqibatlari"
+msgstr ""
+"По вине застрахованного, выгодоприобретателя или застрахованного "
+"лицаПоследствия страхового случая"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:68
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:596
+msgid ""
+"Sugʼurtalovchini sugʼurta tovonini va sugʼurta pulini toʼlashdan ozod qilish "
+"asoslari"
+msgstr ""
+"По вине застрахованного, выгодоприобретателя или застрахованного "
+"лицаПоследствия страхового случая"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:69
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:613
+msgid "Sugʼurta tovoni yoki sugʼurta pulini toʼlashni rad etish"
+msgstr "Отказ в выплате страхового возмещения или страховых денег"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:70
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:637
+msgid "Shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta pulini toʼlash"
+msgstr "Оплата страховых взносов по договору личного страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:71
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:649
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:666
+msgid ""
+"Sugʼurta qildiruvchining zarar qoplanishiga boʼlgan huquqlarining "
+"sugʼurtalovchiga oʼtishi (subrogatsiya)"
+msgstr ""
+"Право страховщика на возмещение убытковпередача страховщику (суброгация)"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:72
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:669
+msgid ""
+"Sugʼurtalangan mol-mulkka boʼlgan huquqlarning sugʼurtalovchiga oʼtkazilishi"
+msgstr "Передача прав на застрахованное имущество страховщику"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:73
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:675
+msgid "Qayta sugʼurta qilish"
+msgstr "Перестрахование"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:74
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:689
+msgid "Ikki tomonlama sugʼurta"
+msgstr "Двустороннее страхование"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:75
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:712
+msgid "Majburiy davlat sugʼurtasi"
+msgstr "Обязательное государственное страхование"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:82
+msgid "Sugʼurta fuqaro yoki yuridik shaxs (sugʼurta qildiruvchi)"
+msgstr "Застрахованный гражданин или юридическое лицо (застрахованный)"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:83
+msgid "sugʼurta tashkiloti (sugʼurtalovchi)"
+msgstr "страховая компания (страховщик)"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:84
+msgid ""
+"bilan tuzadigan mulkiy yoki shaxsiy sugʼurta shartnomalari asosida amalga "
+"oshiriladi."
+msgstr ""
+"на основании договоров имущественного или личного страхования, заключенных с"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:86
+msgid "Qarang: FKning 915, 921-moddalari"
+msgstr "См. Статьи 915, 921 Гражданского кодекса."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:87
+msgid "Shaxsiy sugʼurta shartnomasi ommaviy shartnoma hisoblanadi."
+msgstr "Договор личного страхования - это коллективный договор."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:88
+msgid "Qarang: FKning 358-moddasi"
+msgstr "См. Статью 358 FC."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:89
+msgid ""
+"Qonunda koʼrsatilgan shaxslarga sugʼurta qiluvchilar sifatida boshqa "
+"shaxslarning hayoti, sogʼligʼi yoki mol-mulkini yoxud oʼzining boshqa "
+"shaxslar oldidagi fuqarolik javobgarligini oʼz hisobidan yoxud manfaatdor "
+"shaxslar hisobidan sugʼurta qilish (majburiy sugʼurta) majburiyati qonun "
+"bilan yuklangan hollarda sugʼurta ushbu bobning qoidalariga muvofiq "
+"shartnomalar tuzish yoʼli bilan amalga oshiriladi."
+msgstr ""
+"Иные лица в качестве страховщиков для лиц, указанных в законежизнь, здоровье "
+"или имущество лиц или других лицгражданская ответственность перед "
+"физическими лицами за свой счет или в своих интересахОбязанность "
+"застраховать за счет физических лиц (обязательное страхование)Страхование в "
+"соответствии с положениями настоящей главыпутем заключения договоров."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:90
+msgid "Qarang: FKning 922-moddasi"
+msgstr "См. Статью 922 ФК."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:91
+msgid ""
+"Majburiy sugʼurtada sugʼurta qildiruvchi sugʼurtalovchi bilan sugʼurtaning "
+"ushbu turini tartibga soladigan qonun hujjatlarida nazarda tutilgan "
+"shartlarda shartnoma tuzishi shart."
+msgstr ""
+"Обязательное страхование у страховщика застрахованногопредусмотрены "
+"законодательством, регулирующим данный вид"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:92
+msgid "Qarang: FKning 923-moddasi"
+msgstr "См. Статью 923 FC."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:93
+msgid ""
+"Qonunda fuqarolarning hayoti, sogʼligʼi va mol-mulkini davlat byudjeti "
+"mablagʼlari hisobidan majburiy sugʼurta qilish hollari (davlat majburiy "
+"sugʼurtasi) nazarda tutilishi mumkin."
+msgstr ""
+"Закон предусматривает государственный бюджет на жизнь, здоровье и имущество "
+"гражданСлучаи обязательного страхования за счет денежных средств "
+"(обязательное государственноестрахование)."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:94
+msgid "Qarang: FKning 961-moddasi"
+msgstr "См. Статью 961 ФК."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:100
+msgid ""
+"Mulkiy sugʼurta shartnomasiga muvofiq bir taraf (sugʼurtalovchi) shartnomada "
+"shartlashilgan haq (sugʼurta mukofoti) evaziga shartnomada nazarda tutilgan "
+"voqea (sugʼurta hodisasi) sodir boʼlganda boshqa tarafga (sugʼurta "
+"qildiruvchiga) yoki shartnoma qaysi shaxsning foydasiga tuzilgan boʼlsa, "
+"oʼsha shaxsga (naf oluvchiga) bu hodisa oqibatida sugʼurtalangan mulkka "
+"yetkazilgan zararni yoxud sugʼurtalanuvchining boshqa mulkiy manfaatlari "
+"bilan bogʼliq zararni shartnomada belgilangan summa (sugʼurta puli) "
+"doirasida toʼlash (sugʼurta tovoni toʼlash) majburiyatini oladi."
+msgstr ""
+"В соответствии с договором имущественного страхования одна сторона "
+"(страховщик) обязуется в обмен на обусловленное договором вознаграждение "
+"(страховую премию) при наступлении предусмотренного договором события "
+"(страхового случая) возместить другой стороне (страховщику) или лицу "
+"(выгодоприобретателю), в пользу которого заключен договор, причиненные этим "
+"событием убытки застрахованному имуществу либо убытки, связанные с иными "
+"имущественными интересами страхователя, в пределах установленной договором "
+"суммы (страховой суммы)."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:103
+msgid ""
+"Shuningdek qarang: “NORMA” АQT qonunchilik Klassifikatorining “Huquqiy "
+"hujjatlar namunalari” papkasi “I. Xoʼjalik-shartnomaviy munosabatlar” "
+"papkasi \\"
+msgstr ""
+"См. Также: Папка «Образцы юридических документов» Законодательного "
+"классификатор"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:106
+msgid ""
+"Mulkiy sugʼurta shartnomasi boʼyicha quyidagilar sugʼurtalanishi mumkin:"
+msgstr "По договору имущественного страхования можно застраховать"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:107
+msgid ""
+"muayyan mol-mulkning yoʼqotilishi (nobud boʼlishi), kam chiqishi yoki "
+"shikastlanishi xavfi;"
+msgstr ""
+"утрата (утрата) определенного имущества, недостача или утратариск травмы"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:109
+msgid "Qarang: FKning 917-moddasi"
+msgstr "См. Статью 917 FC."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:110
+msgid ""
+"Fuqarolik javobgarligi xavfi - boshqa shaxslarning hayoti, sogʼligʼi yoki "
+"mol-mulkiga zarar yetkazilishi oqibatida yuzaga keladigan majburiyatlar "
+"boʼyicha javobgarlik, qonunda nazarda tutilgan hollarda esa, shuningdek "
+"shartnomalar boʼyicha javobgarlik xavfi;"
+msgstr ""
+"Риск гражданской ответственности - жизнь, здоровье или других "
+"лицОбязательства, возникающие в результате повреждения "
+"имуществаОтветственность за и в случаях, предусмотренных законом, а "
+"такжериск ответственности по контрактам"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:111
+msgid "Qarang: FKning 918, 919-moddalari"
+msgstr "См. Статьи 918, 919 Гражданского кодекса."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:112
+msgid ""
+"Tadbirkorlik xavfi - tadbirkorning kontragentlari oʼz majburiyatlarini "
+"buzishi yoki tadbirkorga bogʼliq boʼlmagan vaziyatlarga koʼra bu faoliyat "
+"shart-sharoitlarining oʼzgarishi tufayli tadbirkorlik faoliyatidan kutilgan "
+"daromadlarni ololmaslik xavfi."
+msgstr ""
+"Предпринимательский риск - контрагенты предпринимателя выполняют свои "
+"обязательстваДанная деятельность не связана с нарушением или "
+"обстоятельствами, не имеющими отношения к предпринимателюожидается от "
+"хозяйственной деятельности в связи с изменением условийриск не получить доход"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:113
+msgid "Qarang: FKning 920-moddasi"
+msgstr "См. Статью 920 FC."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:119
+msgid "Gʼayriqonuniy manfaatlarni sugʼurtalashga yoʼl qoʼyilmaydi."
+msgstr "Незаконное страхование процентов не допускается."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:120
+msgid ""
+"Qimor, lotereyalar va garov oʼyinlarida ishtirok etishda koʼriladigan "
+"zararni sugʼurtalashga yoʼl qoʼyilmaydi."
+msgstr "Азартные игры, лотереи и ставкиСтрахование ущерба не допускается."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:121
+msgid ""
+"Garovga olinganlarni ozod qilish maqsadida shaxs majburan qilishi mumkin "
+"boʼlgan xarajatlarni sugʼurtalashga yoʼl qoʼyilmaydi."
+msgstr ""
+"Человека могут заставить освободить заложниковСтрахование расходов не "
+"допускается"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:122
+msgid ""
+"Sugʼurta shartnomalarining ushbu modda birinchi, ikkinchi va uchinchi "
+"qismlariga zid boʼlgan shartlari oʼz-oʼzidan haqiqiy emas."
+msgstr ""
+"Эта статья договоров страхования первая, вторая и третьяУсловия, "
+"противоречащие частям, не имеют силы автоматически"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:124
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:150
+msgid "Qarang: FKning 113-moddasi"
+msgstr "См. Статью 113 FC"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:129
+msgid ""
+"Mol-mulk uning asralishidan qonun hujjatlariga yoki shartnomaga asoslangan "
+"manfaatga ega boʼlgan shaxs (sugʼurta qildiruvchi yoki naf oluvchi) "
+"foydasiga, uning mulkdori, mol-mulkka nisbatan boshqa ashyoviy huquqqa ega "
+"boʼlgan shaxs, ijarachi, pudratchi, saqlovchi, vositachi va boshqa shu "
+"kabilar foydasiga sugʼurta shartnomasi boʼyicha sugʼurtalanishi mumkin."
+msgstr ""
+"Имущество основано на законодательстве или договоре на его "
+"обслуживаниезаинтересованное лицо (страховщик или выгодоприобретатель)в "
+"пользу того, что его собственник имеет иные имущественные права на "
+"имуществолицо, арендатор, подрядчик, хранитель, посредник и т. д.можно "
+"застраховать по договору страхования в пользу и т. д."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:130
+msgid ""
+"Sugʼurtalangan mol-mulkning asralishidan sugʼurta qildiruvchida va naf "
+"oluvchida manfaat boʼlmagan paytda tuzilgan mol-mulkni sugʼurta qilish "
+"shartnomasi haqiqiy emas."
+msgstr ""
+"Договор страхования имущества, заключенный при отсутствии у страхователя и "
+"выгодоприобретателя интереса к содержанию застрахованного имущества, "
+"недействителен."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:131
+msgid ""
+"Naf oluvchi foydasiga mol-mulkni sugʼurta qilish shartnomasi naf oluvchining "
+"ismi yoki nomi koʼrsatilmasdan tuzilishi mumkin. Bunday shartnoma tuzilganda "
+"sugʼurta qildiruvchiga egasining nomi koʼrsatilmagan polis beriladi. Bunday "
+"shartnoma boʼyicha huquqlarni amalga oshirishda bu polisni sugʼurtalovchiga "
+"taqdim etish zarur."
+msgstr ""
+"Договор страхования имущества в пользу выгодоприобретателя может быть "
+"заключен без указания имени или наименования выгодоприобретателя. При "
+"заключении такого договора страхователю выдается полис без указания имени "
+"владельца. При осуществлении прав по такому договору необходимо предъявить "
+"данный полис страховщику."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:137
+msgid ""
+"Boshqa shaxslarning hayoti, sogʼligʼi yoki mol-mulkiga zarar yetkazilishi "
+"oqibatida yuzaga keladigan majburiyatlar yuzasidan javobgarlik xavfini "
+"sugʼurta qilish shartnomasi boʼyicha sugʼurta qildiruvchining oʼzining yoki "
+"bunday javobgarlik yuklanishi mumkin boʼlgan boshqa shaxsning javobgarlik "
+"xavfi sugʼurtalanishi mumkin."
+msgstr ""
+"Ущерб жизни, здоровью или имуществу других лиц\"риск ответственности по "
+"возникающим обязательства"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:138
+msgid ""
+"Zarar yetkazganlik uchun javobgarlik xavfi sugʼurtalangan shaxs sugʼurta "
+"shartnomasida koʼrsatilishi lozim. Аgar bu shaxs shartnomada koʼrsatilmagan "
+"boʼlsa, sugʼurta qildiruvchining oʼzining javobgarlik xavfi sugʼurtalangan "
+"hisoblanadi."
+msgstr ""
+"Риск ответственности за причинение вреда должен быть указан застрахованным "
+"лицом в договоре страхования. Если это лицо не указано в договоре, то риск "
+"ответственности самого страхователя считается застрахованным."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:139
+msgid ""
+"Zarar yetkazganlik uchun javobgarlik xavfini sugʼurta qilish shartnomasi, "
+"hatto shartnoma zarar yetkazilganligi uchun javobgar boʼlgan sugʼurta "
+"qildiruvchi yoki boshqa shaxs foydasiga tuzilgan yoxud shartnomada u kimning "
+"foydasiga tuzilgani koʼrsatilmagan taqdirda ham, zarar yetkazilishi mumkin "
+"boʼlgan shaxslar (naf oluvchilar) foydasiga tuzilgan deb hisoblanadi."
+msgstr ""
+"Договор страхования риска ответственности за причинение вреда считается "
+"заключенным в пользу лиц (выгодоприобретателей), которым может быть причинен "
+"вред, даже если договор заключен в пользу страхователя или иного лица, "
+"ответственного за причинение вреда, либо в договоре не указано, в чью пользу "
+"он заключен."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:140
+msgid ""
+"Zarar yetkazganlik uchun javobgarlik uni sugʼurta qilish majburiy boʼlgani "
+"sababli sugʼurtalangan taqdirda, shuningdek qonunda yoki bunday "
+"javobgarlikni sugʼurta qilish shartnomasida nazarda tutilgan boshqa hollarda "
+"sugʼurta shartnomasi oʼz foydasiga tuzilgan deb hisoblanuvchi shaxs zararni "
+"sugʼurta puli doirasida toʼlash toʼgʼrisida bevosita sugʼurtalovchiga talab "
+"qoʼyishga haqli."
+msgstr "Ответственность за ущерб является обязательной »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:146
+msgid ""
+"Shartnomani buzganlik uchun javobgarlik xavfini sugʼurta qilishga qonunda "
+"nazarda tutilgan hollarda yoʼl qoʼyiladi."
+msgstr "Закон о страховании риска ответственности за нарушение договора "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:147
+msgid ""
+"Shartnomani buzganlik uchun javobgarlik xavfini sugʼurta qilish shartnomasi "
+"boʼyicha faqat sugʼurta qildiruvchining oʼzining javobgarlik xavfi "
+"sugʼurtalanishi mumkin. Ushbu talabga muvofiq boʼlmagan sugʼurta shartnomasi "
+"oʼz-oʼzidan haqiqiy emas."
+msgstr "Договор страхования рисков нарушения договора "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:151
+msgid ""
+"Shartnomani buzganlik uchun javobgarlik xavfi, bu shartnoma shartlariga "
+"koʼra sugʼurta qildiruvchi qaysi taraf oldida tegishli javobgarlikni "
+"zimmasiga olishi lozim boʼlsa, oʼsha taraf - naf oluvchi foydasiga, hatto "
+"sugʼurta shartnomasi boshqa shaxs foydasiga tuzilgan yoxud unda kimning "
+"foydasiga tuzilgani aytilmagan taqdirda ham, sugʼurtalangan hisoblanadi."
+msgstr ""
+"Риск ответственности за нарушение контракта регулируется условиями "
+"настоящего контракта \""
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:157
+msgid ""
+"Tadbirkorlik xavfini sugʼurta qilish shartnomasi boʼyicha faqat sugʼurta "
+"qildiruvchining oʼz tadbirkorlik xavfi va faqat uning foydasiga "
+"sugʼurtalanishi mumkin."
+msgstr "Только страхование по договору страхования предпринимательских рисков "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:158
+msgid ""
+"Sugʼurta qildiruvchi boʼlmagan shaxsning tadbirkorlik xavfini sugʼurta "
+"qilish shartnomasi oʼz-oʼzidan haqiqiy emas."
+msgstr "Страхование предпринимательского риска незастрахованного лица "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:161
+msgid "FKning 113-moddasi"
+msgstr "См. Статью 113 FC"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:163
+msgid ""
+"Sugʼurta qildiruvchi boʼlmagan shaxsning foydasiga tadbirkorlik xavfini "
+"sugʼurta qilish shartnomasi sugʼurta qildiruvchi foydasiga tuzilgan "
+"hisoblanadi."
+msgstr "Предпринимательский риск в пользу незастрахованных "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:166
+msgid ""
+"Qarang: VM 1998 yil 21 apreldagi 167-son Qarori bilan tasdiqlangan “Sarmoya, "
+"tovarlar va xizmatlarni eksport qiluvchilarga sugʼurta qoplamasi berish "
+"Tartibi”; АV tomonidan 2009 yil 28 yanvarda 1891-son bilan roʼyxatga "
+"olingan, MV Buyrugʼi bilan tasdiqlangan “Biznes sohasi uchun sugʼurta "
+"xizmatlari koʼrsatishning yagona talablari va standartlari toʼgʼrisida”gi "
+"Nizom"
+msgstr ""
+"См .: «Столица», утв. Постановлением Кабинета Министров от 21 апреля 1998 г. "
+"№ 167"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:173
+msgid ""
+"Shaxsiy sugʼurta shartnomasi boʼyicha bir taraf (sugʼurtalovchi) boshqa "
+"taraf (sugʼurta qildiruvchi) toʼlaydigan, shartnomada shartlashilgan haq "
+"(sugʼurta mukofoti) evaziga sugʼurta qildiruvchining oʼzining yoxud "
+"shartnomada koʼrsatilgan boshqa fuqaro (sugʼurtalangan shaxs)ning hayoti "
+"yoki sogʼligʼiga zarar yetkazilgan, u muayyan yoshga toʼlgan yoki uning "
+"hayotida shartnomada nazarda tutilgan boshqa voqea (sugʼurta hodisasi) yuz "
+"bergan hollarda shartnomada shartlashilgan pulni (sugʼurta pulini) bir yoʼla "
+"yoki vaqti-vaqti bilan toʼlab turish majburiyatini oladi."
+msgstr "По договору личного страхования одна сторона (страховщик) другой "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:174
+msgid ""
+"Shaxsiy sugʼurta shartnomasi kimning foydasini koʼzlab tuzilgan boʼlsa, "
+"oʼsha shaxs sugʼurta pulini olish huquqiga ega boʼladi."
+msgstr "\"На чью выгоду заключен договор личного страхования?"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:175
+msgid ""
+"Аgar shartnomada naf oluvchi sifatida boshqa shaxs koʼrsatilmagan boʼlsa, "
+"shaxsiy sugʼurta shartnomasi sugʼurtalangan shaxs foydasiga tuzilgan "
+"hisoblanadi. Boshqa naf oluvchi koʼrsatilmagan shartnoma boʼyicha "
+"sugʼurtalangan shaxs vafot etgan taqdirda, sugʼurtalangan shaxsning "
+"merosxoʼrlari naf oluvchilar deb tan olinadi."
+msgstr "Если иное не указано в контракте в качестве бенефициара, "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:178
+msgid "Qarang: FKning 1118-moddasi"
+msgstr "«См .: статью 1118 Гражданского кодекса»."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:180
+msgid ""
+"Sugʼurtalangan deb hisoblanmaydigan shaxs foydasiga, shu jumladan "
+"sugʼurtalangan shaxs hisoblanmaydigan sugʼurta qildiruvchi foydasiga shaxsiy "
+"sugʼurta shartnomasi faqat sugʼurtalangan shaxsning yozma roziligi bilangina "
+"tuzilishi mumkin. Bunday rozilik boʼlmagan taqdirda, shartnoma "
+"sugʼurtalangan shaxsning daʼvosi boʼyicha, bu shaxs vafot etgan taqdirda "
+"esa, uning merosxoʼrlari daʼvosi boʼyicha haqiqiy emas deb topilishi mumkin."
+msgstr "В пользу лица, не считающегося застрахованным, в том числе "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:186
+msgid ""
+"Qonunda quyidagilarni sugʼurta qilish majburiyati belgilab qoʼyilishi mumkin:"
+msgstr "\"Закон может предусматривать обязательство застраховать:"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:187
+msgid ""
+"qonunda koʼrsatilgan boshqa shaxslarning hayoti, sogʼligʼi yoki mol-mulki "
+"ularning hayoti, sogʼligʼi yoki mol-mulkiga zarar yetkazilishi ehtimolini "
+"nazarda tutib;"
+msgstr "жизнь, здоровье или имущество других лиц, указанных в законе "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:188
+msgid ""
+"Shuningdek qarang: “NORMA” АQT qonunchilik Klassifikatorining “Meʼyoriy-"
+"huquqiy hujjatlar namunalari” bosh papkasi “OʼzR Tadbirkorlik faoliyati "
+"toʼgʼrisida” katta papkasi “Sugʼurtalash” papkasi “Majburiy shaxsiy "
+"sugʼurtalash” papkasi “Yoʼlovchilarni sugʼurtalash” papkasi"
+msgstr "См. Также: «Нормативный акт» законодательной классификации «НОРМА»"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:189
+msgid ""
+"boshqa shaxslarning hayoti, sogʼligʼi yoki mol-mulkiga zarar yetkazilishi "
+"yoxud boshqa shaxslar bilan tuzilgan shartnomalarning buzilishi oqibatida "
+"yuzaga kelishi mumkin boʼlgan oʼzining fuqaroviy javobgarligi xavfi."
+msgstr "причинение вреда жизни, здоровью или имуществу других лиц "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:192
+msgid "Qarang: VM 1999 yil 20 dekabrdagi \\"
+msgstr "\"См. ВМ от 20 декабря 1999 г. \\\""
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:194
+msgid ""
+"Shuningdek qarang: “NORMA” АQT qonunchilik Klassifikatorining “Meʼyoriy-"
+"huquqiy hujjatlar namunalari” bosh papkasi “OʼzR Tadbirkorlik faoliyati "
+"toʼgʼrisida” katta papkasi “Sugʼurtalash” papkasi “Fuqarolik javobgarligini "
+"majburiy sugʼurtalash” papkasi"
+msgstr "См. Также: «Нормативный акт» законодательной классификации «НОРМА»"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:197
+msgid ""
+"Sugʼurta qildiruvchi boʼlish majburiyati qonun bilan unda koʼrsatilgan "
+"shaxslar zimmasiga yuklanadi."
+msgstr "«Обязанность быть застрахованным прописана в законечастные лица."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:198
+msgid "Qonunda majburiy sugʼurtaning boshqa turlari ham belgilanishi mumkin."
+msgstr ""
+"Законом могут быть предусмотрены и другие виды обязательного страхования."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:199
+msgid ""
+"Fuqaroga oʼz hayoti yoki sogʼligʼini sugʼurtalash majburiyati qonun bilan "
+"yuklatilishi mumkin emas."
+msgstr ""
+"Обязанность гражданина застраховать свою жизнь или здоровье определяется "
+"законом »не может быть загружен."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:200
+msgid ""
+"Qonunda nazarda tutilgan hollarda yoki unda belgilangan tartibda xoʼjalik "
+"yuritishida yoki operativ boshqaruvida davlatga qarashli mol-mulkka ega "
+"boʼlgan yuridik shaxslarga bu mulkni sugʼurtalash majburiyati yuklanishi "
+"mumkin."
+msgstr "«В случаях, предусмотренных законом или в установленном им порядке"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:201
+msgid ""
+"Mol-mulkni sugʼurta qilish majburiyati qonundan kelib chiqmaydigan, balki "
+"mol-mulkning egasi bilan tuzilgan shartnomaga yoki mol-mulkning mulkdori "
+"hisoblanuvchi yuridik shaxsning taʼsis hujjatlariga asoslangan hollarda, "
+"bunday sugʼurta ushbu moddaning maʼnosi jihatidan majburiy hisoblanmaydi va "
+"ushbu Kodeksning 924-moddasida nazarda tutilgan oqibatlarni keltirib "
+"chiqarmaydi."
+msgstr "Обязанность застраховать имущество не вытекает из закона, но "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:207
+msgid ""
+"Majburiy sugʼurta bunday sugʼurta qilish majburiyati yuklangan shaxs "
+"(sugʼurta qildiruvchi) sugʼurtalovchi bilan sugʼurta shartnomasi tuzishi "
+"vositasida amalga oshiriladi."
+msgstr "Обязательное страхование - это лицо, которое обязано это сделать »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:208
+msgid ""
+"Majburiy sugʼurta sugʼurta qildiruvchi hisobidan amalga oshiriladi, "
+"yoʼlovchilarni majburiy sugʼurtalash bundan mustasno boʼlib, bu sugʼurta "
+"qonunda nazarda tutilgan hollarda ularning oʼz hisobidan amalga oshirilishi "
+"mumkin."
+msgstr "Обязательное страхование осуществляется за счет средств страхователя »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:213
+msgid ""
+"Qarang: “Umumiy foydalanishdagi havo, temir yoʼl, ichki suv va avtomobilь "
+"transporti yoʼlovchilarining majburiy shaxsiy sugʼurtasi toʼgʼrisida”gi Qonun"
+msgstr ""
+"См. «Общественный воздушный, железнодорожный, внутренний водный транспорт и "
+"автомобилестроение»"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:217
+msgid ""
+"Majburiy sugʼurtalanishi lozim boʼlgan obʼektlar, ular sugʼurtalanishga "
+"sabab boʼladigan xavflar va sugʼurta pulining eng kam miqdorlari qonun "
+"hujjatlari bilan belgilanadi."
+msgstr "«Объекты, подлежащие обязательному страхованию, подлежат страхованию"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:221
+msgid ""
+"Qarang: \"Transport vositalari egalarining fuqarolik javobgarligini majburiy "
+"sugʼurta qilish toʼgʼrisida\"gi Qonunining 5, 11, 22-moddalari; \"Ish "
+"beruvchining fuqarolik javobgarligini majburiy sugʼurta qilish toʼgʼrisida"
+"\"gi Qonunining 5, 10-moddalari; “Umumiy foydalanishdagi havo, temir yoʼl, "
+"ichki suv va avtomobilь transporti yoʼlovchilarining majburiy shaxsiy "
+"sugʼurtasi toʼgʼrisida”gi Qonun 3-moddasining birinchi qismi; VM 1993 yil 30 "
+"iyuldagi \"Umumiy foydalaniladigan havo, temir yoʼl, ichki suv va avtomobilь "
+"transporti yoʼlovchilarini majburiy sugʼurta qilish boʼyicha sugʼurta "
+"summalari va sugʼurta tariflari miqdorlari toʼgʼrisida\" 379-son Qarori; VM "
+"1999 yil 20 dekabrdagi 532-son Qarori bilan tasdiqlangan “Obʼektlarni davlat "
+"mablagʼlari va Hukumat kafolati ostidagi kreditlar hisobiga barpo etishda "
+"qurilish tavakkalchiliklarini majburiy sugʼurta qilish toʼgʼrisida”gi "
+"Nizomning 4, 5-bandlari; VM 2008 yil 24 iyundagi 141-son Qarori bilan "
+"tasdiqlangan \"Transport vositalari egalarining fuqarolik javobgarligini "
+"majburiy sugʼurta qilish Qoidalari\"ning 6-bandi, III boʼlimi; VM 2008 yil "
+"10 dekabrdagi 271-son Qarori bilan tasdiqlangan “Xavfli ishlab chiqarish "
+"obʼektida avariya yuz bergan taqdirda boshqa shaxslarning hayoti, sogʼligʼi "
+"va (yoki) mol-mulkiga hamda atrof-muhitga zarar yetkazganlik uchun fuqarolik "
+"javobgarligini majburiy sugʼurta qilish tartibi toʼgʼrisida”gi Nizomning II, "
+"III boʼlimlari; VM 2009 yil 24 iyundagi 177-son Karori bilan tasdiqlangan "
+"“Ish beruvchining fuqarolik javobgarligini majburiy sugʼurta qilish "
+"qoidalari”ning 4-bandi, III boʼlimi"
+msgstr ""
+"См. \\ \"Обязательная гражданско-правовая ответственность владельцев "
+"транспортных средств"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:228
+msgid ""
+"Qonun boʼyicha foydasiga majburiy sugʼurta amalga oshirilishi lozim boʼlgan "
+"shaxs, agar sugʼurta amalga oshirilmagani unga maʼlum boʼlsa, sugʼurta "
+"qildiruvchi sifatida zimmasiga sugʼurtalash majburiyati yuklangan shaxs uni "
+"amalga oshirishini sud tartibida talab qilishga haqli."
+msgstr "Обязательное страхование требовалось по закону \""
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:229
+msgid ""
+"Аgar sugʼurta qildiruvchi sifatida sugʼurtalash majburiyati zimmasiga "
+"yuklangan shaxs uni amalga oshirmagan boʼlsa yoki sugʼurta shartnomasini naf "
+"oluvchining ahvolini qonunda belgilangan shartlarga nisbatan "
+"yomonlashtiradigan shartlarda tuzgan boʼlsa, u sugʼurta hodisasi yuz "
+"berganida basharti tegishlicha sugʼurtalangan taqdirda sugʼurta tovoni "
+"toʼlashga asos boʼlishi kerak boʼlgan shartlarda javobgar boʼladi."
+msgstr "Если страховщик берет на себя обязательство по страхованию "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:238
+msgid ""
+"Naf oluvchi foydasiga sugʼurta shartnomasi tuzish, shu jumladan u "
+"sugʼurtalangan shaxs boʼlganda ham, sugʼurta qildiruvchini, agar shartnomada "
+"boshqacha tartib nazarda tutilmagan yoxud sugʼurta qildiruvchining "
+"zimmasidagi majburiyatlar foydasiga shartnoma tuzilgan shaxs tomonidan "
+"bajarilmagan boʼlsa, ushbu shartnomadan kelib chiqadigan majburiyatlarni "
+"bajarishdan ozod qilmaydi."
+msgstr ""
+"Заключение договора страхования в пользу выгодоприобретателя, в том числ"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:239
+msgid ""
+"Naf oluvchi mulkiy sugʼurta shartnomasi boʼyicha sugʼurta tovonini yoxud "
+"shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta pulini toʼlashni talab "
+"qilganida sugʼurtalovchi undan, shu jumladan sugʼurtalangan shaxs naf "
+"oluvchi boʼlgan taqdirda ham, sugʼurta shartnomasi boʼyicha majburiyatlarni, "
+"shu bilan birga sugʼurta qildiruvchining zimmasida boʼlgan, lekin u "
+"bajarmagan majburiyatlarni bajarishni talab qilishga haqli. Ilgari "
+"bajarilishi lozim boʼlgan majburiyatlarni bajarmaslik yoki oʼz vaqtida "
+"bajarmaslik oqibatlari xavfi naf oluvchining zimmasida boʼladi."
+msgstr ""
+"Бенефициар имеет право на страховое возмещение по договору имущественного "
+"страхования или "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:245
+msgid "Sugʼurta shartnomasi yozma shaklda tuzilishi lozim."
+msgstr "Договор страхования должен быть в письменной форме."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:247
+msgid "Qarang: FKning 114-moddasi"
+msgstr "«См. Статью 114 ГК."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:249
+msgid ""
+"Sugʼurta shartnomasi bitta hujjatni tuzish yoxud sugʼurtalovchi tomonidan "
+"sugʼurta qildiruvchiga uning yozma yoki ogʼzaki arizasiga binoan "
+"sugʼurtalovchi imzolagan, sugʼurta shartnomasining shartlarini oʼz ichiga "
+"olgan sugʼurta polisi (shahodatnomasi, sertifikati, kvitantsiyasi)ni "
+"topshirish yoʼli bilan tuzilishi mumkin. Bu holda sugʼurta qildiruvchining "
+"sugʼurtalovchi taklif etgan shartlarda shartnoma tuzishga rozi ekanligi "
+"sugʼurtalovchidan koʼrsatilgan hujjatlarni qabul qilib olish va sugʼurta "
+"mukofoti toʼlash yoxud - sugʼurta mukofoti boʼlib-boʼlib toʼlanganda - "
+"birinchi badalni toʼlash orqali tasdiqlanadi."
+msgstr "«Договор страхования заключается единым документом или страховщиком"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:250
+msgid ""
+"Sugʼurtalovchi shartnoma tuzish chogʼida sugʼurtaning alohida turlari "
+"boʼyicha sugʼurta shartnomasi (sugʼurta polisi)ning oʼzi ishlab chiqqan "
+"standart shakllarini qoʼllanishga haqli."
+msgstr "Особые виды страхования при заключении договора страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:259
+msgid ""
+"Bir turdagi mol-mulk (tovarlar, yuklar va hokazoning) turli turkumlarini "
+"muayyan muddat davomida bir xildagi shartlarda muntazam sugʼurtalash "
+"sugʼurta qildiruvchining sugʼurtalovchi bilan kelishuviga binoan bitta "
+"sugʼurta shartnomasi - bosh polis asosida amalga oshirilishi mumkin. "
+msgstr ""
+"Различные категории одного и того же вида имущества (товары, грузы и т. Д.) "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:260
+msgid ""
+"Sugʼurta qildiruvchi bosh polisning taʼsir doirasida boʼladigan mol-mulkning "
+"har bir turkumi toʼgʼrisida sugʼurtalovchiga bunday polisda shartlashilgan "
+"maʼlumotlarni unda nazarda tutilgan muddatda, agar muddat nazarda tutilmagan "
+"boʼlsa - ular olinganidan keyin darhol xabar qilishi shart. Аgar hatto "
+"bunday maʼlumotlarni olish paytigacha sugʼurtalovchi toʼlashi lozim boʼlgan "
+"zarar koʼrish ehtimoli oʼtib ketgan boʼlsa ham, sugʼurta qildiruvchi bu "
+"majburiyatdan ozod boʼlmaydi."
+msgstr "Имущество под влиянием основного полиса застрахованного "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:261
+msgid ""
+"Sugʼurta qildiruvchining talabiga binoan sugʼurtalovchi bosh polisning "
+"taʼsir doirasida boʼladigan mol-mulkning alohida turkumlari boʼyicha "
+"sugʼurta polislarini berishi shart."
+msgstr "«По желанию застрахованного, основной полис страховщика"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:262
+msgid ""
+"Sugʼurta polisining mazmuni bosh polisga nomuvofiq boʼlgan taqdirda, "
+"sugʼurta polisi afzal koʼriladi."
+msgstr "«Если содержание страхового полиса не соответствует общему полису»"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:269
+msgid ""
+"Mulkiy sugʼurta shartnomasi tuzishda sugʼurta qildiruvchi bilan "
+"sugʼurtalovchi oʼrtasida quyidagilar toʼgʼrisida kelishuvga erishilishi "
+"lozim:"
+msgstr "При заключении договора страхования имущества со страхователем "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:270
+msgid ""
+"sugʼurta obʼekti boʼlgan muayyan mol-mulk yoxud boshqa mulkiy manfaat "
+"toʼgʼrisida;"
+msgstr ""
+"определенное имущество или иной имущественный интерес, являющийся объектом "
+"страхования о;\""
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:271
+msgid ""
+"yuz berishi ehtimol tutilib sugʼurta amalga oshirilayotgan voqea (sugʼurta "
+"hodisasi)ning xususiyati toʼgʼrisida; "
+msgstr "событие, которое может произойти и застраховано (страхование "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:272
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:285
+msgid "sugʼurta puli miqdori toʼgʼrisida;"
+msgstr "«о размере страховой суммы»;"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:274
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:287
+msgid "Qarang: FKning 934-moddasi"
+msgstr "«См .: статью 934 Гражданского кодекса»."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:276
+msgid ""
+"sugʼurta tovoni miqdorini aniqlash tartibi toʼgʼrisida, agar shartnomada uni "
+"sugʼurta pulidan oz miqdorda toʼlash mumkinligi nazarda tutilgan boʼlsa;"
+msgstr "о порядке определения размера страхового возмещения, если догово"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:277
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:289
+msgid ""
+"sugʼurta mukofotining miqdori va uni toʼlash muddati (muddatlari) "
+"toʼgʼrisida;"
+msgstr "размер страховой премии и срок (сроки) ее уплаты о;"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:279
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:291
+msgid "Qarang: FKning 942-moddasi"
+msgstr "См .: статью 942 Гражданского кодекса \"."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:281
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:293
+msgid "shartnomaning amal qilish muddati toʼgʼrisida."
+msgstr "на срок действия договора \"."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:282
+msgid ""
+"Shaxsiy sugʼurta shartnomasi tuzishda sugʼurta qildiruvchi bilan "
+"sugʼurtalovchi oʼrtasida quyidagilar toʼgʼrisida kelishuvga erishilishi "
+"lozim:"
+msgstr "При заключении договора личного страхования со страхователем "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:283
+msgid "sugʼurtalangan shaxs toʼgʼrisida;"
+msgstr "«о застрахованном лице»;"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:284
+msgid ""
+"sugʼurtalangan shaxs hayotida yuz berishi ehtimol tutilib sugʼurta amalga "
+"oshirilayotgan voqea (sugʼurta hodisasi)ning xususiyati toʼgʼrisida;"
+msgstr ""
+"«Вероятность наступления страхового случая в жизни застрахованного лица"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:294
+msgid ""
+"Taraflarning kelishuviga binoan shartnomaga boshqa shartlar ham kiritilishi "
+"mumkin. Аgar sugʼurta shartnomasi sugʼurta qildiruvchi, sugʼurtalangan shaxs "
+"yoki naf oluvchi hisoblangan fuqaroning ahvolini qonun hujjatlarida "
+"belgilangan qoidalarga nisbatan yomonlashtiradigan shartlarni oʼz ichiga "
+"olsa, shartnomaning ana shu shartlari oʼrniga qonun hujjatlarining tegishli "
+"qoidalari qoʼllaniladi."
+msgstr "Дополнительные условия к договору по соглашению сторон "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:303
+msgid ""
+"Sugʼurta shartnomasini tuzish shartlari sugʼurtalovchi yoxud "
+"sugʼurtalovchilar birlashmasi tomonidan qabul qilingan, maʼqullangan yoki "
+"tasdiqlangan tegishli turdagi sugʼurtaning standart qoidalari (sugʼurta "
+"qoidalari)da belgilab qoʼyilishi mumkin."
+msgstr "Условия заключения договора страхования со страховщиком или "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:304
+msgid ""
+"Sugʼurta qoidalarida mavjud boʼlgan va sugʼurta shartnomasi (polisi) matniga "
+"kiritilmagan shartlar, agar shartnomada (polisda) shunday qoidalar "
+"qoʼllanilishi toʼgʼridan-toʼgʼri koʼrsatilgan va qoidalarning oʼzi shartnoma "
+"(polis) bilan bitta hujjatda yoki uning orqa tomonida bayon qilingan yoxud "
+"unga ilova qilingan boʼlsa, sugʼurta qiluvchi (naf oluvchi) uchun "
+"majburiydir. Ilova qilingan taqdirda, shartnomani tuzish paytida sugʼurta "
+"qildiruvchiga sugʼurta qoidalari topshirilgani shartnomada yozuv bilan "
+"tasdiqlab qoʼyilishi lozim."
+msgstr ""
+"Текст договора страхования (полиса), который содержится в правилах "
+"страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:305
+msgid ""
+"Sugʼurta shartnomasi tuzilayotganda sugʼurta qildiruvchi va sugʼurtalovchi "
+"sugʼurta qoidalarining ayrim bandlarini oʼzgartirish yoki chiqarib tashlash "
+"va qoidalarda boʼlmagan bandlarni shartnomaga kiritish toʼgʼrisida "
+"kelishishlari mumkin."
+msgstr "Страхователь и страховщик при заключении договора страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:306
+msgid ""
+"Sugʼurta qildiruvchi (naf oluvchi) oʼz manfaatlarini himoya qilib, sugʼurta "
+"shartnomasida (polisida) koʼrsatib oʼtilgan tegishli turdagi sugʼurta "
+"qoidalarini, hatto agar bu qoidalar ushbu moddaga koʼra uning uchun majburiy "
+"boʼlmasa ham, vaj qilib keltirishga haqli."
+msgstr ""
+"Застрахованный (выгодоприобретатель) защищает интересы застрахованного "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:313
+msgid ""
+"Sugʼurta shartnomasi tuzilayotganda sugʼurta qildiruvchi taqdim etadigan "
+"maʼlumotlar"
+msgstr ""
+"Сведения, предоставляемые страхователемпри заключении договора страхования\n"
+"Предоставляется страхователем при заключении договора страхования Информация"
+"\""
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:316
+msgid ""
+"Sugʼurta shartnomasi tuzilayotganda sugʼurta qildiruvchi oʼziga maʼlum "
+"boʼlib, sugʼurta hodisasi yuz berishi ehtimolini va uning yuz berishi "
+"tufayli kutilajak zarar miqdori (sugʼurta xavfi)ni aniqlash uchun muhim "
+"ahamiyatga ega boʼlgan holatlarni sugʼurtalovchiga xabar qilishi shart."
+msgstr "На момент заключения договора страхования застрахованный известен »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:317
+msgid ""
+"Sugʼurta shartnomasi (polisi)ning standart shaklida, sugʼurta qildiruvchiga "
+"berilgan sugʼurta qoidalarida yoki yozma soʼrovda sugʼurtalovchi tomonidan "
+"oldindan aniq aytib qoʼyilgan holatlar muhim deb hisoblanadi."
+msgstr "В стандартной форме договора страхования (полиса) застрахованному "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:318
+msgid ""
+"Аgar sugʼurta shartnomasi sugʼurtalovchining qandaydir savollariga sugʼurta "
+"qildiruvchining javoblari boʼlmagan holda tuzilgan boʼlsa, sugʼurtalovchi "
+"tegishli holatlar sugʼurta qildiruvchi tomonidan maʼlum qilinmaganligiga "
+"asoslanib keyinchalik shartnomani bekor qilishni yoxud uni haqiqiy emas deb "
+"topishni talab qila olmaydi."
+msgstr "Если договор страхования не охватывает вопросов страховщика "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:319
+msgid ""
+"Аgar sugʼurta shartnomasi tuzilganidan keyin, ushbu moddaning birinchi "
+"qismida koʼrsatilgan holatlar toʼgʼrisida sugʼurta qildiruvchi "
+"sugʼurtalovchiga bila turib yolgʼon maʼlumot berganligi aniqlansa, "
+"sugʼurtalovchi shartnomani haqiqiy emas deb topishni va ushbu Kodeks 123-"
+"moddasining ikkinchi qismida nazarda tutilgan oqibatlar qoʼllanilishini "
+"talab qilishga haqli."
+msgstr "Если после заключения договора страхования первое "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:320
+msgid ""
+"Аgar sugʼurta qildiruvchi aytib qoʼymagan holatlar oʼtib ketgan boʼlsa, "
+"sugʼurtalovchi shartnomani haqiqiy emas deb topishni talab qila olmaydi."
+msgstr "Если обстоятельства, не указанные страхователем, прошли, "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:330
+msgid ""
+"Mol-mulkni sugʼurtalash shartnomasi tuzilayotganida sugʼurtalovchi sugʼurta "
+"qilinayotgan mol-mulkni koʼzdan kechirishga, zarurat boʼlganda esa uning "
+"haqiqiy qiymatini belgilash maqsadida baholashdan oʼtkazishni tashkil "
+"etishga haqli. (OʼzR 17.09.2010 y. OʼRQ-257-son Qonuni tahriridagi qism) "
+"(Oldingi tahririga qarang)"
+msgstr ""
+"Страхование страховщика при заключении договора имущественного страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:331
+msgid ""
+"Shaxsiy sugʼurta shartnomasi tuzilayotganida sugʼurtalovchi sugʼurta "
+"qilinayotgan shaxs sogʼligʼining haqiqiy holatini aniqlash uchun uni "
+"tekshirtirishga haqli."
+msgstr "Страховщик при заключении договора личного страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:332
+msgid ""
+"Ushbu modda asosida sugʼurtalovchi tomonidan sugʼurta xavfini baholash "
+"boshqa holatni isbotlashga haqli boʼlgan sugʼurta qildiruvchi uchun majburiy "
+"emas."
+msgstr "Оценка страхового риска страховщиком на основании настоящей статьи "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:341
+msgid ""
+"Sugʼurtalovchi sugʼurta qildiruvchi,sugʼurtalangan shaxs va naf oluvchi, "
+"ularning sogʼligʼining holati toʼgʼrisidagi, shuningdek bu shaxslarning "
+"mulkiy ahvoli toʼgʼrisidagi oʼz kasb faoliyati natijasida oʼzi olgan "
+"maʼlumotlarni oshkor qilishga haqli emas. Sugʼurta sirini buzganlik uchun "
+"sugʼurtalovchi buzilgan huquqlarning turi va buzish xususiyatiga qarab ushbu "
+"Kodeksning 985, 1021 va 1022-moddalari qoidalariga muvofiq javobgar boʼladi."
+msgstr ""
+"Страховщик - это застрахованное лицо, застрахованное лицо и "
+"выгодоприобретатель »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:343
+msgid "Qarang: “Sugʼurta faoliyati toʼgʼrisida”gi Qonunning 26-moddasi"
+msgstr "«См. Статью 26 Закона о страховой деятельности»"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:351
+msgid ""
+"Mulkiy sugʼurta shartnomasi boʼyicha sugʼurtalovchi sugʼurta tovonini "
+"toʼlash majburiyatini oladigan yoki shaxsiy sugʼurta shartnomasi boʼyicha "
+"toʼlash majburiyatini oladigan summa (sugʼurta puli) sugʼurta "
+"qildiruvchining sugʼurtalovchi bilan kelishuviga koʼra ushbu modda "
+"qoidalariga muvofiq belgilanadi."
+msgstr ""
+"«Страховое возмещение страховщика по договору имущественного страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:352
+msgid ""
+"Mol-mulkni yoki tadbirkorlik xavfini sugʼurta qilishda, agar sugʼurta "
+"shartnomasida boshqacha tartib nazarda tutilmagan boʼlsa, sugʼurta puli "
+"ularning haqiqiy qiymatidan (sugʼurta qiymatidan) oshmasligi lozim, "
+"quyidagilar shular jumlasiga kiradi:"
+msgstr ""
+"При страховании имущественного или предпринимательского риска, если "
+"страхование "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:353
+msgid ""
+"mol-mulk uchun - uning sugʼurta shartnomasini tuzish kuni turgan joyidagi "
+"haqiqiy qiymati;"
+msgstr ""
+"на имущество - по месту его нахождения на дату заключения договора "
+"страхования реальная стоимость;"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:356
+msgid "Qarang: FKning 935-moddasi"
+msgstr "«См .: статью 935 Гражданского кодекса»."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:358
+msgid ""
+"tadbirkorlik xavfi - sugʼurta hodisasi yuz berganida sugʼurta qildiruvchi "
+"tadbirkorlik faoliyatidan koʼrishi mumkin boʼlgan zarar."
+msgstr "«бизнес-риск - застрахованный при наступлении страхового случая"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:359
+msgid ""
+"Shaxsiy sugʼurta shartnomalarida va fuqaroviy javobgarlikni sugʼurtalash "
+"shartnomalarida sugʼurta pulini taraflar oʼz ixtiyorlariga koʼra "
+"aniqlaydilar, qonunda nazarda tutilgan hollar bundan mustasno. (OʼzR "
+"21.04.2008 y. OʼRQ-156-son Qonuni tahriridagi qism)"
+msgstr ""
+"«Страхование в договорах личного страхования и гражданской ответственности"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:368
+msgid ""
+"Sugʼurta shartnomasini tuzish paytida taraflarning kelishuviga koʼra "
+"aniqlanadigan, sugʼurta manfaati bilan bogʼlanadigan mol-mulk qiymati, agar "
+"qonun hujjatlarida boshqacha tartib nazarda tutilmagan boʼlsa, sugʼurta "
+"qiymati (sugʼurta bahosi) deb hisoblanadi."
+msgstr "По соглашению сторон при заключении договора страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:369
+msgid ""
+"Mol-mulkning shartnomada koʼrsatilgan sugʼurta qiymati ustida keyinchalik "
+"nizolashish mumkin emas, shartnoma tuzilgunga qadar sugʼurta xavfini "
+"baholash boʼyicha oʼz huquqidan foydalanmagan sugʼurtalovchi bu qiymat "
+"borasida bila turib chalgʼitilgan hol bundan mustasno."
+msgstr "«В дальнейшем страховая стоимость имущества, указанная в договоре"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:372
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:394
+msgid "Qarang: FKning 932-moddasi"
+msgstr "См. Статью 932 Гражданского кодекса \"."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:380
+msgid ""
+"Аgar mol-mulkni yoki tadbirkorlik xavfini sugʼurtalash shartnomasida "
+"sugʼurta puli sugʼurta qiymatidan kam qilib belgilangan boʼlsa, "
+"sugʼurtalovchi sugʼurta hodisasi yuz berganida sugʼurta qildiruvchiga (naf "
+"oluvchiga) u koʼrgan zararni sugʼurta pulining sugʼurta qiymatiga boʼlgan "
+"nisbatiga mutanosib ravishda qoplashi shart."
+msgstr "«Если в договоре страхования имущества или предпринимательского риска"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:390
+msgid ""
+"Аgar mol-mulk yoki tadbirkorlik xavfi faqat sugʼurta qiymatining bir qismi "
+"miqdorida sugʼurtalangan boʼlsa, sugʼurta qildiruvchi (naf oluvchi) "
+"qoʼshimcha sugʼurta qilishga, shu jumladan boshqa sugʼurtalovchida sugʼurta "
+"qilishga haqli, ammo barcha sugʼurta shartnomalari boʼyicha umumiy sugʼurta "
+"puli sugʼurta qiymatidan oshib ketmasligi lozim."
+msgstr ""
+"Если имущественный или деловой риск составляет только часть стоимости "
+"страховки "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:391
+msgid ""
+"Ushbu modda birinchi qismining qoidalariga rioya etmaslik, ushbu Kodeksning "
+"938-moddasida nazarda tutilgan oqibatlarni keltirib chiqaradi."
+msgstr "Несоблюдение положений части первой настоящей стать"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:402
+msgid ""
+"Аgar sugʼurta shartnomasida koʼrsatilgan mol-mulk yoki tadbirkorlik "
+"xavfining sugʼurta puli sugʼurta qiymatidan ortiq boʼlsa, shartnoma sugʼurta "
+"pulining sugʼurta qiymatidan ortiq boʼlgan qismida oʼz-oʼzidan haqiqiy "
+"boʼlmaydi."
+msgstr "Если имущество или бизнес, указанные в договоре страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:403
+msgid ""
+"Bu holda sugʼurta mukofotining ortiqcha toʼlangan qismi qaytarib berilmaydi. "
+msgstr ""
+"В этом случае излишне уплаченная часть страховой премии не возвращается."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:404
+msgid ""
+"Аgar sugʼurta shartnomasiga muvofiq sugʼurta mukofoti boʼlib-boʼlib toʼlansa "
+"va ushbu moddaning birinchi qismida koʼrsatilgan holatlar aniqlangan "
+"paytgacha uning hammasi toʼlanmagan boʼlsa, qolgan sugʼurta badallari "
+"sugʼurta puli miqdorini kamaytirishga mutanosib tarzda kamaytirilgan "
+"miqdorda toʼlanishi lozim."
+msgstr ""
+"Если страховая премия оплачивается в рассрочку согласно договору страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:405
+msgid ""
+"Аgar sugʼurta shartnomasidagi sugʼurta pulini oshirib yuborish sugʼurta "
+"qildiruvchi tomonidan aldashning oqibati boʼlsa, sugʼurtalovchi shartnomani "
+"haqiqiy emas deb topishni va oʼziga yetkazilgan zarar uning sugʼurta "
+"qildiruvchidan olgan sugʼurta puli summasidan ortiq miqdorda qoplanishini "
+"talab qilishga haqli."
+msgstr "Если застраховано превышение страховой суммы в договоре страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:408
+msgid "Qarang: FKning 14-moddasi"
+msgstr "См. Статью 14 ГК."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:416
+msgid ""
+"Ushbu Kodeksning 940-moddasida nazarda tutilgan qoidalar sugʼurta puli ayni "
+"bitta mol-mulkni yoki tadbirkorlik xavfini ikki yoki bir necha "
+"sugʼurtalovchida sugʼurta qilish (qoʼshaloq sugʼurta) natijasida sugʼurta "
+"qiymatidan oshib ketgan taqdirda ham tegishincha suratda qoʼllaniladi."
+msgstr ""
+"К страхованию применяются правила, предусмотренные статьей 940 настоящего "
+"Кодексадва или более одного и того же имущества или бизнес-риска"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:417
+msgid ""
+"Mol-mulk yoki tadbirkorlik xavfi qoʼshaloq sugʼurta qilinganda har bir "
+"sugʼurtalovchi sugʼurta tovonini oʼzi tuzgan shartnoma doirasida toʼlashga "
+"majbur boʼladi, biroq barcha sugʼurtalovchilardan olingan sugʼurta "
+"tovonlarining umumiy summasi haqiqiy zarardan ortiq boʼlishi mumkin emas."
+msgstr "«Каждый, когда имущественный или деловой риск застрахован дважды"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:420
+msgid "Qarang: FK 14-moddasining ikkinchi qismi"
+msgstr "«См. Вторую часть статьи 14 ГК»"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:422
+msgid ""
+"Bunda sugʼurta qildiruvchi (naf oluvchi) sugʼurta tovonini istalgan "
+"sugʼurtalovchidan u bilan tuzilgan shartnomada nazarda tutilgan sugʼurta "
+"puli doirasida olishga haqli. Olingan sugʼurta tovoni haqiqiy zararni "
+"qoplamagan taqdirda, sugʼurta qildiruvchi (naf oluvchi) yetishmayotgan "
+"summani boshqa sugʼurtalovchidan olishga haqli."
+msgstr ""
+"В этом случае застрахованный (выгодоприобретатель) желает страхового "
+"возмещения »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:423
+msgid ""
+"Yetkazilgan zarar boshqa sugʼurtalovchilar tomonidan qoplangani sabali "
+"sugʼurta tovonini toʼlashdan toʼliq yoki qisman ozod qilingan sugʼurtalovchi "
+"sugʼurta qildiruvchiga sugʼurta toʼlovlarining tegishli qismini qilingan "
+"xarajatlarni chegirgan holda qaytarishi shart."
+msgstr "В связи с тем, что ущерб был покрыт другими страховщиками "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:424
+msgid ""
+"Ushbu modda qoidalari har bir sugʼurtalovchi sugʼurta qildiruvchi, "
+"sugʼurtalangan shaxs va naf oluvchi oldidagi oʼz sugʼurta majburiyatlarini, "
+"boshqa sugʼurtalovchilar majburiyatlarini bajarganligidan qatʼi nazar, "
+"mustaqil bajaradigan qoʼshaloq shaxsiy sugʼurtada qoʼllanilmaydi."
+msgstr "«Положения этой статьи распространяются на всех застрахованных лиц»"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:433
+msgid ""
+"Sugʼurta obʼekti bitta shartnoma boʼyicha bir necha sugʼurtalovchi tomonidan "
+"oʼrtada sugʼurtalanishi mumkin (birgalikda sugʼurta qilish). Аgar bunday "
+"shartnomada sugʼurtalovchilardan har birining huquq va majburiyatlari "
+"belgilanmagan boʼlsa, ular mulkiy sugʼurta shartnomasi boʼyicha sugʼurta "
+"tovonini yoki shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta pulini toʼlash "
+"uchun sugʼurta qildiruvchi (naf oluvchi) oldida solidar javobgar boʼladilar."
+msgstr ""
+"Объект страхования предоставляется несколькими страховщиками по одному "
+"договору "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:434
+msgid ""
+"Yirik va alohida yirik xavflarni oʼrtada sugʼurta qilish uchun birgalikda "
+"sugʼurtalovchilar birgalikdagi faoliyat toʼgʼrisidagi shartnoma asosida "
+"oddiy shirkatlar (sugʼurta sherikchiligi) tuzishlari mumkin."
+msgstr "Вместе застраховать от крупных и мелких рисков "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:435
+msgid ""
+"Birgalikda sugʼurtalovchilar oʼrtasida tegishli kelishuv boʼlgan taqdirda, "
+"ulardan biri sugʼurta qildiruvchi (naf oluvchi)ning oldida faqat oʼz ulushi "
+"uchun javobgar boʼlib qolgani holda, u bilan oʼzaro munosabatlarda barcha "
+"birgalikdagi sugʼurtalovchilar nomidan vakil boʼlishi mumkin."
+msgstr "В случае соглашения между страховщиками "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:445
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:459
+msgid ""
+"Sugʼurta mukofoti deganda sugʼurta qildiruvchi (naf oluvchi) sugʼurta "
+"shartnomasida belgilangan tartibda va muddatlarda sugʼurtalovchiga toʼlashi "
+"shart boʼlgan sugʼurta haqi tushuniladi."
+msgstr "Страховая премия - страхование застрахованного (выгодоприобретателя) "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:446
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:460
+msgid ""
+"Sugʼurtalovchi sugʼurta shartnomasi boʼyicha toʼlanishi lozim boʼlgan "
+"sugʼurta mukofoti miqdorini belgilashda sugʼurta obʼekti va sugʼurta xavfi "
+"xususiyati hisobga olingan holda oʼzi tomonidan ishlab chiqilgan, sugʼurta "
+"puli birligidan undiriladigan mukofotni aniqlaydigan sugʼurta tariflarini "
+"qoʼllashga haqli."
+msgstr "Страховщик должен был заплатить по договору страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:447
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:461
+msgid ""
+"Qonunda nazarda tutilgan hollarda sugʼurta mukofotining miqdori davlat "
+"sugʼurta nazorati organlari tomonidan joriy etilgan yoki tartibga "
+"solinadigan sugʼurta tariflariga muvofiq belgilanadi."
+msgstr ""
+"В случаях, предусмотренных законом, размер страховой премии определяется "
+"государством »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:448
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:462
+msgid ""
+"Аgar sugʼurta shartnomasida sugʼurta mukofotini boʼlib-boʼlib toʼlash "
+"nazarda tutilgan boʼlsa, shartnomada navbatdagi sugʼurta badallarini "
+"belgilangan muddatlarda toʼlamaslik oqibatlari koʼrsatib qoʼyilishi mumkin."
+msgstr "Если договор страхования оплачивается частями "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:449
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:463
+msgid ""
+"Аgar sugʼurta hodisasi toʼlash muddati oʼtkazib yuborilgan navbatdagi "
+"sugʼurta badali toʼlanishidan oldin yuz bergan boʼlsa, sugʼurtalovchi mulkiy "
+"sugʼurta shartnomasi boʼyicha toʼlanishi lozim boʼlgan sugʼurta tovoni yoki "
+"shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta puli miqdorini sugʼurta "
+"mukofotining oʼziga toʼlangan qismiga mutanosib summada cheklashga va "
+"muddati oʼtkazib yuborilgan sugʼurta badali summasini hisobga olishga haqli."
+msgstr "Если страховой случай просрочен, следующий "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:467
+msgid ""
+"Qarang: FK 916-moddasining toʼrtinchi qismi, 919-moddasining ikkinchi qismi, "
+"920-moddasining ikkinchi qismi, 938-moddasining birinchi qismi"
+msgstr "Часть четвертая статьи 916, часть вторая статьи 919 УК РФ "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:477
+msgid ""
+"Zarar yetkazganlik uchun javobgarlik xavfini sugʼurta qilish shartnomasi "
+"boʼyicha sugʼurta qildiruvchidan boshqa shaxsning javobgarligi "
+"sugʼurtalangan hollarda, shartnomada boshqacha tartib nazarda tutilmagan "
+"boʼlsa, sugʼurta qildiruvchi bu shaxsni sugʼurta hodisasi yuz berguncha "
+"istalgan vaqtda, sugʼurtalovchini yozma ravishda xabardor qilib, boshqa "
+"shaxsga almashtirishga haqli."
+msgstr "Договор страхования ответственности за ущерб "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:478
+msgid ""
+"Shaxsiy sugʼurta shartnomasida koʼrsatilgan sugʼurtalangan shaxs sugʼurta "
+"qildiruvchi tomonidan shu sugʼurtalangan shaxs va sugʼurtalovchining "
+"roziligi bilangina boshqa shaxsga almashtirilishi mumkin."
+msgstr "Застрахованное лицо, указанное в договоре личного страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:488
+msgid ""
+"Sugʼurta qildiruvchi sugʼurta shartnomasida koʼrsatilgan naf oluvchini "
+"boshqa shaxsga, bu haqda sugʼurtalovchini yozma ravishda xabardor qilib, "
+"almashtirishga haqli. Shaxsiy sugʼurta shartnomasi boʼyicha sugʼurtalangan "
+"shaxsning roziligi bilan tayinlangan naf oluvchini almashtirishga faqat shu "
+"shaxsning roziligi bilan yoʼl qoʼyiladi."
+msgstr ""
+"Застрахованный платит выгодоприобретателю, указанному в договоре страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:489
+msgid ""
+"Naf oluvchi sugʼurta shartnomasi boʼyicha bironta majburiyatni bajarganidan "
+"yoki sugʼurta tovonini yoxud sugʼurta pulini toʼlash toʼgʼrisida "
+"sugʼurtalovchiga talab qoʼyganidan keyin u boshqa shaxs bilan "
+"almashtirilishi mumkin emas."
+msgstr ""
+"Выполнение выгодоприобретателем любых обязательств по договору страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:499
+msgid ""
+"Mol-mulkni sugʼurtalash shartnomasini tuzgan sugʼurta qildiruvchi vafot "
+"etgan taqdirda, sugʼurta qildiruvchining huquq va majburiyatlari bu mol-"
+"mulkni meros tartibida qabul qilib olgan shaxsga oʼtadi. Mulk huquqi "
+"oʼtishining boshqa hollarida sugʼurta qildiruvchining huquq va "
+"majburiyatlari, agar shartnomada yoki qonun hujjatlarida boshqacha tartib "
+"belgilanmagan boʼlsa, sugʼurtalovchining roziligi bilan yangi mulkdorga "
+"oʼtadi."
+msgstr ""
+"В случае смерти страхователя, заключившего договор страхования имущества, "
+"права и обязанности страхователя переходят к лицу, принявшему это имущество "
+"в порядке наследования. В иных случаях перехода права собственности права и "
+"обязанности страхователя переходят к новому собственнику с согласия "
+"страховщика, если иное не установлено договором или законодательством."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:500
+msgid ""
+"Shaxsiy sugʼurta shartnomasini sugʼurtalangan shaxs foydasiga tuzgan "
+"sugʼurta qildiruvchi vafot etgan taqdirda, ushbu shartnoma bilan "
+"belgilanadigan huquq va majburiyatlar sugʼurtalangan shaxsning roziligi "
+"bilan unga oʼtadi. Sugʼurtalangan shaxs sugʼurta shartnomasi boʼyicha "
+"majburiyatlarini bajarishi mumkin boʼlmasa, uning huquqlari va "
+"majburiyatlari qonun hujjatlariga muvofiq uning huquq va qonuniy "
+"manfaatlarini muhofaza qiluvchi shaxslarga oʼtishi mumkin."
+msgstr "Заключили договор личного страхования в пользу застрахованного "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:501
+msgid ""
+"Аgar sugʼurta shartnomasining amal qilish davrida sugʼurta qildiruvchi sud "
+"tomonidan muomalaga layoqatsiz yoki muomala layoqati cheklangan deb topilsa, "
+"bunday sugʼurta qildiruvchining huquq va majburiyatlarini uning vasiyi yoki "
+"homiysi oladi. Bunda sugʼurta qildiruvchining uchinchi shaxslar oldidagi "
+"javobgarligi sugʼurtasi uning muomala layoqati tugagan yoki cheklangan "
+"paytdan boshlab tugaydi."
+msgstr ""
+"Если в течение срока действия договора страхования судебное страхование "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:506
+msgid "Qarang: FKning 30, 31, 32-moddalari"
+msgstr "См. Статьи 30, 31, 32 Гражданского кодекса."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:510
+msgid ""
+"Yuridik shaxs boʼlgan sugʼurta qildiruvchi sugʼurta shartnomasi davrida "
+"qayta tashkil etilganida uning ushbu shartnoma boʼyicha huquq va "
+"majburiyatlari sugʼurtalovchining roziligi bilan tegishli huquqiy vorisga "
+"ushbu Kodeksda belgilangan tartibda oʼtadi."
+msgstr ""
+"В течение срока действия договора страхования застрахованный - юридическое "
+"лицо "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:514
+msgid "Qarang: FKning 49, 50-moddalari"
+msgstr "«См .: статьи 49, 50 Гражданского кодекса»."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:524
+msgid ""
+"Sugʼurta shartnomasi, agar unda boshqacha tartib nazarda tutilmagan boʼlsa, "
+"sugʼurta mukofoti yoki birinchi badal toʼlangan paytda kuchga kiradi."
+msgstr "Договор страхования, если не предусмотрено иное, "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:525
+msgid ""
+"Аgar shartnomada sugʼurta amal qilishi boshlanishining boshqacha muddati "
+"nazarda tutilmagan boʼlsa, shartnomada shartlashilgan sugʼurta sugʼurta "
+"shartnomasi kuchga kirganidan keyin yuz bergan sugʼurta hodisalariga "
+"nisbatan tatbiq etiladi."
+msgstr "Если в договоре другой срок действия страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:535
+msgid ""
+"Sugʼurta shartnomasi, agar u kuchga kirganidan keyin sugʼurta hodisasi yuz "
+"berishi ehtimoli yoʼqolgan va sugʼurta xavfining mavjud boʼlishi sugʼurta "
+"hodisasidan boshqa holatlar boʼyicha tugagan boʼlsa, tuzilgan muddati "
+"kelishidan oldin bekor boʼladi. Quyidagilar shunday holatlar jumlasiga "
+"kiradi, chunonchi:"
+msgstr "Договор страхования, если после наступления страхового случая "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:536
+msgid ""
+"sugʼurtalangan mol-mulkning yuz bergan sugʼurta hodisasidan boshqa "
+"sabablarga koʼra nobud boʼlishi;"
+msgstr "кроме страхового случая застрахованного имущества "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:537
+msgid ""
+"tadbirkorlik xavfini yoki ana shu faoliyat bilan bogʼliq fuqaroviy "
+"javobgarlik xavfini sugʼurtalagan shaxsning tadbirkorlik faoliyatini "
+"belgilangan tartibda toʼxtatishi."
+msgstr ""
+"коммерческий риск или гражданско-правовой акт, связанный с этой "
+"деятельностью "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:538
+msgid ""
+"Sugʼurta shartnomasi ushbu moddaning birinchi qismida koʼrsatilgan holatlar "
+"boʼyicha muddatidan oldin bekor boʼlganda, sugʼurtalovchi sugʼurta "
+"mukofotining bir qismini sugʼurta amal qilgan vaqtga mutanosib ravishda "
+"olish huquqiga ega."
+msgstr "Обстоятельства, указанные в части первой настоящей статьи "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:539
+msgid ""
+"Sugʼurta qildiruvchi (naf oluvchi), agar voz kechish paytiga kelib sugʼurta "
+"hodisaning yuz berish ehtimoli ushbu moddaning birinchi qismida koʼrsatilgan "
+"holatlar boʼyicha yoʼqolmagan boʼlsa, sugʼurta shartnomasini bajarishdan "
+"istagan paytida voz kechishga haqli."
+msgstr "Застрахованный (выгодоприобретатель), если на момент отказ"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:540
+msgid ""
+"Sugʼurta qildiruvchi (naf oluvchi) sugʼurta shartnomasidan muddatidan ilgari "
+"voz kechgan taqdirda, sugʼurtalovchiga toʼlangan sugʼurta mukofoti, agar "
+"shartnomada boshqacha tartib nazarda tutilmagan boʼlsa, qaytarib berilmaydi."
+msgstr ""
+"Досрочное расторжение договора страхования страхователем "
+"(выгодоприобретателем) "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:550
+msgid ""
+"Mulkiy sugʼurta shartnomasining amal qilish davrida sugʼurta qildiruvchi "
+"(naf oluvchi) shartnoma tuzilayotganda sugʼurtalovchiga maʼlum qilingan "
+"holatlarda yuz bergan, oʼziga maʼlum boʼlgan muhim oʼzgarishlar toʼgʼrisida, "
+"agar bu oʼzgarishlar sugʼurta xavfi ortishiga jiddiy taʼsir koʼrsatishi "
+"mumkin boʼlsa, sugʼurtalovchiga darhol xabar qilishi shart. Sugʼurta "
+"shartnomasida (sugʼurta polisida) va sugʼurta qildiruvchiga berilgan "
+"sugʼurta qoidalarida aytib qoʼyilgan oʼzgarishlar muhim deb hisoblanadi."
+msgstr ""
+"В течение срока действия договора имущественного страхования застрахованный "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:551
+msgid ""
+"Sugʼurta xavfi ortishiga sabab boʼladigan holatlar toʼgʼrisida xabardor "
+"qilingan sugʼurtalovchi sugʼurta shartnomasining shartlarini oʼzgartirishni "
+"yoki xavf ortishiga mutanosib ravishda qoʼshimcha sugʼurta mukofoti "
+"toʼlashni talab qilishga haqli."
+msgstr "Помните об обстоятельствах, которые могут увеличить риск страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:552
+msgid ""
+"Аgar sugʼurta qildiruvchi (naf oluvchi) sugʼurta shartnomasining shartlari "
+"oʼzgartirilishiga yoki sugʼurta mukofotiga qoʼshimcha toʼlashga eʼtiroz "
+"bildirsa, sugʼurtalovchi ushbu Kodeksning 28-bobida nazarda tutilgan "
+"qoidalarga muvofiq shartnomani bekor qilishni talab etishga haqli."
+msgstr ""
+"Если у страхователя (выгодоприобретателя) соблюдены условия договора "
+"страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:553
+msgid ""
+"Sugʼurta qiluvchi yoxud naf oluvchi ushbu moddaning birinchi qismida nazarda "
+"tutilgan majburiyatini bajarmagan taqdirda, sugʼurtalovchi sugʼurta "
+"shartnomasini bekor qilishni va shartnomani bekor qilish tufayli yetkazilgan "
+"zarar qoplanishini talab etishga haqli."
+msgstr ""
+"Первая часть этой статьи относится к страхователю или выгодоприобретателю"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:554
+msgid ""
+"Sugʼurtalovchi, agar sugʼurta xavfi ortishiga sabab boʼladigan holatlar "
+"yoʼqolgan boʼlsa, sugʼurta shartnomasini bekor qilishni talab etishga haqli "
+"emas."
+msgstr ""
+"Страховщик, если обстоятельства, приводящие к увеличению страхового риска "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:555
+msgid ""
+"Shaxsiy sugʼurtada, sugʼurta shartnomasining amal qilishi davrida ushbu "
+"moddaning ikkinchi, uchinchi va toʼrtinchi qismlarida koʼrsatilgan sugʼurta "
+"xavfining oʼzgarishi oqibatlari, agar ular shartnomada toʼgʼridan-toʼgʼri "
+"koʼrsatilgan boʼlsagina, yuzaga kelishi mumkin."
+msgstr ""
+"В случае личного страхования в течение срока действия договора страхования "
+"это "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:565
+msgid ""
+"Mulkiy sugʼurta shartnomasi boʼyicha sugʼurta qildiruvchi sugʼurta hodisasi "
+"yuz bergani oʼziga maʼlum boʼlganidan keyin bu haqda darhol sugʼurtalovchini "
+"yoki uning vakilini xabardor qilishi shart. Аgar shartnomada xabar qilish "
+"muddati va (yoki) usuli nazarda tutilgan boʼlsa, bu shartlashilgan muddatda "
+"va shartnomada koʼrsatilgan usulda qilinishi lozim. Аgar naf oluvchi "
+"oʼzining foydasiga tuzilgan shartnoma boʼyicha sugʼurta tovoniga boʼlgan "
+"huquqdan foydalanish niyatida boʼlsa, ayni shunday majburiyat naf oluvchi "
+"zimmasida boʼladi."
+msgstr ""
+"«Страховой случай застрахованного по договору имущественного страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:566
+msgid ""
+"Ushbu moddaning birinchi qismida nazarda tutilgan majburiyatning "
+"bajarilmasligi sugʼurtalovchiga, agar sugʼurtalovchi sugʼurta hodisasi yuz "
+"berganini oʼz vaqtida bilganligi, yoxud bu haqda sugʼurtalovchida "
+"maʼlumotlar yoʼqligi uning sugʼurta tovonini toʼlash majburiyatiga taʼsir "
+"etmasligi isbotlanmasa, sugʼurta tovonini toʼlashni rad etish huquqini "
+"beradi."
+msgstr "Обязанность, предусмотренная частью первой настоящей статьи "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:567
+msgid ""
+"Ushbu moddada nazarda tutilgan qoidalar, agar sugʼurtalangan shaxsning "
+"vafoti yoki uning sogʼligʼiga zarar yetkazilishi sugʼurta hodisasi boʼlsa, "
+"tegishli suratda shaxsiy sugʼurta shartnomasiga nisbatan qoʼllaniladi. Bunda "
+"sugʼurtalovchini xabardor qilishning shartnomada belgilanadigan muddati "
+"yigirma kundan kam boʼlishi mumkin emas."
+msgstr "Правила, предусмотренные данной статьей, если застрахованное лицо "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:576
+msgid ""
+"Mulkiy sugʼurta shartnomasida nazarda tutilgan sugʼurta hodisasi yuz "
+"berganida, sugʼurta qildiruvchi ehtimol tutilgan zararni kamaytirish uchun "
+"oqilona va mumkin boʼlgan choralarni koʼrishi shart. Sugʼurta qildiruvchi "
+"bunday choralarni koʼrar ekan, agar oʼziga maʼlum qilingan boʼlsa, "
+"sugʼurtalovchining koʼrsatmalariga amal qilishi lozim."
+msgstr ""
+"«Сто страховых случаев, предусмотренных договором имущественного страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:577
+msgid ""
+"Zararni kamaytirish maqsadida qilingan, sugʼurtalovchi qoplashi lozim "
+"boʼlgan xarajatlar, agar bunday xarajatlar zarur boʼlgan boʼlsa yoki "
+"sugʼurtalovchining koʼrsatmalarini bajarish uchun qilingan boʼlsa, tegishli "
+"choralar foydasiz boʼlib chiqsa ham, sugʼurtalovchi tomonidan qoplanishi "
+"lozim. Bunday xarajatlar sugʼurta summasining sugʼurta qiymatiga nisbatiga "
+"mutanosib ravishda, boshqa zararlarni qoplash bilan birgalikda ular sugʼurta "
+"pulidan oshib ketishi mumkinligidan qatʼi nazar, qoplanadi."
+msgstr "«Сделано для уменьшения убытков, страховщик должен покрыть"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:578
+msgid ""
+"Sugʼurta qiluvchi ehtimol tutilgan zararni kamaytirish uchun qasddan "
+"choralar koʼrmagani oqibatida koʼrilgan zararni qoplashdan sugʼurtalovchi "
+"ozod qilinadi."
+msgstr "Страховщик, скорее всего, намеренно уменьшит убыток "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:584
+msgid ""
+"Sugʼurta qildiruvchi, naf oluvchi  yoki sugʼurtalangan shaxsning aybi bilan "
+"sugʼurta hodisasi yuz berishining oqibatlari"
+msgstr "«По вине застрахованного, выгодоприобретателя или застрахованного лица"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:587
+msgid ""
+"Аgar sugʼurta hodisasi sugʼurta qildiruvchi, naf oluvchi yoki sugʼurtalangan "
+"shaxsning qasd qilishi oqibatida yuz bergan boʼlsa, sugʼurtalovchi sugʼurta "
+"tovonini yoki sugʼurta pulini toʼlashdan ozod qilinadi, qasddan qilingan "
+"harakatlar ular tomonidan zaruriy mudofaa yoki oxirgi zarurat holatida, "
+"shuningdek ushbu moddaning uchinchi va toʼrtinchi qismlarida nazarda "
+"tutilgan hollarda sodir etilishi bundan mustasno."
+msgstr ""
+"Если страховой случай является застрахованным, выгодоприобретатель или "
+"застрахованный "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:588
+msgid ""
+"Qonunda sugʼurta hodisasi sugʼurta qiluvchining yoki naf oluvchining qoʼpol "
+"ehtiyotsizligi oqibatida yuzaga kelganda sugʼurtalovchini mulkiy sugʼurta "
+"shartnomasi boʼyicha sugʼurta tovonini toʼlashdan ozod qilish yoki tovon "
+"miqdorini kamaytirish hollari nazarda tutilishi mumkin."
+msgstr ""
+"«По закону страховой случай является грубым по отношению к страховщику или "
+"выгодоприобретателю"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:589
+msgid ""
+"Sugʼurtalovchi sugʼurtalangan shaxsning hayoti yoki sogʼligʼiga zarar "
+"yetkazganlik uchun fuqaroviy javobgarlikni sugʼurta qilish shartnomasi "
+"boʼyicha sugʼurta tovonini toʼlashdan, agar zarar sugʼurtalanuvchi uchun "
+"javobgar shaxsning aybi bilan yetkazilgan boʼlsa, ozod qilinmaydi."
+msgstr "Ущерб жизни или здоровью застрахованного страховщиком "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:590
+msgid ""
+"Sugʼurtalovchi shaxsiy sugʼurta shartnomasi boʼyicha sugʼurtalangan shaxs "
+"vafot etgan taqdirda toʼlanishi lozim boʼlgan sugʼurta pulini toʼlashdan, "
+"agar uning vafoti oʼz joniga qasd qilish oqibatida roʼy bergan boʼlsa va bu "
+"vaqtgacha sugʼurta shartnomasi kamida ikki yil amal qilgan boʼlsa, ozod "
+"qilinmaydi."
+msgstr "«Страховщик - застрахованное лицо по договору личного страхования"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:599
+msgid ""
+"Sugʼurtalovchi, agar qonunda yoki sugʼurta shartnomasida boshqacha tartib "
+"belgilanmagan boʼlsa va sugʼurta hodisasi quyidagilar oqibatida yuzaga "
+"kelgan boʼlsa, sugʼurta tovonini va sugʼurta pulini toʼlashdan ozod qilinadi:"
+msgstr ""
+"Страховщик, если иное не предусмотрено законом или договором страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:600
+msgid "yadro portlashi, radiatsiya yoki radioaktiv zaharlanish taʼsirida;"
+msgstr "ядерный взрыв, радиация или радиоактивное отравление"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:601
+msgid "harbiy harakatlar, manyovrlar yoki boshqa harbiy tadbirlar."
+msgstr "военные действия, маневры или другие военные действия."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:602
+msgid ""
+"Аgar mulkiy sugʼurta shartnomasida boshqacha tartib nazarda tutilmagan "
+"boʼlsa, sugʼurtalovchi sugʼurtalangan mol-mulk davlat organlarining "
+"farmoyishi bilan olib qoʼyilishi, musodara qilinishi, rekvizitsiya "
+"qilinishi, xatlanishi yoki yoʼq qilib tashlanishi oqibatida koʼrilgan zarar "
+"uchun sugʼurta tovonini toʼlashdan ozod qilinadi.  "
+msgstr "Если иное не предусмотрено договором имущественного страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:606
+msgid "Qarang: FKning 199, 203, 204-moddalari"
+msgstr "См. Статьи 199, 203, 204 Гражданского кодекса \""
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:616
+msgid ""
+"Sugʼurtalovchi mulkiy sugʼurta shartnomasi boʼyicha sugʼurta qildiruvchiga "
+"(naf oluvchiga) sugʼurta tovonini yoki shaxsiy sugʼurta shartnomasi boʼyicha "
+"sugʼurta pulini toʼlashni quyidagi hollarda rad etishga haqli, chunonchi:"
+msgstr "Страховщик застрахованному по договору имущественного страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:617
+msgid ""
+"sugʼurta shartnomasining amal qilishi sugʼurta hodisasi yuz bergunga qadar, "
+"shu jumladan ushbu Kodeksning 948 va 950-moddalarida koʼrsatilgan asoslar "
+"boʼyicha bekor qilinganda;"
+msgstr "срок действия договора страхования до наступления страхового случая »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:618
+msgid ""
+"sugʼurta shartnomasi ushbu Kodeksda yoki boshqa qonunlarda nazarda tutilgan "
+"asoslar boʼyicha oʼz-oʼzidan haqiqiy boʼlmaganda;"
+msgstr ""
+"договор страхования, предусмотренный настоящим Кодексом или иными законами "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:623
+msgid ""
+"Qarang: FK 916-moddasining toʼrtinchi qismi, 919-moddasining ikkinchi qismi, "
+"920-moddasining ikkinchi qismi, 938-moddasining birinchi qismi, 943-moddasi"
+msgstr "Часть четвертая статьи 916, часть вторая статьи 919 УК РФ "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:627
+msgid ""
+"sugʼurtalovchi ushbu Kodeksning 951-954-moddalarida koʼrsatilgan asoslar "
+"boʼyicha sugʼurta tovonini yoki sugʼurta puli toʼlashdan ozod qilinganda;"
+msgstr ""
+"основания, указанные Страховщиком в статьях 951-954 настоящего Кодекса "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:628
+msgid ""
+"sugʼurtalovchi ushbu Kodeksda yoki boshqa qonunlarda nazarda tutilgan "
+"asoslar boʼyicha sugʼurta shartnomasini haqiqiy emas deb topish toʼgʼrisida "
+"yoxud sugʼurta qildiruvchi (naf oluvchi) sugʼurta hodisasi holatlarini "
+"tekshirib koʼrishga yoki yetkazilgan zarar miqdorini aniqlashga toʼsqinlik "
+"qilgani tufayli sugʼurta shartnomasini bekor qilish toʼgʼrisida daʼvo "
+"qoʼzgʼatganida."
+msgstr "страховщик предусмотрен настоящим Кодексом или другими законами "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:629
+msgid ""
+"Sugʼurtalovchining sugʼurta tovonini yoki sugʼurta pulini toʼlashni rad "
+"etish toʼgʼrisidagi qarori sugʼurta qildiruvchiga (naf oluvchiga) ular "
+"sugʼurta tovonini yoki sugʼurta pulini toʼlashni soʼrab murojaat "
+"etganlaridan keyin oʼn besh kundan kechiktirmay xabar qilinishi va rad etish "
+"sabablarining asoslantirilgan dalil-isbotlarini oʼz ichiga olgan boʼlishi "
+"lozim."
+msgstr ""
+"«Страховщик отказывается выплатить страховое возмещение или страховые деньги"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:630
+msgid ""
+"Sugʼurtalovchining sugʼurta tovonini yoki sugʼurta pulini toʼlashni rad "
+"etishiga qarshi unga nisbatan sudda daʼvo qoʼzgʼatish yoʼli bilan eʼtiroz "
+"bildirilishi mumkin."
+msgstr ""
+"«Страховщик отказывается выплатить страховое возмещение или страховые деньги"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:640
+msgid ""
+"Shaxsiy sugʼurta shartnomasi boʼyicha sugʼurta puli, ijtimoiy sugʼurta, "
+"ijtimoiy taʼminot boʼyicha, boshqa sugʼurta shartnomalari boʼyicha yoki "
+"zararni qoplash tartibida sugʼurta qildiruvchiga, sugʼurtalangan shaxsga "
+"yoki naf oluvchiga tegishli summalardan qatʼi nazar, shartnoma kimning "
+"foydasiga tuzilgan boʼlsa, oʼsha shaxsga toʼlanadi."
+msgstr ""
+"«Страховые деньги по договору личного страхования, социального страхования»"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:641
+msgid ""
+"Ushbu Kodeks 921-moddasining uchinchi qismi asosida shaxsiy sugʼurta "
+"shartnomasi boʼyicha sugʼurtalangan shaxsning merosxoʼrlariga toʼlanadigan "
+"sugʼurta puli sugʼurtalangan shaxsning merosi tarkibiga kirmaydi."
+msgstr ""
+"Страховые деньги, выплачиваемые наследникам застрахованного лица по договору "
+"личного страхования на основании части третьей статьи 921 настоящего "
+"Кодекса, не входят в состав наследства застрахованного лица."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:652
+msgid ""
+"Аgar mulkiy sugʼurta shartnomasida boshqacha tartib nazarda tutilmagan "
+"boʼlsa, sugʼurta qildiruvchi (naf oluvchi)ning sugʼurta natijasida qoplangan "
+"zarar uchun javobgar shaxsdan talab qilish huquqi toʼlangan summa doirasida "
+"sugʼurta tovonini toʼlagan sugʼurtalovchiga oʼtadi. Biroq shartnomaning bila "
+"turib zarar yetkazgan shaxsga nisbatan talab qilish huquqi sugʼurtalovchiga "
+"oʼtishini istisno qiladigan shartlari oʼz-oʼzidan haqiqiy boʼlmaydi."
+msgstr "«Если иное не предусмотрено договором страхования имущества"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:653
+msgid ""
+"Sugʼurtalovchiga oʼtgan talab qilish huquqi uning tomonidan sugʼurta "
+"qildiruvchi (naf oluvchi) va zarar uchun javobgar boʼlgan shaxs oʼrtasidagi "
+"munosabatlarni tartibga soluvchi qoidalarga rioya qilgan holda amalga "
+"oshiriladi."
+msgstr "Право требования, переданное страховщику, застраховано им "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:654
+msgid ""
+"Sugʼurta qildiruvchi (naf oluvchi) sugʼurtalovchi oʼziga oʼtgan talab qilish "
+"huquqini amalga oshirishi uchun zarur boʼlgan barcha hujjatlar va dalillarni "
+"sugʼurtalovchiga berishi hamda barcha maʼlumotlarni unga maʼlum qilishi "
+"shart."
+msgstr "Требования страхователя (выгодоприобретателя) к страховщику "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:655
+msgid ""
+"Аgar sugʼurta qildiruvchi (naf oluvchi) sugʼurtalovchi tomonidan qoplangan "
+"zarar uchun javobgar shaxsga nisbatan oʼzining talab qilish huquqidan voz "
+"kechsa yoki bu huquqni amalga oshirish sugʼurta qildiruvchining (naf "
+"oluvchining) aybi bilan mumkin boʼlmagan boʼlsa, sugʼurtalovchi sugʼurta "
+"tovonini toʼliq yoki uning tegishli qismini toʼlashdan ozod qilinadi va "
+"tovonning ortiqcha toʼlangan summasini qaytarishni talab qilishga haqli "
+"boʼladi."
+msgstr "Если страхователь (выгодоприобретатель) застрахован страховщиком "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:659
+msgid ""
+"Shuningdek qarang: OXS Plenumining 2003 yil 28 fevraldagi 110-son "
+"“Oʼzbekiston Respublikasi Fuqarolik kodeksining talabdan boshqa shaxs "
+"foydasiga voz kechish huquqi bilan bogʼliq normalarini qoʼllashning ayrim "
+"masalalari toʼgʼrisida”gi Qarorining 2, 3-bandlari"
+msgstr "См. Также: Постановление пленума OXS № 110 от 28 февраля 2003 г. "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:665
+msgid "958-modda"
+msgstr "958-article"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:678
+msgid ""
+"Sugʼurta shartnomasi boʼyicha sugʼurtalovchi oʼz zimmasiga olgan sugʼurta "
+"tovonini yoki sugʼurta pulini toʼlash xavfi uning tomonidan toʼliq yoki "
+"qisman boshqa sugʼurtalovchida (sugʼurtalovchilarda) u bilan tuzilgan qayta "
+"sugʼurta qilish shartnomasi boʼyicha sugʼurtalanishi mumkin."
+msgstr "Страхование, осуществляемое страховщиком по договору страхования "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:679
+msgid ""
+"Qayta sugʼurta qilish shartnomasiga nisbatan, agar qayta sugʼurta qilish "
+"shartnomasida boshqacha tartib nazarda tutilmagan boʼlsa, ushbu bobning "
+"tadbirkorlik xavfini sugʼurta qilish borasida qoʼllanishi lozim boʼlgan "
+"qoidalari tatbiq etiladi. Qayta sugʼurta qilish shartnomasini tuzgan "
+"sugʼurta shartnomasi (asosiy shartnoma) boʼyicha sugʼurtalovchi keyingi "
+"shartnomada sugʼurta qildiruvchi hisoblanadi."
+msgstr "В случае договора перестрахования, если перестрахование "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:680
+msgid ""
+"Qayta sugʼurta qilishda sugʼurta tovonini yoki sugʼurta pulini toʼlash uchun "
+"asosiy sugʼurta shartnomasi boʼyicha sugʼurta qildiruvchi oldida ushbu "
+"shartnoma boʼyicha sugʼurtalovchi javobgar boʼlib qolaveradi."
+msgstr ""
+"Для выплаты страхового возмещения или страховых денег в перестраховании "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:681
+msgid ""
+"Biroq asosiy sugʼurta shartnomasi boʼyicha sugʼurtalanuvchi hisoblangan "
+"sugʼurta tashkiloti sugʼurta hodisasi yuz berishidan oldin tugatilgan "
+"taqdirda, uning ushbu shartnoma boʼyicha huquq va majburiyatlarining qayta "
+"sugʼurta qilingan qismi qayta sugʼurta qilish shartnomasi boʼyicha "
+"sugʼurtalovchiga oʼtadi."
+msgstr "Однако по основному договору страхования застрахованным является "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:682
+msgid ""
+"Ikki yoki bir nechta qayta sugʼurta qilish shartnomalarini ketma-ket "
+"tuzishga yoʼl qoʼyiladi. Bunday shartnomalarning har biri keyingi qayta "
+"sugʼurta qilish shartnomasiga nisbatan asosiy sugʼurta shartnomasi deb "
+"hisoblanadi."
+msgstr "Два или более договора перестрахования подряд "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:692
+msgid ""
+"Fuqarolar va yuridik shaxslar oʼz mol-mulklarini hamda ushbu Kodeks 915-"
+"moddasining ikkinchi qismida koʼrsatilgan boshqa mulkiy manfaatlarini ikki "
+"taraflama asosda, buning uchun ikki tomonlama sugʼurta qilish jamiyatlarida "
+"zarur mablagʼlarni birlashtirish yoʼli bilan sugʼurta qilishlari mumkin."
+msgstr "Граждане и юридические лица имеют прав"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:693
+msgid ""
+"Ikki tomonlama sugʼurta qilish jamiyatlari oʼz aʼzolarining mol-mulki hamda "
+"boshqa mulkiy manfaatlarini sugʼurta qilishni amalga oshiradi va tijoratchi "
+"boʼlmagan tashkilot hisoblanadi."
+msgstr ""
+"Двусторонние страховые компании несут ответственность за имущество своих "
+"членов и "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:697
+msgid "Qarang: FK 4-bobining 3-§"
+msgstr "См. § 3 главы 4 ГК."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:700
+msgid ""
+"Ikki tomonlama sugʼurta qilish tashkilotlari tomonidan oʼz aʼzolarining mol-"
+"mulki va mulkiy manfaatlarini sugʼurta qilish, agar jamiyatning taʼsis "
+"hujjatlarida bunday hollarda sugʼurta shartnomalari tuzish nazarda "
+"tutilmagan boʼlsa, bevosita aʼzolik asosida amalga oshiriladi."
+msgstr "Двусторонние страховые компании обеспечивают страхование своих членов"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:701
+msgid ""
+"Ushbu bobning qoidalari, agar qonunda, tegishli jamiyatning taʼsis "
+"hujjatlarida yoki jamiyat belgilagan sugʼurta qilish qoidalarida boshqacha "
+"tartib nazarda tutilmagan boʼlsa, ikki tomonlama sugʼurta qilish jamiyati "
+"bilan uning aʼzolari oʼrtasidagi sugʼurtaga doir munosabatlarga nisbatan "
+"qoʼllaniladi."
+msgstr ""
+"Положения настоящей главы, если законом предусмотрено создание "
+"соответствующего общества »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:702
+msgid ""
+"Ikki tomonlama sugʼurta qilish yoʼli bilan majburiy sugʼurtani amalga "
+"oshirishga faqat qonunda nazarda tutilgan hollarda yoʼl qoʼyiladi."
+msgstr "Обязательное страхование по двустороннему страхованию "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:703
+msgid ""
+"Ikki tomonlama sugʼurta qilish jamiyati sugʼurtalovchi sifatida, agar uning "
+"taʼsis hujjatlarida sugʼurta faoliyatini amalga oshirish nazarda tutilgan, "
+"jamiyatning oʼzi tijorat tashkiloti shaklida tuzilgan, tegishli turdagi "
+"sugʼurtani amalga oshirish uchun litsenziyaga ega boʼlsa va qonunda "
+"belgilangan boshqa talablarga javob bersa, jamiyatning aʼzolari boʼlmagan "
+"shaxslarning manfaatlarini sugʼurta qilishni amalga oshirishi mumkin."
+msgstr "Двусторонняя страховая компания как страховщик, если ее "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:704
+msgid ""
+"Ikki tomonlama sugʼurta qilish jamiyatining aʼzosi boʼlmagan shaxslarning "
+"manfaatlarini sugʼurta qilish jamiyat tomonidan sugʼurta shartnomalari "
+"asosida ushbu bobning qoidalariga muvofiq amalga oshiriladi."
+msgstr "Не члены двустороннего страхового общества "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:705
+msgid ""
+"Ikki tomonlama sugʼurta qilish jamiyatlari huquqiy holatining xususiyatlari "
+"va ularning faoliyat yuritish shartlari qonun hujjatlari bilan belgilanadi."
+msgstr ""
+"Особенности правового статуса двусторонних страховых компаний и условия их "
+"эксплуатации определяются законом."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:715
+msgid ""
+"Fuqarolarning ijtimoiy manfaatlarini va davlatning manfaatlarini taʼminlash "
+"maqsadida qonunda hayot, sogʼliq va mol-mulkning majburiy davlat sugʼurtasi "
+"belgilab qoʼyilishi mumkin."
+msgstr "Обеспечение социальных интересов граждан и интересов государства "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:716
+msgid ""
+"Majburiy davlat sugʼurtasi ana shu maqsadlar uchun davlat byudjetidan "
+"ajratiladigan mablagʼlar hisobiga amalga oshiriladi."
+msgstr ""
+"Для этих целей из государственного бюджета предусмотрено обязательное "
+"государственное страхование »"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:717
+msgid ""
+"Majburiy davlat sugʼurtasi bevosita sugʼurta toʼgʼrisidagi qonun hujjatlari "
+"asosida unda koʼrsatilgan davlat sugʼurta tashkilotlari yoki davlatning "
+"boshqa tashkilotlari (sugʼurtalovchilar) tomonidan amalga oshiriladi."
+msgstr ""
+"Законодательство об обязательном государственном страховании о прямом "
+"страховании "
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:721
+msgid "Qarang: VM 1994 yil 26 yanvardagi \\"
+msgstr "См. КM от 26 января 1994 г."
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:728
+msgid "Eslatma!"
+msgstr "Примечание!"
+
+#: .\insuranceApp\templates\insuranceApp\kodeks.html:732
+msgid ""
+"Ushbu bobning qoidalari, agar sugʼurta toʼgʼrisidagi qonun hujjatlarida "
+"boshqacha tartib nazarda tutilmagan boʼlsa va sugʼurta boʼyicha mavjud "
+"munosabatlar mohiyatidan kelib chiqmasa. majburiy davlat sugʼurtasiga "
+"nisbatan qoʼllaniladi."
+msgstr "Положения настоящей главы, если в законодательстве о страховании "
+
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:41
+msgid "Manzil:"
+msgstr ""
+
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:62
+#, fuzzy
+#| msgid "Ariza qoldirish"
+msgid "Qidirish"
+msgstr "Оставьт заявку "
+
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:73
+msgid "Adres"
+msgstr ""
+
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:74
+msgid "Telefon nomer"
+msgstr "Номер телефона"
+
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:75
+msgid "Ish kuni"
+msgstr "Рабочий день"
+
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:76
+msgid "Ish soati"
+msgstr "Часы работы"
+
+#: .\insuranceApp\templates\insuranceApp\locations\locations.html:121
+msgid "Hozircha siz belgilagan tumanda filialimiz yo'q"
+msgstr "Пока у нас нет филиала в указанном Вами районе"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:109
+msgid "Aviatsiya sug`urtasi"
+msgstr "Авиационное страхование"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:123
+msgid "Dengiz sug`urtasi"
+msgstr "Морская страховка"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:137
+msgid "Yo`ldagi mol-mulkni sug`urta qilish"
+msgstr "Страхование имущества на дороге"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:151
+msgid "Mol-mulkni olovdan va tabiiy ofatlardan sug`urta qilish"
+msgstr "Страхование имущества от пожара и стихийных бедствий"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:165
+msgid "Mol-mulkni zarardan sug`urta qilish"
+msgstr "Страхование имущества от порчи"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:179
+msgid "Avtofuqarolik javobgarligini sug`urta qilish"
+msgstr "Страхование автофукарольной ответственности"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:192
+msgid "Aviatsiya sug`urtasi doira javobgarlikni sug`urta qilish"
+msgstr "Aviatsiya sug`urtasi doira javobgarlikni sug`urta qilish"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:205
+msgid "Dengiz sug`urtasi doirasida javobgarlikni sug`urta qilish"
+msgstr "Страхование ответственности по морскому страхованию"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:219
+msgid "Umumiy fuqarolik javobgarligini sug`urta qilish"
+msgstr "Страхование общей гражданской ответственности"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:233
+msgid "Kreditlarni sug`urta qilish"
+msgstr "Страхование кредитов"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:247
+msgid "Kafillikni (Kafolatlarni) sug`urta qilish"
+msgstr "Страхование поручительства (поручительства) "
+
+#: .\insuranceApp\templates\insuranceApp\service.html:261
+msgid "Boshqa moliyaviy tavakkalchiliklardan sug`urta qilish"
+msgstr "Страхование от других финансовых рисков"
+
+#: .\insuranceApp\templates\insuranceApp\service.html:275
+msgid "Huquqiy himoya qilish bilan bog`liq xarajatlarni sug`urta qilish"
+msgstr "Страхование расходов, связанных с правовой защитой"
+
+#: .\insuranceApp\templates\login.html:12
+msgid "Username"
+msgstr "Использование"
+
+#: .\insuranceApp\templates\login.html:20
+msgid "Password"
+msgstr "Пароль"
+
+#: .\insuranceApp\templates\login.html:30
+msgid "Username or password error!!!"
+msgstr "Ошибка имени пользователя или пароля!!!"
+
+#: .\insuranceApp\templates\login.html:35
+msgid "Submit"
+msgstr "Представить"
+
+#: .\insurance\settings.py:123
+msgid "O'zbek lotin tili"
+msgstr "Узбекский латинский язык"
+
+#: .\insurance\settings.py:124
+msgid "O'zbek kiril tili"
+msgstr "Узбекский кириллический язык"
+
+#: .\insurance\settings.py:125
+msgid "Rus tili"
+msgstr "Русский язык"
+
+#: .\insurance\settings.py:126
+msgid "Ingliz tili"
+msgstr "Английский"
+
+#~ msgid "Home"
+#~ msgstr "Главная"
+
+#~ msgid "About us"
+#~ msgstr "О нас"
+
+#~ msgid "News"
+#~ msgstr "Новости"
+
+#~ msgid "Service"
+#~ msgstr "Услуга"
+
+#~ msgid "Contact"
+#~ msgstr "Контакт"
+
+#~ msgid "MCHJ \\"
+#~ msgstr "ООО"
+
+#~ msgid "Замена застрахованного"
+#~ msgstr "Начало действия договора страхования"
+
+#~ msgid ""
+#~ "Zarar yetkazganlik uchun javobgarlik xavfi sugʼurtalangan shaxs sugʼurta "
+#~ "shartnomasida koʼrsatilishi lozim. Если это лицо не указано в договоре "
+#~ msgstr "Риск ответственности за ущерб застрахован застрахованным лицом."

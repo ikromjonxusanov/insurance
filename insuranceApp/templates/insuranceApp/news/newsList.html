@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% load my_extras %}
+{% block news %}
+active
+{% endblock %}
+{% block content %}
+<div class="fullwidth-block">
+    <div class="container">
+        <h2 class="section-title">{% trans 'Yangiliklar' %}</h2>
+        <div class="card-deck">
+            {% if posts %}
+            <div class="container">
+                <div class="row">
+                    {% for post in posts %}
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="{{ post.postImage.url }}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="{% url 'newsView' post.id %}" class="card-text nav-my-link text-dark">
+                                            {{ post.title }}
+                                        </a>
+                                    </h5>
+                                    <br>
+                                    <p>
+                                        {{ post.description|slice:":50" }}...
+                                    </p>
+                                    <span class="fa fa-calendar text-success" aria-hidden="true">
+                                        {{ post.create_date }}
+                                    </span>
+                                    <div>
+                                        {% if user.is_staff %}
+                                        <div class="col-sm-12 mt-3">
+                                            <a href="{% url 'newsUpdate' post.id %}" class="w-100 btn btn-outline-primary">{% trans "tahrirlash" %}</a>
+                                        </div>
+                                        <div class="col-sm-12 mt-3">
+                                            <a href="{% url 'newsDelete' post.id %}" class="w-100 btn btn-outline-danger">{% trans "o'chirish" %}</a>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    {% endfor %}
+                </div>
+                
+            </div>
+            {% else %}
+            <div class="w-100 alert alert-danger">
+                {% trans "Hozircha yangiliklar yo'q" %}
+            </div>
+            {% endif %}
+
+        </div>
+        
+        {% if user.is_staff %}
+        <div><a href="{% url 'newsCreate' %}" class="w-100 btn btn-success">Создать новости</a></div>            
+        {% endif %}
+            
+
+    </div>
+
+</div>
+
+{% if posts %}
+<div class="container">
+    <nav aria-label="Page navigation example">
+    <ul class="pagination">
+    {% if posts.has_previous %}
+        <li class="page-item">
+            <a class="page-link text-success" href="?page={{ posts.previous_page_number }}" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        
+    {% endif %}
+    {% for object in posts.number|pa:request %}
+    
+    {% if object == posts.number %}
+    <li class="page-item disabled">
+        <a class="page-link bg-success text-white" href="?page={{object}}">{{ object }}</a>
+    </li>
+    {% else %}
+    <li class="page-item">
+        <a class="page-link text-success" href="?page={{object}}">{{ object }}</a>
+    </li>
+    {% endif %}
+        
+    {% endfor %}
+      
+      {% if posts.has_next %}
+        <li class="page-item">
+            <a class="page-link text-success" href="?page={{ posts.next_page_number }}" aria-label="Previous">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+        
+    {% endif %}
+    </ul>
+  </nav>
+</div>
+{% endif %}
+    
+
+
+
+{% endblock %}
